@@ -1,0 +1,1 @@
+const templatePath =tp.file.find_tfile("Daily.md");
