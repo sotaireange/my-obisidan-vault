@@ -1,3 +1,3 @@
 ```todoist
-filter: "@obsidian_labels"
+filter: "@obsidian"
 ```
