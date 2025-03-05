@@ -1,10 +1,6 @@
-<%* 
+# 📅 {{date:YYYY-MM-DD}} ({{date:dddd}})
 
-
-
-%>---
-title: DayNotes
-allDay: true
-date: <% tp.date.now("YYYY-MM-DD", 6) %>
-completed: false
----
+## 🔹 Задачи на сегодня  
+```tasks
+not done  
+due today
