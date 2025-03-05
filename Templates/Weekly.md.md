@@ -1,7 +1,7 @@
 # Еженедельник <%= tp.date.now("YYYY-[W]WW") %>
 <% 
 const folderPath = "Calendar/Ежедневник"; 
-const dateFormat = "YYYY-MM-DD";
+const dateFormat = "DD-MM-YYYY";
 const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 const templatePath =tp.file.find_tfile(`Templates/Daily`);
 
