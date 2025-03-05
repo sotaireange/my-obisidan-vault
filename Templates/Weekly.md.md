@@ -27,6 +27,8 @@ for (let i = 0; i < 6; i++) {
     await tp.file.create_new(templatePath, filePath, false);
 }
 
+
+
 %>
 
 # Еженедельник <% weekString %>
