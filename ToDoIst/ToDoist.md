@@ -1,3 +1,3 @@
 ```todoist  
-filter: "# Study🎯 & (today | overdue) & #recurring"  
+filter: "# Study🎯 & (today | overdue)"  
 ```
