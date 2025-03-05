@@ -2,7 +2,7 @@
 const folderPath = "Calendar"; // Папка, куда сохранять заметки (замени на свою)
 const dateFormat = "YYYY-MM-DD"; // Формат имени файла
 
-const templatePath =tp.file.find_tfile("Daily");
+const templatePath =tp.file.find_tfile("Daily.md");
 
 for (let i = 0; i < 7; i++) {
     const dayDate = tp.date.weekday(dateFormat, i); // Дата для каждого дня недели
