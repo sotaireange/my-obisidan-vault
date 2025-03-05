@@ -1,6 +1,5 @@
 
-```todoist
-tasks:
+```tasks:
   - content: "Написать отчёт"
     project: "Obsidian"
     labels: ["obsidian"]
