@@ -31,7 +31,7 @@ for (let i = 0; i < 6; i++) {
 }
 
 %>---
-date: <%  %>
+week: <% moment(tp.file.title, "YYYY-MM-DD").format("WW") %>
 ---
 ## Дни недели
 
