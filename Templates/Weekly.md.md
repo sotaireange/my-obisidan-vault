@@ -1,19 +1,16 @@
 # Еженедельник <%= tp.date.now("YYYY-[W]WW") %>
-<% const daysOfWeek = 
-[{ number: 1, name: "Понедельник" },
-{ number: 2, name: "Вторник" },
-{ number: 3, name: "Среда" },
-{ number: 4, name: "Четверг" },
-{ number: 5, name: "Пятница" },
-{ number: 6, name: "Суббота" } ];
+<% 
+const folderPath = "Calendar/Ежедневник"; 
+const dateFormat = "YYYY-MM-DD";
+const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const templatePath =tp.file.find_tfile(`Templates/Daily`);
 
-const dailyTemplatePath = "Templates/Daily.md";
-
-for (const dayInfo of daysOfWeek)
-{ const dayDate = tp.date.now("YYYY-MM-DD", dayInfo.number);
-const dailyFilePath = `Calendar/Ежедневники/${dayInfo.number} день недели - ${dayDate}.md`;
-	await tp.file.create_new(dailyTemplatePath, dailyFilePath, false);
-	} 
+for (let i = 0; i < 7; i++) {
+    const dayDate = tp.date.weekday(dateFormat, i);
+    const filePath = `${folderPath}/${dayDate}.md`;
+    
+    await tp.file.create_new(templatePath, filePath, false);
+}
 -%>
 ## Дни недели
 
