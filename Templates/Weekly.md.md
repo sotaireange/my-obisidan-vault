@@ -13,6 +13,11 @@ const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${last
 const weekString = `${firstDay}-${lastDay} (${monthRange}), Week ${weekNumber} ${year}`;
 
 
+
+
+
+
+
 %>
 
 Week_day_first=<% firstDay %>  
