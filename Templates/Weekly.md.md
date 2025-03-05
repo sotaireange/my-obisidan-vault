@@ -30,8 +30,6 @@ for (let i = 0; i < 6; i++) {
     days.push(dayDate);
 }
 
-
-
 %>
 
 # Еженедельник <% weekString %>
