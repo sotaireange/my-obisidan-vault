@@ -17,7 +17,7 @@ await tp.file.rename(weekString)
 
 
 const folderPath = "Calendar/Ежедневник"; 
-const dateFormat = "DD-MM-YYYY";
+const dateFormat = "ddd DD-MM-YYYY";
 const templatePath =tp.file.find_tfile("Daily.md");
 
 const days = [];
