@@ -1,5 +1,5 @@
 ---
-date: <% moment(tp.file.title, "DD-MM-YYYY ddd").format("YYYY-MM-DD") %>
+date: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("YYYY-MM-DD") %>
 ---
 
 
