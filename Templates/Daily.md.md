@@ -1,4 +1,4 @@
-## date: <% tp.date.now("YYYY-MM-DD") %>
+## date: <% tp.date.parse(tp.file.title, "YYYY-MM-DD").format("DD MMMM YYYY") %>
 
 # <% tp.file.title %>
 
