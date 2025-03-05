@@ -16,11 +16,6 @@ const weekString = `${firstDay}-${lastDay} (${monthRange}), Week ${weekNumber} $
 
 
 
-
-
-%>
-# Еженедельник <%= tp.date.now("YYYY-[W]WW") %>
-<% 
 const folderPath = "Calendar/Ежедневник"; 
 const dateFormat = "DD-MM-YYYY";
 const templatePath =tp.file.find_tfile(`Templates/Daily`);
@@ -31,7 +26,9 @@ for (let i = 0; i < 6; i++) {
     
     await tp.file.create_new(templatePath, filePath, false);
 }
--%>
+
+%>
+# Еженедельник <%= tp.date.now("YYYY-[W]WW") %>
 ## Дни недели
 
 - [[1 день недели|Понедельник]]
