@@ -27,7 +27,7 @@ for (let i = 0; i < 6; i++) {
     const filePath = `${folderPath}/${dayDate}.md`;
     
     await tp.file.create_new(templatePath, filePath, false);
-    days.push(`${dayDate}`);
+    days.push(`${folderPath}${dayDate}`);
 }
 
 %>
