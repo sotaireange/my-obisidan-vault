@@ -1,4 +1,4 @@
-## date: <% tp.date.parse(tp.file.title, "DD-MM-YYYY").format("YYYY-MM-DD") %>
+## date: <% % moment(tp.file.title, "DD-MM-YYYY").format("YYYY-MM-DD") %> %>
 
 
 ## Расписание
