@@ -1,4 +1,4 @@
 ```todoist  
-filter: "project | Study"  
+query : "#Study"
 
 ```
