@@ -5,5 +5,5 @@ await tp.file.rename(fileName)
 
 
 ---
-todoist add: "$<% fileName %>'
+title: 
 ---
