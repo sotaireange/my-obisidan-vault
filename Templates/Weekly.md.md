@@ -30,9 +30,7 @@ for (let i = 0; i < 6; i++) {
     days.push(`${folderPath}/${dayDate}.md`);
 }
 
-%>
-
-# Еженедельник <% weekString %>
+%># Еженедельник <% weekString %>
 
 ## Дни недели
 
