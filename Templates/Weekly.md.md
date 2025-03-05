@@ -10,7 +10,7 @@ const weekNumber = tp.date.weekday("Wo", 0); // Номер недели
 
 const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${lastMonth}`; // Если месяц один, просто Jan, иначе Jan-Feb
 
-const weekString = `${firstDay}-${lastDay} (${monthRange}), ${weekNumber} Week ${year}`;
+const weekString = `${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${year}`;
 
 
 await tp.file.rename(weekString)
