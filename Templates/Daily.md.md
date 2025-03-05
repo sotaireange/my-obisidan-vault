@@ -1,4 +1,4 @@
-# <% tp.file.title %>
+# <% await tp.file.title %>
 
 ## Расписание
 
