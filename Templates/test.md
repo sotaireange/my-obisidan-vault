@@ -4,5 +4,5 @@ await tp.file.rename(fileName)
 %>
 
 ```todoist
-add: "Название задачи"
+add: "Название задачи #Study"
 ```
