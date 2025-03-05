@@ -8,7 +8,7 @@ module.exports = async (tp) => {
     const dailyTemplatePath = "Templates/Daily.md";
     
     // Создаем еженедельник
-    const weeklyFilePath = `Еженедельники/${currentDate} - Week ${weekNumber}.md`;
+    const weeklyFilePath = `Calendar/Еженедельники/${currentDate} - Week ${weekNumber}.md`;
     await tp.file.create_new(weeklyTemplatePath, weeklyFilePath, false);
 
     // Массив дней недели
