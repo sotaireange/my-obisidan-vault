@@ -1,10 +1,6 @@
 
 ```button
-tasks:
-  - content: "Написать отчёт"
-    project: "Obsidian"
-    labels: ["obsidian"]
-    due: "tomorrow"
-    description: "[Test](obsidian://open?vault=my-obisidan-vault&file=test_obisidan_note.md)"
-
+name Создать Задауч в Todoist
+type command
+action todoist:task_create
 ```
