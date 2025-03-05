@@ -19,20 +19,41 @@ const weekString = `${firstDay}-${lastDay} (${monthRange}), Week ${weekNumber} $
 
 
 %>
+# Еженедельник <%= tp.date.now("YYYY-[W]WW") %>
+<% 
+const folderPath = "Calendar/Ежедневник"; 
+const dateFormat = "DD-MM-YYYY";
+const templatePath =tp.file.find_tfile(`Templates/Daily`);
 
-Week_day_first=<% firstDay %>  
-Week_day_last=<% lastDay %>  
-week = <% weekString %>
-<%*
-const folderPath = "Calendar"; // Папка, куда сохранять заметки (замени на свою)
-const dateFormat = "YYYY-MM-DD"; // Формат имени файла
-const templatePath = "Templates/DailyTemplate"; // Шаблон для дневных заметок (если нужен)
-
-for (let i = 0; i < 7; i++) {
-    const dayDate = tp.date.weekday(dateFormat, i); // Дата для каждого дня недели
-    const filePath = `${folderPath}/${dayDate}.md`; // Полный путь файла
-
-    // Создание заметки
+for (let i = 0; i < 6; i++) {
+    const dayDate = tp.date.weekday(dateFormat, i);
+    const filePath = `${folderPath}/${dayDate}.md`;
+    
     await tp.file.create_new(templatePath, filePath, false);
 }
-%>
+-%>
+## Дни недели
+
+- [[1 день недели|Понедельник]]
+- [[2 день недели|Вторник]]
+- [[3 день недели|Среда]]
+- [[4 день недели|Четверг]]
+- [[5 день недели|Пятница]]
+- [[6 день недели|Суббота]]
+
+## Цели недели
+
+- [ ]
+
+## Задачи
+
+### Вывод
+
+- [ ]
+
+## Заметки
+
+## Рефлексия
+
+- Что было хорошо:
+- Что можно улучшить:
