@@ -1,1 +1,1 @@
-Week =<% tp.date.weekday("W YYYY-MM-DD", 0) %>
+Week =<% tp.date.weekday("W YYYY-MM-DD+6", 0) %>
