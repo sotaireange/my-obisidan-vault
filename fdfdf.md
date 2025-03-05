@@ -1,5 +1,2 @@
-
-
-```todoist
-add: "Название задачи"
-```
+- [ ] Get Review day
+- [ ] Get Reveiw Week
