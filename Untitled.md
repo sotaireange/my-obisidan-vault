@@ -1,4 +1,4 @@
 ```todoist  
-query : "#Study"
+filter: "today | overdue"  
 
 ```
