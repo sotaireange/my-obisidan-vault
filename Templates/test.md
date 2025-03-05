@@ -1,3 +1,10 @@
+<%* 
+const fileName="Test"
+await tp.file.rename(fileName)
+
+%>
+
+
 ---
-created: <% tp.date.now("YYYY-MM-DD HH:MM") %>
+todoist add: "<% '
 ---
