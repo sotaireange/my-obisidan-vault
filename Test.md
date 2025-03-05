@@ -2,5 +2,5 @@
 ```button
 name Создать Задауч в Todoist
 type command
-action Todoist Sync:Add Task
+action todoist Sync:Add task with current page in task description
 ```
