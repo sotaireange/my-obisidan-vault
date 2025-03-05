@@ -1,3 +1,3 @@
 ```todoist  
-filter: "# Study🎯 & (today | overdue) #deep"  
+filter: "# Study🎯 & (today | overdue) & #deep"  
 ```
