@@ -1,13 +1,4 @@
----
-
-creation date: <% tp.date.now("YYYY-MM-DD") %> tags:
-
-- еженедельник
-
----
-
 # Еженедельник <%= tp.date.now("YYYY-[W]WW") %>
-
 <% const daysOfWeek = 
 [ { number: 1, name: "Понедельник" },
 { number: 2, name: "Вторник" },
