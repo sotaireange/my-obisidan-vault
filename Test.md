@@ -1,7 +1,3 @@
-```todoist
-filter: "@obsidian"
-```
-
 
 ```todoist
 tasks:
