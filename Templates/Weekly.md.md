@@ -1,10 +1,26 @@
+---
+
+creation date: <% tp.date.now("YYYY-MM-DD") %> tags:
+
+- еженедельник
+
+---
+
 # Еженедельник <%= tp.date.now("YYYY-[W]WW") %>
 
-<% // Создание ежедневников const daysOfWeek = [ { number: 1, name: "Понедельник" }, { number: 2, name: "Вторник" }, { number: 3, name: "Среда" }, { number: 4, name: "Четверг" }, { number: 5, name: "Пятница" }, { number: 6, name: "Суббота" } ];
+<% const daysOfWeek = 
+[ { number: 1, name: "Понедельник" },
+{ number: 2, name: "Вторник" },
+{ number: 3, name: "Среда" },
+{ number: 4, name: "Четверг" },
+{ number: 5, name: "Пятница" },
+{ number: 6, name: "Суббота" } ];
 
-// Путь к шаблону ежедневника const dailyTemplatePath = "Templates/Daily.md";
+const dailyTemplatePath = "Templates/Daily.md";
 
-// Создаем ежедневники for (const dayInfo of daysOfWeek) { const dayDate = tp.date.now("YYYY-MM-DD", dayInfo.number); const dailyFilePath = `Ежедневники/${dayInfo.number} день недели - ${dayDate}.md`;
+for (const dayInfo of daysOfWeek)
+{ const dayDate = tp.date.now("YYYY-MM-DD", dayInfo.number);
+const dailyFilePath = `Calendar/Ежедневники/${dayInfo.number} день недели - ${dayDate}.md`;
 
 ```
 await tp.file.create_new(dailyTemplatePath, dailyFilePath, false);
