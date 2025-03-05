@@ -1,6 +1,6 @@
 
 
 ```
-todoist add: "Тест ??? '
+todoist add: "Тест ??? # Study '
 
 ```
