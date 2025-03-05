@@ -4,5 +4,6 @@ filter: "@obsidian"
 
 
 ```todoist
-filter: "@obsidian"
+tasks:
+-"[]@obsidian"
 ```
