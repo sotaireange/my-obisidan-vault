@@ -1,0 +1,3 @@
+---
+todoist add: "${fileName}"
+---
