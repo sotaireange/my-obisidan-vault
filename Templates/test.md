@@ -1,1 +1,1 @@
-Week = <% tp.date.now
+Week = <% tp.date.weekday('YYYY-MM-DD', 0) %>
