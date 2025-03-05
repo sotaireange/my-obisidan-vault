@@ -1,5 +1,5 @@
 ---
-week: Invalid date
+week: 10
 ---
 ## Дни недели
 
