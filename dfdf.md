@@ -1,3 +1,10 @@
+<%* 
+const fileName="Test"
+await tp.file.rename()
+
+%>
+
+
 ---
-todoist add: "${fileName}"
+todoist add: "Тест ??? '
 ---
