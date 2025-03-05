@@ -7,7 +7,7 @@ for (let i = 0; i < 7; i++) {
     const dayName = weekDays[i];
     const dayDate = tp.date.weekday(dateFormat, i);
     const filePath = `${folderPath}/${dayDate}.md`; // Полный путь файла
-    const templatePath = `Templates/Days/${dayName}`; // Шаблон для дня
+    const templatePath = `Templates/Days/${dayName}.md`; // Шаблон для дня
 
     await tp.file.create_new(templatePath, filePath, false);
 }
