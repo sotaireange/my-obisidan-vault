@@ -18,3 +18,16 @@ const weekString = `${firstDay}-${lastDay} (${monthRange}), Week ${weekNumber} $
 Week_day_first=<% firstDay %>  
 Week_day_last=<% lastDay %>  
 week = <% weekString %>
+<%*
+const folderPath = "Calendar"; // Папка, куда сохранять заметки (замени на свою)
+const dateFormat = "YYYY-MM-DD"; // Формат имени файла
+const templatePath = "Templates/DailyTemplate"; // Шаблон для дневных заметок (если нужен)
+
+for (let i = 0; i < 7; i++) {
+    const dayDate = tp.date.weekday(dateFormat, i); // Дата для каждого дня недели
+    const filePath = `${folderPath}/${dayDate}.md`; // Полный путь файла
+
+    // Создание заметки
+    await tp.file.create_new(templatePath, filePath, false);
+}
+%>
