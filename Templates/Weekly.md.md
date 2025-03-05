@@ -25,7 +25,7 @@ const daysDate = [];
 for (let i = 0; i < 6; i++) {
     const dayDate = tp.date.weekday(dateFormat, i+1);
     const filePath = `${folderPath}/${dayDate}.md`;
-	const dayDateCalendar = tp.date.weekday("DD-MM-YYYY", i+1);
+	const dayDateCalendar = tp.date.weekday("DD-MM", i+1);
     await tp.file.create_new(templatePath, filePath, false);
     days.push(`${folderPath}/${dayDate}.md`);
     daysDate.push(dayDateCalendar)
