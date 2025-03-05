@@ -28,7 +28,7 @@ for (let i = 0; i < 6; i++) {
     
     await tp.file.create_new(templatePath, filePath, false);
     days.push(`${folderPath}/${dayDate}.md`);
-    daysDate.push(dayDa)
+    daysDate.push(dayDate)
 }
 
 %>---
@@ -36,12 +36,12 @@ week: <% moment(tp.date.now("YYYY-MM-DD"), "YYYY-MM-DD").format("WW") %>
 ---
 ## Дни недели
 
-- [ ] 📅 2025-03-06 [[<% days[0] %>|Понедельник <% %>]]
-- [ ] [[<% days[1] %>|Вторник]]
-- [ ] [[<% days[2] %>|Среда]]
-- [ ] [[<% days[3] %>|Четверг]]
-- [ ] [[<% days[4] %>|Пятница]]
-- [ ] [[<% days[5] %>|Суббота]]
+- [ ] 📅 2025-03-06 [[<% days[0] %>|Понедельник <% dayDate %>]]
+- [ ] [[<% days[1] %>|Вторник <% dayDate %>]]
+- [ ] [[<% days[2] %>|Среда <% dayDate %>]]
+- [ ] [[<% days[3] %>|Четверг <% dayDate %>]]
+- [ ] [[<% days[4] %>|Пятница <% dayDate %>]]
+- [ ] [[<% days[5] %>|Суббота <% dayDate %>]]
 
 ## Цели недели
 
