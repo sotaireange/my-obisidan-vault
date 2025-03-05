@@ -1,10 +1,9 @@
 <%* 
-const fileName="Test"
+const fileName = await tp.system.prompt("Напишите название файла");
 await tp.file.rename(fileName)
-
 %>
 
 
 ---
-todoist add: "<% '
+todoist add: "<% fileName %>'
 ---
