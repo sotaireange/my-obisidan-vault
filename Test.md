@@ -2,5 +2,5 @@
 ```button
 name Создать Задауч в Todoist
 type command
-action todoist-stnc-plugin:createTask
+action todoist-stnc-plugin:Add Task
 ```
