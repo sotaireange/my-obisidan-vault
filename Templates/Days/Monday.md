@@ -1,6 +1,4 @@
-<%* 
-const date = tp.date.now("YYYY-MM-DD")
-%>
+<% const date = tp.date.now("YYYY-MM-DD") %>
 ---
 title: Monday
 allDay: true
