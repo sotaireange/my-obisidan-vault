@@ -28,7 +28,7 @@ for (let i = 0; i < 6; i++) {
     
     await tp.file.create_new(templatePath, filePath, false);
     days.push(`${folderPath}/${dayDate}.md`);
-    daysDate.push(da)
+    daysDate.push(dayDa)
 }
 
 %>---
