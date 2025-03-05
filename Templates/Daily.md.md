@@ -1,7 +1,8 @@
 ---
-date: <% tp.date.now() %> 
----
-# День <% tp.date.now() %> недели
+
+## date: <% tp.date.now("YYYY-MM-DD") %>
+
+# <% tp.file.title %>
 
 ## Расписание
 
