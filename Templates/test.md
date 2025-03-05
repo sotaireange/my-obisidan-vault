@@ -7,4 +7,4 @@ const lastDay= tp.date.weekday("YYYY-MM-DD+6", 7)
 
 Week_day_first=<% firstDay %>
 week_day_last=<% lastDay %>
-week = <% ${firstDay}-${lastDay} %>
+week = <% `${firstDay}-${lastDay}`%>
