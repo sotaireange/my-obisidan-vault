@@ -1,7 +1,7 @@
 <%* 
 const folderPath = "Calendar/Ежедневник"; 
 const dateFormat = "DD-MM-YYYY";
-const templatePath ="Templates/Daily"
+const templatePath ="Templates/Daily";
 
 const days = [];
 
