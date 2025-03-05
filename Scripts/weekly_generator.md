@@ -24,7 +24,7 @@ module.exports = async (tp) => {
     // Создаем ежедневники
     for (const dayInfo of daysOfWeek) {
         const dayDate = tp.date.now("YYYY-MM-DD", dayInfo.number);
-        const dailyFilePath = `Ежедневники/${dayInfo.number} день недели - ${dayDate}.md`;
+        const dailyFilePath = `Calendar/Ежедневники/${dayInfo.number} день недели - ${dayDate}.md`;
         
         await tp.file.create_new(dailyTemplatePath, dailyFilePath, false);
     }
