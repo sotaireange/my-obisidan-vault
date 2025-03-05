@@ -1,0 +1,1 @@
+Week = <% tp.date.now
