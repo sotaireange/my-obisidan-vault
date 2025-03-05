@@ -21,13 +21,9 @@ const dailyTemplatePath = "Templates/Daily.md";
 for (const dayInfo of daysOfWeek)
 { const dayDate = tp.date.now("YYYY-MM-DD", dayInfo.number);
 const dailyFilePath = `Calendar/Ежедневники/${dayInfo.number} день недели - ${dayDate}.md`;
-
-```
-await tp.file.create_new(dailyTemplatePath, dailyFilePath, false);
-```
-
-} -%>
-
+	await tp.file.create_new(dailyTemplatePath, dailyFilePath, false);
+	} 
+-%>
 ## Дни недели
 
 - [[1 день недели|Понедельник]]
