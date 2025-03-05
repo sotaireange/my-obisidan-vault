@@ -2,5 +2,5 @@
 ```button
 name Создать Задауч в Todoist
 type command
-action todoist:task_create
+action todoist Sync:Add Task
 ```
