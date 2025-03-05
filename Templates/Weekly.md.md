@@ -6,7 +6,7 @@ const firstMonth = tp.date.weekday("MMM", 1); // Название месяца �
 const lastMonth = tp.date.weekday("MMM", 7); // Название месяца конца недели
 
 const year = tp.date.weekday("YYYY", 1); // Год
-const weekNumber = tp.date.weekday("Wo", 0); // Номер недели
+const weekNumber = tp.date.weekday("Wo", 1); // Номер недели
 
 const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${lastMonth}`; // Если месяц один, просто Jan, иначе Jan-Feb
 
