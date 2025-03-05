@@ -1,3 +1,3 @@
 ```todoist  
-filter: "today | overdue"  
+filter: "labels | overdue"  
 ```
