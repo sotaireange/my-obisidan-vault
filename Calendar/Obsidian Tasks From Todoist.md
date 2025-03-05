@@ -1,0 +1,3 @@
+```todoist  
+filter: "# Obsidian & @obsidian"  
+```
