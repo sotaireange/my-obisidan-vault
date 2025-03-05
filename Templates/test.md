@@ -1,6 +1,6 @@
 <%*
-const firstDay=tp.date.weekday("YYYY-MM-DD+6", 0)
-const lastDay= tp.date.weekday("YYYY-MM-DD+6", 7)
+const firstDay=tp.date.weekday("YYYY-MM-DD", 0)
+const lastDay= tp.date.weekday("YYYY-MM-DD", 7)
 
 %>
 
