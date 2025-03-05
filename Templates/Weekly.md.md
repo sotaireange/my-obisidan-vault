@@ -13,7 +13,7 @@ const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${last
 const weekString = `${firstDay}-${lastDay} (${monthRange}), Week ${weekNumber} ${year}`;
 
 
-
+await tp.file.rename(weekString)
 
 
 const folderPath = "Calendar/Ежедневник"; 
@@ -30,6 +30,7 @@ for (let i = 0; i < 6; i++) {
 %>
 
 # Еженедельник <% weekString %>
+
 ## Дни недели
 
 - [[1 день недели|Понедельник]]
