@@ -5,6 +5,6 @@
 %>---
 title: DayNotes
 allDay: true
-date: 2025-03-05
+date: <% tp.date.now("YYYY-MM-DD", 6) %>
 completed: false
 ---
