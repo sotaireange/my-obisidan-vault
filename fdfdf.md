@@ -1,2 +1,1 @@
 - [ ] Get Review day
-- [ ] Get Reveiw Week
