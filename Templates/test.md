@@ -3,7 +3,7 @@ const fileName = await tp.system.prompt("Напишите название фа�
 await tp.file.rename(fileName)
 %>
 
-```
-todoist add: "Тест ??? # Study"
+```todoist 
+add: "Тест ??? # Study"
 
 ```
