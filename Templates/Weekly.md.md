@@ -30,8 +30,9 @@ for (let i = 0; i < 6; i++) {
     days.push(`${folderPath}/${dayDate}.md`);
 }
 
-%># Еженедельник <% weekString %>
-
+%>---
+date: 
+---
 ## Дни недели
 
 - [[<% days[0] %>|Понедельник]]
