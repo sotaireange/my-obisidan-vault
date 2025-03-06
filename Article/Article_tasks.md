@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## 🟢 Todo
 
-- [ ] https://fortelabs.com/blog/how-to-take-smart-notes/
+- [ ] [[https fortelabs.com blog how-to-take-smart-notes]]
 - [ ] https://www.ssp.sh/brain/zettelkasten/
 
 
