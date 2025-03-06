@@ -6,6 +6,7 @@ kanban-plugin: board
 
 ## 🟢 Todo
 
+- [ ] https://www.ssp.sh/brain/second-brain/
 
 
 ## ✅ Done
