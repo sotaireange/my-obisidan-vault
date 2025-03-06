@@ -36,14 +36,12 @@ week: <% moment(tp.date.now("YYYY-MM-DD"), "YYYY-MM-DD").format("WW") %>
 status: false
 rating: 0
 ---
-## Дни недели
 
-- [ ] [[<% days[0] %>|Понедельник 📅 <% daysDate[0] %>]]
-- [ ] [[<% days[1] %>|Вторник 📅 <% daysDate[1] %>]]
-- [ ] [[<% days[2] %>|Среда 📅 <% daysDate[2] %>]]
-- [ ] [[<% days[3] %>|Четверг 📅 <% daysDate[3] %>]]
-- [ ] [[<% days[4] %>|Пятница 📅 <% daysDate[4] %>]]
-- [ ] [[<% days[5] %>|Суббота 📅 <% daysDate[5] %>]]
+```dataview
+TABLE day, date, review, choice(completed = true, "✅", "🔄") AS Status
+FROM "Calendar/Days" 
+WHERE this.file.week = file.week
+```
 
 ## Цели недели
 
