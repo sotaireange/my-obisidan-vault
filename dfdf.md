@@ -1,3 +1,3 @@
 ```dataview
-@booknote
+LIST
 ```
