@@ -1,3 +1,6 @@
+---
+sticker: lucide//calendar-days
+---
 ```dataview
 TABLE review,
 choice(status = false, "🔄", "✅") as Status
