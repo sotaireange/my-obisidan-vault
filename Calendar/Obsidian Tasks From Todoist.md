@@ -1,4 +1,4 @@
 ```dataview
-TABLE rating
+TABLE status,rating
 FROM "Calendar/Weekly"
 ```
