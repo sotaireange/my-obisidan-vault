@@ -9,7 +9,7 @@ cover: http://books.google.com/books/content?id=ICdnEAAAQBAJ&printsec=frontcover
 rating: 
 date: 
 read: 
-status: complete
+status: In Proogress
 source: "[[Fluent Python.pdf]]"
 ---
 ```dataview
