@@ -16,7 +16,7 @@ const weekString = `${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${
 await tp.file.rename(weekString)
 
 
-const folderPath = "Calendar/Daily"; 
+const folderPath = "Calendar/Day"; 
 const dateFormat = "DD-MM-YYYY dddd";
 const templatePath =tp.file.find_tfile("Daily.md");
 
