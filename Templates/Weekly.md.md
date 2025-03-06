@@ -43,6 +43,21 @@ FROM "Calendar/Days"
 WHERE this.file.week = file.week
 ```
 
+
+```dataviewjs
+const tasks = dv.current().file.tasks.filter(t => t.completed);
+
+let score = 0;
+
+tasks.forEach(t => {
+  const match = t.text.match(/\[(\d+)\]/); // Ищем число в квадратных скобках
+  if (match) score += parseInt(match[1]); // Добавляем к общему счёту
+});
+
+dv.paragraph(`Общее количество баллов: **${score}**`);
+
+```
+
 ## Цели недели
 
 - 
