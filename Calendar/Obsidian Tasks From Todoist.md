@@ -1,4 +1,4 @@
 ```dataview
-List
+Table
 FROM "Calendar/Weekly"
 ```
