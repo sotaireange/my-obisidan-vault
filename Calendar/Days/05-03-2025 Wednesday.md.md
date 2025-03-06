@@ -1,9 +1,9 @@
 ---
 date: 2025-03-05
-source: "[[Calendar/Weekly/10th Week 3-9 (Mar) 2025|10th Week]]"
+source: "[[Calendar/Weeks/10th Week 3-9 (Mar) 2025|10th Week]]"
 week: 10th
 review: 0
-day: 064
+day: Wednesday
 ---
 
 
