@@ -1,5 +1,5 @@
 ```dataview
 TABLE status,rating
-FROM "Calendar/Weekly"
+FROM "Calendar/Daily"
 sort asc
 ```
