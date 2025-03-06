@@ -1,5 +1,5 @@
 ```dataview
 TABLE author, date, rating 
-FROM “books” 
+FROM “Books/books” 
 WHERE contains(author, "") 
 ```
