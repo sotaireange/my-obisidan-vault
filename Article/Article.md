@@ -1,3 +1,4 @@
 ---
-color: var(--mk-color-pink)
+color: ""
+sticker: emoji//1f4f0
 ---
