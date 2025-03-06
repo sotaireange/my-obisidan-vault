@@ -1,5 +1,7 @@
 #booknote #python #fluentpython 
-
+---
+source: [[FluentPython.pdf]]
+---
 [[Книги]]
 
 [collections.abc — Abstract Base Classes for Containers — Python 3.13.2 documentation](https://docs.python.org/3/library/collections.abc.html#collections-abstract-base-classes)
