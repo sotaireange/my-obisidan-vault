@@ -1,3 +1,4 @@
 ```dataview
-TABLE author
+List
+from
 ```
