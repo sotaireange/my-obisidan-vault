@@ -10,4 +10,5 @@ rating:
 date
 read:
 status:
+source:
 ---
