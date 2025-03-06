@@ -10,5 +10,5 @@ rating:
 date: 
 read: 
 status: 
-source: "[[Fluent Python]]"
+source: "[[FluentPython.pdf]]"
 ---
