@@ -14,5 +14,5 @@ source: "[[FluentPython.pdf]]"
 ---
 ```dataview
 List 
-FROM Books/{{}}
+FROM Books/{{title}}
 ```
