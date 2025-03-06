@@ -1,3 +1,3 @@
-```todoist  
-filter: "# Obsidian & @obsidian"  
+```dataview
+
 ```
