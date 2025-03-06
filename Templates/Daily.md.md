@@ -14,6 +14,7 @@ const weekPath = `Calendar/Weeks/${weekNumber} Week ${firstDay}-${lastDay} (${mo
 
 %>---
 date: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("YYYY-MM-DD") %>
+allDay: true
 source: <% `"[[${weekPath}|${weekNumber} Week]]"` %>
 week: <% weekNumber.replace('th','') %>
 review: 0
