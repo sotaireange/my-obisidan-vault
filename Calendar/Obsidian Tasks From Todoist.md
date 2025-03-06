@@ -1,4 +1,4 @@
 ```dataview
 List
-FROM "Weekly"
+FROM "Calendar/Weekly"
 ```
