@@ -1,5 +1,5 @@
 ```dataview
-TABLE author, genre,status
+TABLE author, category,status
 FROM "Books/books" 
 WHERE contains(author, "") 
 ```
