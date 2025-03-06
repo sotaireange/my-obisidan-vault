@@ -19,11 +19,7 @@ allDay: true
 source: <% `"[[${weekPath}|${weekNumber} Week]]"` %>
 week: <% weekNumber.replace('th','') %>
 review: 0
----
-title: Test
-
-completed: null
----
+completed: false
 day: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("dddd") %>
 ---
 
