@@ -7,7 +7,7 @@ publishdate: {{publishDate}}
 pages: {{totalPage}}
 cover: {{coverUrl}}
 rating:
-date
+date:
 read:
 status:
 source:
