@@ -1,3 +1,4 @@
 ```dataview
-From Books
+List
+From "Books"
 ```
