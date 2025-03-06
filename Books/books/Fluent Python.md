@@ -12,3 +12,6 @@ read:
 status: 
 source: "[[FluentPython.pdf]]"
 ---
+```dataview
+List 
+```
