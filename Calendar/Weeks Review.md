@@ -1,5 +1,6 @@
 ```dataview
-TABLE status,rating
+TABLE rating,
+choise(status = false, "🔄", "✅") as Status
 FROM "Calendar/Weeks"
 sort file.week desc
 ```
