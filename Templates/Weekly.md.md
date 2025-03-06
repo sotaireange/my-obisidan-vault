@@ -33,6 +33,8 @@ for (let i = 0; i < 6; i++) {
 
 %>---
 week: <% moment(tp.date.now("YYYY-MM-DD"), "YYYY-MM-DD").format("WW") %>
+status: Active
+
 ---
 ## Дни недели
 
