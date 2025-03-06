@@ -1,21 +1,25 @@
 ---
-kanban-plugin: basic 
+
+kanban-plugin: board
+
 ---
 
 ## 🟢 Todo
 
 
-## 🏃 Running
-
 
 ## ✅ Done
+
 
 
 ## 🔄 Review
 
 
-## 📥 Backlog
 
 
-## 🚀 Priority
 
+%% kanban:settings
+```
+{"kanban-plugin":"board","list-collapse":[]}
+```
+%%
