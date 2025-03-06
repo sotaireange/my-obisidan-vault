@@ -10,7 +10,7 @@ rating:
 date: 
 read: 
 status: 
-source: "[[FluentPython.pdf]]"
+source: "[[Fluent Python.pdf]]"
 ---
 ```dataview
 List 
