@@ -1,5 +1,5 @@
 ```dataview
 TABLE status,rating
 FROM "Calendar/Daily"
-sort desc
+sort file.day desc
 ```
