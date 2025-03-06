@@ -1,6 +1,6 @@
 ```dataview
 TABLE rating,
-choise(status = false, "🔄", "✅") as Status
+choise(status = false, "🔄", "✅")
 FROM "Calendar/Weeks"
 sort file.week desc
 ```
