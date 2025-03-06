@@ -22,6 +22,7 @@ completed: false
 ---
 ## План
 
+
 ### Типичные задания:
 
 ```todoist  
