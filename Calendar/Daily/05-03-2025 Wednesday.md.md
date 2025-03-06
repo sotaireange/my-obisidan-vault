@@ -1,6 +1,6 @@
 ---
 date: 2025-03-05
-source: "[[Calendar/Еженедельник/10th Week 3-9 (Mar) 2025|10th Week]]"
+source: "[[10th Week 3-9 (Mar) 2025|10th Week]]"
 ---
 
 
