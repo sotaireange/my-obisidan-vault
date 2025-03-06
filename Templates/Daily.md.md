@@ -10,33 +10,51 @@ const weekNumber = tp.date.weekday("Wo", 1); // Номер недели
 
 const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${lastMonth}`; // Если месяц один, просто Jan, иначе Jan-Feb
 
-const weekPath = `Calendar/Еженедельник/${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${year}`;
+const weekPath = `Calendar/Weeks/${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${year}`;
 
 %>---
+day: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("dddd") %>
 date: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("YYYY-MM-DD") %>
 source: <% `"[[${weekPath}|${weekNumber} Week]]"` %>
+week: <% weekNumber.replace('th','') %>
+review: 0
+completed: false
 ---
 
+```dataviewjs
+const tasks = dv.current().file.tasks.filter(t => t.completed);
 
-## Расписание
+let score = 0;
 
-## Задачи
+tasks.forEach(t => {
+  const match = t.text.match(/\[(\d+)\]/); // Ищем число в квадратных скобках
+  if (match) score += parseInt(match[1]); // Добавляем к общему счёту
+});
 
-### Утро
+dv.paragraph(`Общее количество баллов: **${score}**`);
 
-- [ ]
+```
+## План
 
-### День
+### Типичные задания:
+- [ ] Прочитать книгу(10 стр. 1 балл) [0]
+- [ ] Посмотреть видео(1 час=3 балла) [0]
+- [ ] [0]
+- [ ] [0]
+- [ ] [0]
+### Прочее
+- [ ] [0]
+- [ ] [0]
+- [ ] [0]
 
-- [ ]
+## ## Обзор
 
-### Вечер
+### Было сделано:
 
-- [ ]
 
-## Заметки
 
-## Рефлексия
+### Что было хорошо:
+ - 
 
-- Что было хорошо:
-- Что можно улучшить:
+
+### Что можно улучшить:
