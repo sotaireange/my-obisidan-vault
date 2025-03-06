@@ -20,12 +20,26 @@ week: <% weekNumber.replace('th','') %>
 review: 0
 completed: false
 ---
+
+```dataviewjs
+const tasks = dv.current().file.tasks.filter(t => t.completed);
+
+let score = 0;
+
+tasks.forEach(t => {
+  const match = t.text.match(/\[(\d+)\]/); // Ищем число в квадратных скобках
+  if (match) score += parseInt(match[1]); // Добавляем к общему счёту
+});
+
+dv.paragraph(`Общее количество баллов: **${score}**`);
+
+
+```
 ## План
 
-
 ### Типичные задания:
-- [ ] Прочитать книгу(10 стр. 1 балл)  /10=0 баллов
-- [ ] Посмотреть видео(1 час )
+- [ ] Прочитать книгу(10 стр. 1 балл)  /10=0 баллов [0]
+- [ ] Посмотреть видео(1 час ) [0]
 - [ ] 
 - [ ] 
 - [ ] 
