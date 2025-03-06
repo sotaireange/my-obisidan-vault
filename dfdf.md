@@ -1,4 +1,4 @@
 ```dataview
 List
-from
+FROM "Calendar"
 ```
