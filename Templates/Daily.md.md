@@ -10,7 +10,7 @@ const weekNumber = tp.date.weekday("Wo", 1); // Номер недели
 
 const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${lastMonth}`; // Если месяц один, просто Jan, иначе Jan-Feb
 
-const weekPath = `Calendar/Weekly/${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${year}`;
+const weekPath = `Calendar/Week/${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${year}`;
 
 %>---
 date: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("YYYY-MM-DD") %>
