@@ -22,7 +22,7 @@ const templatePath =tp.file.find_tfile("Daily.md");
 
 const days = [];
 const daysDate = [];
-for (let i = 0; i < 6; i++) {
+for (let i = 1; i < 6; i++) {
     const dayDate = tp.date.weekday(dateFormat, i+1);
     const filePath = `${folderPath}/${dayDate}.md`;
 	const dayDateCalendar = tp.date.weekday("DD-MM", i+1);
