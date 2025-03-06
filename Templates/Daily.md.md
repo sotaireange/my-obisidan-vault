@@ -20,9 +20,12 @@ week: <% weekNumber.replace('th','') %>
 review: 0
 completed: false
 ---
-## План минимум: 
+## План
+### Минимум:
 
 
+
+### Идеал
 
 
 
