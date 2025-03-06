@@ -1,3 +1,3 @@
 ```dataview
-TABLE
+TABLE author
 ```
