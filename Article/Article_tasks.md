@@ -12,7 +12,7 @@ kanban-plugin: board
 
 ## ✅ Done
 
-- [ ] https://www.ssp.sh/brain/second-brain/
+- [ ] [[https www.ssp.sh brain second-brain]]
 
 
 ## 🔄 Review
