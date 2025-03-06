@@ -1,3 +1,4 @@
 ```dataview
+List
 FROM "Weekly"
 ```
