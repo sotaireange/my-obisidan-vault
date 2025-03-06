@@ -9,7 +9,7 @@ cover: http://books.google.com/books/content?id=ICdnEAAAQBAJ&printsec=frontcover
 rating: 
 date: 
 read: 
-status: 
+status: complete
 source: "[[FluentPython.pdf]]"
 ---
 ```dataview
