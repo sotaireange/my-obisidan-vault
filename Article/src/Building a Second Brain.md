@@ -1,7 +1,7 @@
 ---
 tags:
   - article
-date: 2025:03:08
+date: 2025-03-08
 link: https://fortelabs.com/blog/basboverview/
 time: 00:30
 language: rus
