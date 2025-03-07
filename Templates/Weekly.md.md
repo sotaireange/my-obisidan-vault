@@ -34,6 +34,7 @@ for (let i = 0; i < 6; i++) {
 %>---
 week: <% moment(tp.date.now("YYYY-MM-DD"), "YYYY-MM-DD").format("WW") %>
 status: false
+date: <% tp.date.now("YYYY-MM-DD") %>
 review: 0
 ---
 
