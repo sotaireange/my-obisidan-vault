@@ -83,7 +83,8 @@ if (manualTags) {
         .map(t => `#${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
-tp.date.now
+const manualLinks = await tp.system.prompt("Добавить свои линки через запятую:");
+
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% tags.join(" ") %>
