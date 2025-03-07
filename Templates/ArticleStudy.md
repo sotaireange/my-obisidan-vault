@@ -23,6 +23,7 @@ tags: <% tags.join(" ") %>
 created:
   - <% tp.date.now("DD-MM-YYYY HH:MM") %>
 source: <% await tp.system.prompt("Введите ссылку")  %>
+links: <%`\n${formattedLinks} `%>
 ---
 ## 🔥 Основные тезисы  
 -  
