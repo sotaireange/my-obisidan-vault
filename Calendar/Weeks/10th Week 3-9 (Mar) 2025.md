@@ -23,7 +23,7 @@ const thisWeek = dv.current().week;
 const pages = dv.pages('"Calendar/Days"').where(p => p.week == thisWeek);
 let dailyScores = {}; // Сюда будем записывать баллы по дням
 
-dv.paragraph(`Найдено страниц: ${pages.length}`);
+
 
 for (let page of pages) {
     let tasks = page.file.tasks.filter(t => t.completed);
