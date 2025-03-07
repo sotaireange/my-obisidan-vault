@@ -83,7 +83,7 @@ WHERE this.file.week = file.week
 
 
 ## Расчет баллов:
-$TotalReview =\sum_{i=0}^{i=7}\fracdays.review2$
+$TotalReview =\sum_{i=0}^{i=7}\frac(days.review)2$
 
 ## Все созданные файлы
 ```dataview
