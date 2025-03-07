@@ -8,6 +8,7 @@ tags:
 links:
   - "[[Нужно сделать.md]]"
   - "[[Weeks Review]]"
+  - "[[Calendar/Weeks/10th Week 3-10 (Mar) 2025.md]]"
 source: "[[MyBot]]"
 ---
 ## ⚠️Описание задачи:
