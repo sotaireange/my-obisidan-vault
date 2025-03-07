@@ -52,13 +52,31 @@ dv.paragraph(`Количество баллов недели: **${score}**`);
 ```
 
 ```dataviewjs
-let pages = dv.pages('"путь_к_заметкам"') 
-	.where(p => p.file.week == dv.current().file.week);
-let totalPoints = pages 
-	.flatMap(p => p.tasks)
-	.reduce((sum, t) => sum + (t.point || 0), 0);
-	
-dv.paragraph("Общий балл за неделю: " + totalPoints);
+const thisWeek = dv.current().week;
+const pages = dv.pages('"Calendar/Days"').where(p => p.week == thisWeek);
+let dailyScores = {}; // Сюда будем записывать баллы по дням
+
+
+
+for (let page of pages) {
+    let tasks = page.file.tasks.filter(t => t.completed);
+    let score = 0;
+
+    for (let task of tasks) {
+        let match = task.text.match(/\[(\d+)\]/);
+        if (match) score += parseInt(match[1]); 
+    }
+
+    let day = page.date.toISODate(); // Берём дату из YAML-поля "date"
+    dailyScores[day] = (dailyScores[day] || 0) + score;
+}
+
+// Считаем средний балл
+const totalDays = Object.keys(dailyScores).length;
+const totalScore = Object.values(dailyScores).reduce((a, b) => a + b, 0);
+const avgScore = totalDays > 0 ? (totalScore / totalDays).toFixed(2) : 0;
+
+dv.paragraph(`Средний балл по дням: **${avgScore}**`);
 ```
 
 
