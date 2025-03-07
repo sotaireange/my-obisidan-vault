@@ -9,7 +9,8 @@ priority: 4
 source: 
 ---
 
-```button name 
+```button
+name Завершить 
 type append 
 action this.app.fileManager.processFrontMatter( 
     this.app.workspace.getActiveFile(),
