@@ -1,8 +1,6 @@
 ---
-tags: 
-- article
-- #guide
-- #SecondBrain
+tags:
+  - article
 link: https://fortelabs.com/blog/basboverview/
 date: 2025:03:08
 time: 00:25
@@ -12,7 +10,7 @@ readed: false
 ---
 ## 📝О чем статья:   
 -
-
+х
 ## 🔥 Основные тезисы  
 -  
 
