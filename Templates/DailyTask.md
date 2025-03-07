@@ -4,8 +4,8 @@
 %>
 ---
 date: 
-time:
+time: <
 completed: false
-type: task
+type: DailyTask
 source: 
 ---
