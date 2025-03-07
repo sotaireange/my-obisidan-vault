@@ -19,7 +19,8 @@ dv.paragraph(`Количество баллов недели: **${score}**`);
 ```
 
 ```dataviewjs
-const pages = dv.pages().where(p => p.file.week == dv.current().file.week);
+const thisWeek = dv.current().week;
+const pages = dv.pages('"Calendar/Days"').where(p => p.week == thisWeek);
 let dailyScores = {};
 
 // Проходим по всем заметкам текущей недели
