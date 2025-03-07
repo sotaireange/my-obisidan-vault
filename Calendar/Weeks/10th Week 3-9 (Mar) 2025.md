@@ -22,7 +22,7 @@ dv.paragraph(`Количество баллов недели: **${score}**`);
 const thisWeek = dv.current().week;
 const pages = dv.pages('"Calendar/Days"').where(p => p.week == thisWeek);
 let dailyScores = {};
-
+dv.paragraph(`Вывод: **{pages}** )
 // Проходим по всем заметкам текущей недели
 for (let page of pages) {
     let tasks = page.file.tasks.filter(t => t.completed);
@@ -37,7 +37,7 @@ for (let page of pages) {
 }
 
 // Вывод результатов
-dv.paragraph(`Среднее по дням': **${score}}**`);
+dv.paragraph(`Среднее по дням: **${score}}**`);
 ```
 
 
