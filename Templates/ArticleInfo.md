@@ -17,7 +17,9 @@ if (manualTags) {
 %>---
 link: 
 tags:
-date: <% tp.date.now("YYYY:MM:DD") %>
-time: <% tp.date.now("HH:MM") %>
+date: <% await tp.date.now("YYYY:MM:DD") %>
+time: <% await tp.date.now("HH:MM") %>
+language: <% await tp.system.suggester(item => item, ["Happy", "Sad", "Confused"],false,"Happy")
+%>
 readed: false
 ---
