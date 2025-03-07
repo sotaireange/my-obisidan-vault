@@ -37,14 +37,6 @@ status: false
 date: <% tp.date.now("YYYY-MM-DD") %>
 review: 0
 ---
-
-```dataview
-TABLE day, date, review, choice(completed = true, "✅", "🔄") AS Status
-FROM "Calendar/Days" 
-WHERE this.file.week = file.week
-```
-
-
 ```dataviewjs
 const tasks = dv.current().file.tasks.filter(t => t.completed);
 
@@ -57,6 +49,11 @@ tasks.forEach(t => {
 
 dv.paragraph(`Общее количество баллов: **${score}**`);
 
+```
+```dataview
+TABLE day, date, review, choice(completed = true, "✅", "🔄") AS Status
+FROM "Calendar/Days" 
+WHERE this.file.week = file.week
 ```
 
 ## Цели недели
