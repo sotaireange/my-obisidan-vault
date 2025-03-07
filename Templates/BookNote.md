@@ -89,11 +89,11 @@ const manualLinks = await tp.system.prompt("Добавить свои линки
 
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
-tags: <% tags.join(" ") %>
 date: <% tp.date.now("YYYY-MM-DD HH:MM") %>
-source: <% `"[[${selectedBook.basename}.pdf]]"` %>
-created: <% tp.date.now("YYYY-MM-DD HH:MM") %>
+tags: <% tags.join(" ") %>
 links: <%`\n${formattedLinks} `%>
+source: <% `"[[${selectedBook.basename}.pdf]]"` %>
+
 ---
 **📝Страница:** <% pageBook %>  
 
