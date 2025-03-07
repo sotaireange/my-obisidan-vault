@@ -103,6 +103,8 @@ WHERE this.file.week = file.week
 
 ## Обзор
 
+№
+
 ### Что было хорошо:
  - 
 
