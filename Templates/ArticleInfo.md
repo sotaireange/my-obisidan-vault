@@ -1,7 +1,7 @@
 <%*
 const name = await tp.system.prompt("Напишите новое название статьи");
 await tp.file.rename(name)
-await tp.file.move(Article/)
+await tp.file.move(`Article/`)
 
 
 
