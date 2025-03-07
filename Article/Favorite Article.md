@@ -1,4 +1,3 @@
-
 ```dataviewjs
 dv.table(["Статья", "Сайт", "Дата", "Оценка", "Прочитано"], 
     dv.pages('"Article/src"')
