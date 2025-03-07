@@ -1,4 +1,8 @@
 <%*
+const name = await tp.system.prompt("Напишите новое название файла");
+
+await tp.file.rename(name)
+await tp.file.move(`Calnder/DailyTasks/${name}`)
 
 
 %>
