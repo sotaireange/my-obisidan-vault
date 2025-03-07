@@ -1,7 +1,12 @@
 <%*
+const name = await tp.system.prompt("Напишите новое название Cn");
+
+await tp.file.rename(name)
 
 
 
+
+let tags = ["article"];
 
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
 if (manualTags) {
