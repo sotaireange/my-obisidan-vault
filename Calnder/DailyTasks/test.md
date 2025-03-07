@@ -12,15 +12,8 @@ source:
 
 ```button
 name Завершить задачу
-type script
-action
-const file = app.workspace.getActiveFile();
-if (!file) return;
-
-app.fileManager.processFrontMatter(file, (frontmatter) => {
-  frontmatter.completed = true;
-  frontmatter.completed_at = window.moment().format('YYYY-MM-DD');
-});
+type command
+action MetaEdit: Set completed to true
 color green
 ```
 
