@@ -40,9 +40,8 @@ tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))
 %>---
 date: <% tp.date.now("YYYY-MM-DD HH:MM") %>
 tags: [<% tags.join(" ") %>]
-source: <% `"[[${tag}]]"` %>
 links: <%`\n${formattedLinks} `%>
-
+source: <% `"[[${tag}]]"` %>
 ---
 ## ⚠️Описание задачи:
 
