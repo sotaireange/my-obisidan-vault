@@ -19,7 +19,7 @@ const tasksKanban = `${projectFolder}/${projectFile}_tasks.md`;
 const logicCanvas = `${projectFolder}/${projectFile}_logic.canvas`;
 const logic= `${projectFile}_logic.canvas`;%>---
 date: <% tp.date.now("YYYY-MM-DD") %>
-tags: <% tags %>
+tags: <% `\n- ${tags.join("\n- ")}`%>
 ---
 
 # 📌 Проект: <% projectFile %>
