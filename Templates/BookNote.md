@@ -83,7 +83,7 @@ if (manualTags) {
         .map(t => `#${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
-tp.date.now
+
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% tags.join(" ") %>
