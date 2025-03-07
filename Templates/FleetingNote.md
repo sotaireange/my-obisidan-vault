@@ -12,7 +12,7 @@ const manualTags = await tp.system.prompt("Добавить свои теги ч
 if (manualTags) {
     tags.push(...manualTags.split(",")
         .map(t => t.trim())
-        .map(t => `#${t.replace(/^#/, '')}`) 
+        .map(t => `${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
 
@@ -22,7 +22,7 @@ const manualLinks = await tp.system.prompt("Добавить свои линки
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 date: <% tp.date.now("YYYY-MM-DD HH:MM") %>
-tags: [<% tags.join(" ") %>]
+tags: <% tags %>
 links: <%`\n${formattedLinks} `%>
 source: 
 
