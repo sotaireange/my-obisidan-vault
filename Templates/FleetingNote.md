@@ -2,7 +2,7 @@
 const note_name = await tp.system.prompt("Напишите названиеи мысли");
 
 await tp.file.rename(noteName)
-
+await tp.file.move("SecondBrain/Fleeting")
 
 let tags = ["fleetingNote"];
 
