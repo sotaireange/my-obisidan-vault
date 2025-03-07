@@ -1,7 +1,7 @@
 ```dataview
 Table link,
 date,
-choice(readed = false, "", "✅") as Status
+choice(readed = false, "❌", "✅") as read
 ``````dataview
 TABLE review,
 choice(status = false, "🔄", "✅") as Status
