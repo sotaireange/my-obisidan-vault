@@ -17,6 +17,8 @@ poins: <% points %>
 priority: <% prority %>
 source: 
 ---
+```button name Завершить type command action "tp.file.insert_text('completed: true\ncompleted_at: ' + tp.date.now('YYYY-MM-DD HH:mm'))"
+```
 
 ## ⚠️Описание задачи:
 
