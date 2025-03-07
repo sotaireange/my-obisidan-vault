@@ -22,7 +22,7 @@ dv.paragraph(`Количество баллов недели: **${score}**`);
 const thisWeek = dv.current().week;
 const pages = dv.pages('"Calendar/Days"').where(p => p.week == thisWeek);
 let dailyScores = {};
-dv.paragraph(`Вывод: **${{pages}}**`);
+dv.paragraph(`Найдено страниц: ${pages.length}`);
 ```
 
 ```
