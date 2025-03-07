@@ -23,7 +23,7 @@ language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus")
 review: 0
 readed: false
 ---
-[Статья](<% await tp.system.prompt("Ссылка на статью") %>)
+[Статья](<% link %>)
 
 ## 📝О чем статья:   
 -
