@@ -81,6 +81,11 @@ WHERE this.file.week = file.week
 ### Что можно улучшить:
 
 
+
+## Расчет баллов:
+
+
+
 ## Все созданные файлы
 ```dataview
 TABLE tags[0] AS "TAGS" ,
