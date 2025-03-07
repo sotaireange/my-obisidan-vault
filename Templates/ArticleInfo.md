@@ -23,6 +23,9 @@ language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus")
 review: 0
 readed: false
 ---
+## О чем статья:   
+
+
 ## 🔥 Основные тезисы  
 -  
 
