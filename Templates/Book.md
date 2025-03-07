@@ -17,5 +17,5 @@ rating:
 date: 
 read: 
 status: 
-source: "false"
+source: false
 ---
