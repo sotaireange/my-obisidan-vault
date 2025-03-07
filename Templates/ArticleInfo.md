@@ -19,7 +19,7 @@ link:
 tags:
 date: <% await tp.date.now("YYYY:MM:DD") %>
 time: <% await tp.date.now("HH:MM") %>
-language: <% await tp.system.suggester(item => item, ["Happy", "Sad", "Confused"],false,"Happy")
+language: <% await tp.system.suggester(item => item, ["eng", "rus"],false,"rus")
 %>
 readed: false
 ---
