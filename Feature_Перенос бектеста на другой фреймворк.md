@@ -1,6 +1,10 @@
 ---
 date: 2025-03-04
-tags: [feature python backtest algotrading]
+tags: 
+- feature 
+- python 
+- backtest 
+- algotrading
 
 ---
 
