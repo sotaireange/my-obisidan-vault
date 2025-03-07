@@ -1,5 +1,5 @@
 ---
-date: 2025-03-05 17:03
+date: 2025-03-05
 tags:
   - booknote
   - fluent_python
