@@ -15,7 +15,7 @@ completed: false
 type: DailyTask
 completed_at: 
 poins: <% points %>
-priority: <% prority %>
+priority: <% priority %>
 source: 
 ---
 ```button
