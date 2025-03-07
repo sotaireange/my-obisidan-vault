@@ -11,7 +11,7 @@ source:
 ```button
 name Завершить 
 type command 
-action "tp.file.insert_text('completed: true\ncompleted_at: ' + tp.date.now('YYYY-MM-DD'))"
+action "completed: true\ncompleted_at: " + moment().format("YYYY-MM-DD HH:mm")"
 ```
 
 ## ⚠️Описание задачи:
