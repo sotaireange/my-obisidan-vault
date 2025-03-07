@@ -28,7 +28,6 @@ for (let page of pages) {
     let tasks = page.file.tasks.filter(t => t.completed);
     let score = 0;
 
-    // Извлекаем баллы из текста задач
     for (let task of tasks) {
         let match = task.text.match(/\[(\d+)\]/); // Ищем число в квадратных скобках
         if (match) score += parseInt(match[1]); // Добавляем к общему счёту
