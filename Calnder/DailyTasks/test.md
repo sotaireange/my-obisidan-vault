@@ -9,16 +9,11 @@ priority: 4
 source: 
 ---
 
+
 ```button
-name Завершить 
-type append 
-action this.app.fileManager.processFrontMatter( 
-    this.app.workspace.getActiveFile(),
-     (frontmatter) => {
-      frontmatter.completed = true;
-       frontmatter.completed_at = new Date().toISOString().split('T')[0]; 
-   } 
-) 
+name Завершить задачу
+type command
+action Metadata menu: Set completed to true
 color green
 ```
 
