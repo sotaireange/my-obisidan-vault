@@ -15,6 +15,7 @@ if (manualTags) {
         .filter(t => t.length > 1));
 }
 %>---
+tags: <% `\n- ${tags.join("\n- ")}`%>
 link: 
 tags:
 date: <% await tp.date.now("YYYY:MM:DD") %>
