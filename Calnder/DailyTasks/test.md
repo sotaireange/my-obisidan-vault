@@ -13,8 +13,20 @@ source:
 
 ```button
 name Завершить задачу
-type command
-action this.app.plugins.plugins['m]
+type script
+action
+const file = app.workspace.getActiveFile();
+if (!file) return;
+
+const { update } = app.plugins.plugins["metaedit"].api;
+const today = window.moment().format('YYYY-MM-DD');
+
+// Обновляем оба свойства
+await update("completed", "true", file);
+await update("completed_at", today, file);
+
+// Обновляем вид документа, чтобы изменения отобразились
+app.workspace.trigger("metadata-changed", file);
 color green
 ```
 
