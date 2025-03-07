@@ -83,7 +83,7 @@ WHERE this.file.week = file.week
 
 
 ## Расчет баллов:
-$Кол-во баллов = С$
+$Кол-во баллов = sum(days.review)/days$
 
 
 ## Все созданные файлы
