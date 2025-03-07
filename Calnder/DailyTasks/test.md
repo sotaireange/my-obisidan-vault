@@ -9,9 +9,11 @@ priority: 4
 source: 
 ---
 ```button
-name Завершить
-type command
-action "tp.file.cursorAppend('\ncompleted: true\ncompleted_at: ' + tp.date.now('YYYY-MM-DD HH:mm'))"
+name Завершить задачу
+type line
+action :completed: true
+action :completed_at: {{date:YYYY-MM-DD}}
+color green
 ```
 
 ## ⚠️Описание задачи:
