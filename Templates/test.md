@@ -1,7 +1,4 @@
 <%*
-tp.system.suggester((item) => item, ["Happy", "Sad", "Confused"],false,"Happy")
+tp.system.suggester((item) => item, ["Happy", "Sad", "Confused"],А,"Happy")
 
-%>---
-date: <% moment(date, "DD-MM-YYYY").format("YYYY-MM-DD") %>
----
-Тест
+%>Тест
