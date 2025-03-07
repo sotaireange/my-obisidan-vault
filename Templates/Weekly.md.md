@@ -47,10 +47,9 @@ tasks.forEach(t => {
   if (match) score += parseInt(match[1]); // Добавляем к общему счёту
 });
 
-dv.paragraph(`Общее количество баллов: **${score}**`);
-
+dv.paragraph(`Количество баллов недели: **${score}**`);
 ```
-
+## Дни
 ```dataview
 TABLE day, date, review, choice(completed = true, "✅", "🔄") AS Status
 FROM "Calendar/Days" 
