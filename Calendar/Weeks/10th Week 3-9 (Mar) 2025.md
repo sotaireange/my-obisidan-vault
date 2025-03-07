@@ -60,7 +60,7 @@ split(file.folder,"/")[0] as Folders,
 choice(contains(date," "), date(replace(string(date)," ", "T")+":00.000"), date) as date
 FROM ""
 WHERE (
-choice(contains(this.date," "), date(replace(string(date)," ", "T")+":00.000"), date(date))
+choice(contains(date," "), date(replace(string(date)," ", "T")+":00.000"), date(date))
 ).weekyear = this.week and !(week=this.week)
 sort date asc
 ```
