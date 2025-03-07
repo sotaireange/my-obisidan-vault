@@ -8,7 +8,7 @@ if (manualTags) {
         .filter(t => t.length > 1));
 }
 %>---
-tags : tags
+tags : <% tags %>
 ---
 
 tags=<% tags %>
