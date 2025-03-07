@@ -82,4 +82,18 @@ dv.paragraph(`Общее количество баллов: **${score}**`);
 
 
 ### Что можно улучшить:
-- 
+
+
+## Все созданные файлы
+
+
+```dataview
+TABLE tags AS "TAGS" ,
+split(file.folder,"/"),
+choice(contains(date," "), date(replace(string(date)," ", "T")+":00.000"), date) as date
+FROM ""
+WHERE (
+choice(contains(this.date," "), date(replace(string(date)," ", "T")+":00.000"), date(date))
+).weekyear = this.week and !(week=this.week)
+sort date asc
+```
