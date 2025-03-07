@@ -1,5 +1,5 @@
 ```dataview
-Table link,
+Table (link,
 date,review,
 choice(readed = false, "❌", "✅") as read
 FROM "Article/src"
