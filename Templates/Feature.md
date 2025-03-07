@@ -26,7 +26,7 @@ if (allTags.length > 0) {
 
 // Добавление выбранных тегов
 if (selected.length > 0) {
-    tags.push(...selected.map(t => t.startsWith("#") ? t : `#${t}`)
+    tags.push(...selected.map(t => t.startsWith("#") ? t : `${t}`)
                       .filter(t => t.length > 1));
 }
 
@@ -38,7 +38,7 @@ const manualTags = await tp.system.prompt("Добавить свои теги ч
 if (manualTags) {
     tags.push(...manualTags.split(",")
         .map(t => t.trim())
-        .map(t => `#${t.replace(/^#/, '')}`) 
+        .map(t => `${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
 
