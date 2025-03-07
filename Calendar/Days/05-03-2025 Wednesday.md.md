@@ -3,7 +3,7 @@ day: Wednesday
 date: 2025-03-05
 source: "[[Calendar/Weeks/10th Week 3-9 (Mar) 2025|10th Week]]"
 week: 10
-review: 0
+review: 10
 completed: false
 ---
 ```dataviewjs
