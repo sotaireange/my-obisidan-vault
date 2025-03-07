@@ -29,7 +29,7 @@ for (let page of pages) {
     let score = 0;
 
     for (let task of tasks) {
-        let match = task.text.match(/\[(\d+)\]/);х
+        let match = task.text.match(/\[(\d+)\]/);
         if (match) score += parseInt(match[1]); 
     }
 
