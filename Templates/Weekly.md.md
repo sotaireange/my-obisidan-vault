@@ -32,7 +32,7 @@ for (let i = 1; i < 7; i++) {
 }
 
 %>---
-week: <%  tp.date.weekday("W", 1) %>
+week: <%  tp.date.weekday("WW", 1) %>
 status: false
 date: <% tp.date.now("YYYY-MM-DD") %>
 review: 0
