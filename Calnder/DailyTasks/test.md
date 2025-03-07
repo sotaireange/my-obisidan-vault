@@ -14,7 +14,7 @@ source:
 ```button
 name Завершить задачу
 type command
-action this.app.plugin
+action this.app.plugins.plugins['m]
 color green
 ```
 
