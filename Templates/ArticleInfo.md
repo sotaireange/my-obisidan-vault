@@ -16,7 +16,7 @@ if (manualTags) {
 }
 %>---
 tags: <% `\n- ${tags.join("\n- ")}`%>
-date: <% await tp.date.now("YYYY:MM:DD") %>
+date: <% await tp.date.now("YYYY-MM-DD") %>
 link: <%link= await tp.system.prompt("Ссылка на статью") %>
 time: <% await tp.date.now("HH:mm") %>
 language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus") %>
