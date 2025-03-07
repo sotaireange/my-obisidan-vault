@@ -44,7 +44,7 @@ const autoTag = selectedBook
     : "unknown_book";
 
 // Базовые теги
-let tags = ["#booknote", `#${autoTag}`];
+let tags = ["booknote", `${autoTag}`];
 
 // Выбор доп. тегов
 /*
