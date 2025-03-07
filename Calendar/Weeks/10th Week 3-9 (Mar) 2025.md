@@ -29,14 +29,14 @@ for (let page of pages) {
     let score = 0;
 
     for (let task of tasks) {
-        let match = task.text.match(/\[(\d+)\]/); // Ищем число в квадратных скобках
-        if (match) score += parseInt(match[1]); // Добавляем к общему счёту
+        let match = task.text.match(/\[(\d+)\]/);х
+        if (match) score += parseInt(match[1]); 
     }
 
 }
 
-// Вывод результатов
-dv.paragraph(`Среднее по дням: **${score}}**`);
+
+dv.paragraph(`Среднее по дням: **${{score}}**`);
 ```
 
 
