@@ -1,11 +1,9 @@
 ---
 date: 2025-03-04
-tags: 
-- feature 
-- python/ABC
-- backtest 
-- algotrading
-
+tags:
+  - feature
+  - backtest
+  - algotrading
 ---
 
 
