@@ -80,7 +80,7 @@ const manualTags = await tp.system.prompt("Добавить свои теги ч
 if (manualTags) {
     tags.push(...manualTags.split(",")
         .map(t => t.trim())
-        .map(t => `#${t.replace(/^#/, '')}`) 
+        .map(t => `${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
 const manualLinks = await tp.system.prompt("Добавить свои линки через запятую:"); const formattedLinks = manualLinks .split(",")
