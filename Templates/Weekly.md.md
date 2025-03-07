@@ -14,7 +14,7 @@ const weekString = `${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${
 
 
 await tp.file.rename(weekString)
-tp.file.move
+tp.file.move("Calendar/Weeks")
 
 const folderPath = "Calendar/Days"; 
 const dateFormat = "DD-MM-YYYY dddd";
