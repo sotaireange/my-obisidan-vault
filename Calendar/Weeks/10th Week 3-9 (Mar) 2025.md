@@ -19,14 +19,30 @@ dv.paragraph(`Количество баллов недели: **${score}**`);
 ```
 
 ```dataviewjs
-let pages = dv.pages('"путь_к_заметкам"') 
-	.where(p => p.file.week == dv.current().file.week);
-let totalPoints = pages 
-	.flatMap(p => p.tasks)
-	.reduce((sum, t) => sum + (t.point || 0), 0);
-	
-dv.paragraph("Общий балл за неделю: " + totalPoints);
+const pages = dv.pages().where(p => p.file.week == dv.current().file.week);
+let dailyScores = {};
+
+// Проходим по всем заметкам текущей недели
+for (let page of pages) {
+    let tasks = page.file.tasks.filter(t => t.completed);
+    let score = 0;
+
+    // Извлекаем баллы из текста задач
+    for (let task of tasks) {
+        let match = task.text.match(/\[(\d+)\]/); // Ищем число в квадратных скобках
+        if (match) score += parseInt(match[1]); // Добавляем к общему счёту
+    }
+
+    // Запоминаем сумму баллов за день
+    let day = page.date.toISODate(); // Получаем дату в формате YYYY-MM-DD
+    dailyScores[day] = (dailyScores[day] || 0) + score;
+}
+
+// Вывод результатов
+dv.table(["Дата", "Баллы"], Object.entries(dailyScores).sort(([a], [b]) => a.localeCompare(b)));
 ```
+
+
 
 ## Дни
 ```dataview
