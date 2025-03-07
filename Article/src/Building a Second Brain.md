@@ -5,8 +5,8 @@ date: 2025-03-08
 link: https://fortelabs.com/blog/basboverview/
 time: 00:30
 language: eng
-review: 5
-readed: true
+review: 0
+readed: false
 ---
 [Статья](https://fortelabs.com/blog/basboverview/)
 
