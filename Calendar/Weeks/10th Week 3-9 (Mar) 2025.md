@@ -2,7 +2,7 @@
 week: 10
 status: false
 review: 8
-dayreview: 
+dayreview: "10"
 date: 2025-03-07
 ---
 ```dataviewjs
