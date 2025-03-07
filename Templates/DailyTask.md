@@ -13,6 +13,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
 completed: false
 type: DailyTask
+completed_at: 
 poins: <% points %>
 priority: <% prority %>
 source: 
