@@ -18,7 +18,7 @@ if (manualTags) {
 link: 
 tags:
 date: <% await tp.date.now("YYYY:MM:DD") %>
-time: <% await tp.date.now("HH:MM") %>
+time: <% await tp.date.now("HH:mm") %>
 language: <% await tp.system.suggester(item => item, ["eng", "rus"],false,"rus")
 %>
 readed: false
