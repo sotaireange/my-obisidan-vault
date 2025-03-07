@@ -12,6 +12,11 @@ if (manualTags) {
         .map(t => `#${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
+
+const manualLinks = await tp.system.prompt("Добавить свои линки через запятую:"); const formattedLinks = manualLinks .split(",")
+.map(l => `- "[[${l.trim()}]]"`)
+.join("\n");
+
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% tags.join(" ") %>
