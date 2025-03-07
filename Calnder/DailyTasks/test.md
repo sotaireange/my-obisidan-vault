@@ -12,8 +12,15 @@ source:
 
 ```button
 name Завершить задачу
-type command
-action Metadata menu: Set completed to true
+type script
+action
+const file = app.workspace.getActiveFile();
+if (!file) return;
+
+app.fileManager.processFrontMatter(file, (frontmatter) => {
+  frontmatter.completed = true;
+  frontmatter.completed_at = window.moment().format('YYYY-MM-DD');
+});
 color green
 ```
 
