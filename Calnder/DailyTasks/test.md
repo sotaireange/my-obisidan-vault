@@ -18,7 +18,7 @@ action
 const file = app.workspace.getActiveFile();
 if (!file) return;
 
-const { update } = app.plugins.plugins["metaedit"].api;
+const { app } = app.plugins.plugins["metaedit"].api;
 const today = window.moment().format('YYYY-MM-DD');
 
 // Обновляем оба свойства
