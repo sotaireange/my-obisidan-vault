@@ -53,9 +53,11 @@ dv.paragraph(`Количество баллов недели: **${score}**`);
 
 ```dataviewjs
 let pages = dv.pages('"путь_к_заметкам"') 
-.where(p => p.file.week == dv.current().file.week);
-let totalPoints = pages .flatMap(p => p.tasks)
-.reduce((sum, t) => sum + (t.point || 0), 0);
+	.where(p => p.file.week == dv.current().file.week);
+let totalPoints = pages 
+	.flatMap(p => p.tasks)
+	.reduce((sum, t) => sum + (t.point || 0), 0);
+	
 dv.paragraph("Общий балл за неделю: " + totalPoints);
 ```
 
