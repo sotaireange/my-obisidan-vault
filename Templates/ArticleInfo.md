@@ -1,5 +1,5 @@
 <%*
-const name = await tp.system.prompt("Напишите новое название статьи");
+const name = await tp.system.prompt("Напишите название статьи");
 await tp.file.rename(name)
 await tp.file.move(`Article/src/${name}`)
 
@@ -16,11 +16,9 @@ if (manualTags) {
 }
 %>---
 tags: <% `\n- ${tags.join("\n- ")}`%>
-link: 
-tags:
+link: <% await tp.prompt("Ссылка на статью") %>
 date: <% await tp.date.now("YYYY:MM:DD") %>
 time: <% await tp.date.now("HH:mm") %>
-language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus")
-%>
+language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus") %>
 readed: false
 ---
