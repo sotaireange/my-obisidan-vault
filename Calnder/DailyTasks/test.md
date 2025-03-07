@@ -2,7 +2,7 @@
 date: 2025-03-08
 time: 01:04
 completed: false
-completed_at: 
+completed_at: null 
 type: DailyTask
 poins: 1
 priority: 4
