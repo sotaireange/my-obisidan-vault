@@ -83,7 +83,7 @@ WHERE this.file.week = file.week
 
 
 ## Расчет баллов:
-$Кол-во баллов = sum(days.review)/days$
+$Кол-во баллов = $$\sum_{i=0}^{i=7}$$days.review)/days$
 
 $$\sum_{i=0}^{i=7}$$
 ## Все созданные файлы
