@@ -33,9 +33,6 @@ for (let page of pages) {
         if (match) score += parseInt(match[1]); // Добавляем к общему счёту
     }
 
-    // Запоминаем сумму баллов за день
-    let day = page.date.toISODate(); // Получаем дату в формате YYYY-MM-DD
-    dailyScores[day] = (dailyScores[day] || 0) + score;
 }
 
 // Вывод результатов
