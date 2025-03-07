@@ -1,6 +1,5 @@
 <%*
-const name = await tp.system.prompt("Напишите новое название Cn");
-
+const name = await tp.system.prompt("Напишите новое название статьи");
 await tp.file.rename(name)
 
 
