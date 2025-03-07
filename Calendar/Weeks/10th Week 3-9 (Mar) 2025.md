@@ -39,7 +39,7 @@ for (let page of pages) {
 }
 
 // Вывод результатов
-dv.table(["Дата", "Баллы"], Object.entries(dailyScores).sort(([a], [b]) => a.localeCompare(b)));
+dv.paragraph(`Среднее по дням': **${score}}**`);
 ```
 
 
