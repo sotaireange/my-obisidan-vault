@@ -85,8 +85,6 @@ dv.paragraph(`Общее количество баллов: **${score}**`);
 
 
 ## Все созданные файлы
-
-
 ```dataview
 TABLE tags[0] AS "TAGS" ,
 split(file.folder,"/")[0] as Folders,
