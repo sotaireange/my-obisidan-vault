@@ -2,4 +2,4 @@
 tags : tags
 ---
 
-tags=test,#test1,#test2
+tags=test,tatat,tsata
