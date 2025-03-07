@@ -43,8 +43,7 @@ const totalDays = Object.keys(dailyScores).length;
 const totalScore = Object.values(dailyScores).reduce((a, b) => a + b, 0);
 const avgScore = totalDays > 0 ? (totalScore / totalDays).toFixed(2) : 0;
 
-dv.paragraph(`Средний балл за неделю: **${avgScore}**`);
-
+dv.paragraph(`Средний балл по дням: **${avgScore}**`);
 ```
 
 
