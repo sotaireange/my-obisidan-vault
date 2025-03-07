@@ -33,6 +33,7 @@ tasks.forEach(t => {
 dv.paragraph(`Общее количество баллов: **${score}**`);
 
 ```
+task=`=sum(this.file.tasks.completed.point)`
 ## План
 
 ### Учебные задания:
