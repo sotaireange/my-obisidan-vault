@@ -1,7 +1,7 @@
 ---
 link: 
 tags:
-date:
+date: <% tp.date.now("YYYY:MM:DD") %>
 time: <% tp.date.now("HH:MM") %>
 readed: false
 ---
