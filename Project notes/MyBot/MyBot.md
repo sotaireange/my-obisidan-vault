@@ -1,6 +1,9 @@
 ---
 date: 2025-03-02
-tags: project MyBot algotrading
+tags: 
+- project
+- MyBot
+- algotrading
 links:
   - Нужно сделать
 ---
