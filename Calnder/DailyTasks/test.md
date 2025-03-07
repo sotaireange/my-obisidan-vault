@@ -14,7 +14,7 @@ source:
 ```button
 name Завершить задачу
 type command
-action MetaEdit: Run MetaEdit completed to true
+action this.app.plugin
 color green
 ```
 
