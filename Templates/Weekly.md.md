@@ -34,6 +34,7 @@ for (let i = 1; i < 7; i++) {
 %>---
 week: <%  tp.date.weekday("WW", 1) %>
 status: false
+review: 0
 date: <% tp.date.now("YYYY-MM-DD") %>
 ---
 ```dataviewjs
