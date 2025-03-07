@@ -89,6 +89,7 @@ tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% tags.join(" ") %>
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
 date: <% tp.date.now("YYYY-MM-DD") %>
+time: <% tp.date.now("HH:mm") %>
 ---
 **📝Страница:** <% pageBook %>  
 
