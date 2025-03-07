@@ -7,6 +7,7 @@ tags:
   - хуй
 links:
   - "[[Нужно сделать.md]]"
+  - "[[Weeks Review]]"
 source: "[[MyBot]]"
 ---
 ## ⚠️Описание задачи:
