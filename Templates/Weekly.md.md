@@ -50,6 +50,7 @@ tasks.forEach(t => {
 dv.paragraph(`Общее количество баллов: **${score}**`);
 
 ```
+
 ```dataview
 TABLE day, date, review, choice(completed = true, "✅", "🔄") AS Status
 FROM "Calendar/Days" 
