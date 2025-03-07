@@ -9,7 +9,7 @@ const manualTags = await tp.system.prompt("Добавить свои теги ч
 if (manualTags) {
     tags.push(...manualTags.split(",")
         .map(t => t.trim())
-        .map(t => `#${t.replace(/^#/, '')}`) 
+        .map(t => `${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
 
@@ -18,8 +18,8 @@ const projectFolder = tp.file.folder(true);
 const tasksKanban = `${projectFolder}/${projectFile}_tasks.md`; 
 const logicCanvas = `${projectFolder}/${projectFile}_logic.canvas`;
 const logic= `${projectFile}_logic.canvas`;%>---
-created: <% tp.date.now("YYYY-MM-DD") %>
-tags: <% tags.join(' ') %>
+date: <% tp.date.now("YYYY-MM-DD") %>
+tags: <% `\n- ${tags.join("\n- ")}`%>
 ---
 
 # 📌 Проект: <% projectFile %>
