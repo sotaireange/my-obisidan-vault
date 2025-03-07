@@ -20,7 +20,6 @@ week: <% weekNumber.replace('th','') %>
 review: 0
 completed: false
 ---
-
 ```dataviewjs
 const tasks = dv.current().file.tasks.filter(t => t.completed);
 
