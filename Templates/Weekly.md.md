@@ -1,12 +1,12 @@
 <%*
-const firstDay = tp.date.weekday("D", 0); // День начала недели (1-31)
+const firstDay = tp.date.weekday("D", 1); // День начала недели (1-31)
 const lastDay = tp.date.weekday("D", 7); // День конца недели (1-31)
 
-const firstMonth = tp.date.weekday("MMM", 0); // Название месяца начала недели (Jan, Feb)
+const firstMonth = tp.date.weekday("MMM", 1); // Название месяца начала недели (Jan, Feb)
 const lastMonth = tp.date.weekday("MMM", 7); // Название месяца конца недели
 
-const year = tp.date.weekday("YYYY", 0); // Год
-const weekNumber = tp.date.weekday("Wo", 0); // Номер недели
+const year = tp.date.weekday("YYYY", 1); // Год
+const weekNumber = tp.date.weekday("Wo", 1); // Номер недели
 
 const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${lastMonth}`; // Если месяц один, просто Jan, иначе Jan-Feb
 
@@ -22,7 +22,7 @@ const templatePath =tp.file.find_tfile("Daily.md");
 
 const days = [];
 const daysDate = [];
-for (let i = 0; i < 6; i++) {
+for (let i = 1; i < 7; i++) {
     const dayDate = tp.date.weekday(dateFormat, i);
     const filePath = `${folderPath}/${dayDate}.md`;
 	const dayDateCalendar = tp.date.weekday("DD-MM", i);
