@@ -1,10 +1,9 @@
-
 ---
 date: 2025-03-08
-time: 01:03
+time: 01:04
 completed: false
-type: DailyTask
 completed_at: 
+type: DailyTask
 poins: 1
 priority: 4
 source: 
@@ -14,7 +13,6 @@ name Завершить
 type command 
 action "tp.file.insert_text('completed: true\ncompleted_at: ' + tp.date.now('YYYY-MM-DD'))"
 ```
-
 
 ## ⚠️Описание задачи:
 
