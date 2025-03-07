@@ -4,9 +4,9 @@ tags:
 date: 2025-03-08
 link: https://fortelabs.com/blog/basboverview/
 time: 00:30
-language: rus
+language: eng
 review: 5
-readed: false
+readed: true
 ---
 [Статья](https://fortelabs.com/blog/basboverview/)
 
