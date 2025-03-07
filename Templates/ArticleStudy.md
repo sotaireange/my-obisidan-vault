@@ -19,7 +19,7 @@ const manualLinks = await tp.system.prompt("Добавить свои линки
 
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
-date: <% tp.date.now("DD-MM-YYYY HH:MM") %>
+date: <% tp.date.now("DD-MM-YYYY") %>
 tags: <% tags %>
 links: <%`\n${formattedLinks} `%>
 source: <% await tp.system.prompt("Введите ссылку")  %>
