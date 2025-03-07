@@ -11,7 +11,14 @@ source:
 
 ```button name 
 type append 
-action this.app.fileManager.processFrontMatter( this.app.workspace.getActiveFile(), (frontmatter) => { frontmatter.completed = true; frontmatter.completed_at = new Date().toISOString().split('T')[0]; } ) color green
+action this.app.fileManager.processFrontMatter( 
+    this.app.workspace.getActiveFile(),
+     (frontmatter) => {
+      frontmatter.completed = true;
+       frontmatter.completed_at = new Date().toISOString().split('T')[0]; 
+   } 
+) 
+color green
 ```
 
 ## ⚠️Описание задачи:
