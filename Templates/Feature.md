@@ -30,6 +30,9 @@ if (selected.length > 0) {
                       .filter(t => t.length > 1));
 }
 
+
+links: <%`\n${formattedLinks} `%>
+
 // Ручной ввод тегов
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
 if (manualTags) {
@@ -42,6 +45,8 @@ if (manualTags) {
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 date: <% tp.date.now("YYYY-MM-DD HH:MM") %>
 tags: [<% tags.join(" ") %>]
+source: 
+
 
 ---
 
