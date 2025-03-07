@@ -55,8 +55,8 @@ dv.paragraph(`Общее количество баллов: **${score}**`);
 
 
 ```dataview
-TABLE tags AS "TAGS" ,
-split(file.folder,"/") as Folders,
+TABLE tags[0] AS "TAGS" ,
+split(file.folder,"/")[0] as Folders,
 choice(contains(date," "), date(replace(string(date)," ", "T")+":00.000"), date) as date
 FROM ""
 WHERE (
