@@ -1,11 +1,10 @@
 <%*
-const feature_name = await tp.system.prompt("Напишите названиеи мысли");
+const note_name = await tp.system.prompt("Напишите названиеи мысли");
 
-const filename=`Feature_${feature_name}`
-await tp.file.rename(filename)
+await tp.file.rename(noteName)
 
 
-let tags = ["feature"];
+let tags = ["fleetingNote"];
 
 const allTags = Object.keys(app.metadataCache.getTags())
                     .filter(t => t.length > 1 && t !== "features");
