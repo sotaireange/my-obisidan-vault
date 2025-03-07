@@ -23,10 +23,7 @@ const thisWeek = dv.current().week;
 const pages = dv.pages('"Calendar/Days"').where(p => p.week == thisWeek);
 let dailyScores = {};
 dv.paragraph(`Найдено страниц: ${pages.length}`);
-```
 
-```
-// Проходим по всем заметкам текущей недели
 for (let page of pages) {
     let tasks = page.file.tasks.filter(t => t.completed);
     let score = 0;
