@@ -4,7 +4,7 @@ const name = await tp.system.prompt("Напишите название зада�
 await tp.file.rename(name)
 await tp.file.move(`Calnder/DailyTasks/${name}`)
 
-const priority
+const priority =
 
 %>
 ---
@@ -13,6 +13,6 @@ time: <% tp.date.now("HH:mm") %>
 completed: false
 type: DailyTask
 poins:
-prioritety:
+priority:
 source: 
 ---
