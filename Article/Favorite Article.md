@@ -1,7 +1,10 @@
 ```dataview
 Table link,
-date,
+date,review,
 choice(readed = false, "❌", "✅") as read
+FROM "Article/src"
+sort review asc
+
 ``````dataview
 TABLE review,
 choice(status = false, "🔄", "✅") as Status
