@@ -3,6 +3,7 @@ kanban-plugin: basic
 ---
 
 ## 🟢 Todo
+- [ ]      [[task_MyBot_agdsgsdgg]]
 - [ ]      [[task_MyBot_тестовая хуйня]]
 - [ ]      [[task_MyBot_anothertask]]
 - [ ]      [[task_MyBot_Новая задача]]
