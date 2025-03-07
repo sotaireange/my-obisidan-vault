@@ -16,13 +16,15 @@ if (manualTags) {
 }
 %>---
 tags: <% `\n- ${tags.join("\n- ")}`%>
-link: <% await tp.system.prompt("Ссылка на статью") %>
 date: <% await tp.date.now("YYYY:MM:DD") %>
+link: <% await tp.system.prompt("Ссылка на статью") %>
 time: <% await tp.date.now("HH:mm") %>
 language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus") %>
 review: 0
 readed: false
 ---
+[Статья](<% await tp.system.prompt("Ссылка на статью") %>)
+
 ## 📝О чем статья:   
 -
 
