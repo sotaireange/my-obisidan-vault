@@ -89,7 +89,7 @@ dv.paragraph(`Общее количество баллов: **${score}**`);
 
 ```dataview
 TABLE tags AS "TAGS" ,
-split(file.folder,"/"),
+split(file.folder,"/") as Folders,
 choice(contains(date," "), date(replace(string(date)," ", "T")+":00.000"), date) as date
 FROM ""
 WHERE (
