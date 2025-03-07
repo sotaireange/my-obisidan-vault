@@ -49,8 +49,8 @@ const manualLinks = await tp.system.prompt("Добавить свои линки
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 date: <% tp.date.now("YYYY-MM-DD HH:MM") %>
 tags: [<% tags.join(" ") %>]
-source: 
 links: <%`\n${formattedLinks} `%>
+source: 
 
 ---
 
