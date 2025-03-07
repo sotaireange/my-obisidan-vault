@@ -1,4 +1,4 @@
 <%*
-tp.system.suggester((item) => item, ["Happy", "Sad", "Confused"],False,"Happy")
+tp.system.suggester((item) => item, ["Happy", "Sad", "Confused"],false,"Happy")
 
 %>Тест
