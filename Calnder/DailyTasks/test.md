@@ -14,7 +14,7 @@ source:
 ```button
 name Завершить задачу
 type command
-action MetaEdit: Set completed to true
+action MetaEdit: Run MetaEdit completed to true
 color green
 ```
 
