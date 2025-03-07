@@ -1,6 +1,6 @@
 ---
 week: 10
-status: false
+status: true
 review: 8
 dayreview: "10"
 date: 2025-03-07
