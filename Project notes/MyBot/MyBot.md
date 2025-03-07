@@ -1,5 +1,5 @@
 ---
-created: 2025-03-02
+date: 2025-03-02
 tags: project MyBot algotrading
 links:
   - Нужно сделать
