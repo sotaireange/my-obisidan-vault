@@ -17,7 +17,7 @@ action:
   type: insertIntoNote
   fromLine: 4
   toLine:5
-  value: `completed: false\ncompleted
+  value: `completed: false\ncompleted_at${tp.date.now("YYYY-MM-DD")}`
   templater: false
 ```
 ## ⚠️Описание задачи:
