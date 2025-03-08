@@ -4,7 +4,7 @@ time: 21:21
 completed: To do
 completed_at: 
 "Status:": af
-"Priority:": 
+"Priority:": null
 type: DailyTask
 poins: 1
 priority: 4
