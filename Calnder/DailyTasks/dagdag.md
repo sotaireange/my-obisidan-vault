@@ -11,12 +11,10 @@ priority: 4
 source: 
 tags:
   - tasks
-completeed: true
 ---
-
+`BUTTON[completed_at]`
 ## ⚠️Описание задачи:
 
 
 
 ## 📝Что нужно сделать:
-`BUTTON[completed_at]`
