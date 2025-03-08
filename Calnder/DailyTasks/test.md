@@ -15,7 +15,8 @@ style: primary
 label: Complete
 action:
   type: insertIntoNote
-  line: 4
+  fromLine: 4
+  toLine:5
   value: "completed: false"
   templater: false
 ```
