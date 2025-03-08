@@ -1,7 +1,7 @@
 ---
 date: 2025-03-08
 time: 01:04
-completed: To do
+completed: "To Do"
 completed_at: 
 type: DailyTask
 poins: 1
