@@ -1,5 +1,5 @@
 <%*
-const {autoprop} = this.app.plugins.plugins["metaedit"].api;
+const {autoprop} = this.app.plugins.plugins["metaedit"].api
 %>---
 date: 2025-03-08
 time: 01:04
