@@ -22,8 +22,10 @@ style: primary
 label: Complete
 id: complete
 action:
- - type: command
- - command:
+ - type: insertIntoNote
+ - line: 20
+ - value: "Hello World!"
+ - templater: false
 ```
 
 ## ⚠️Описание задачи:
