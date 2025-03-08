@@ -1,6 +1,4 @@
-<%*
-await tp.date.now()
-%>---
+<%* await tp.date.now() %>---
 date: 2025-03-08
 time: 01:04
 completed: false
