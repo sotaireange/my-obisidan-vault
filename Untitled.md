@@ -18,8 +18,7 @@ return engine.markdown.create(str);
 ```
 
 ```meta-bind
-{{button[[
-    target=status
+target:status
     action=cycleThrough
     values=[active, on-hold, completed]
 ]]}}
