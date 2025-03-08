@@ -27,14 +27,14 @@ label: Complete
 id: "test"
 action:
   type: updateMetadata
-  bindTarget: completed,completed_at
+  bindTarget: completed
   evaluate: true
-  value: true, "tp.date.now('YYYY-MM-DD')"
+  value: true 
 
 ```
 
   
-`==BUTTON[test]==` `VIEW[{count}]`
+
 
 
 ## ⚠️Описание задачи:
