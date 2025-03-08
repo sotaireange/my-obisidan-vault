@@ -10,26 +10,16 @@ source:
 
 ---
 
-Чекнуть здесь!!!!!
-https://github.com/chhoumann/MetaEdit
-```button
-name Завершить задачу
-type script
-action
-const file = app.workspace.getActiveFile();
-
-const { app } = app.plugins.plugins["metaedit"].api;
-const today = window.moment().format('YYYY-MM-DD');
-
-// Обновляем оба свойства
-await app.update("completed", "true", file);
-await app.update("completed_at", today, file);
-
-// Обновляем вид документа, чтобы изменения отобразились
-app.workspace.trigger("metadata-changed", file);
-color green
+```meta-bind-button
+style: primary
+label: Complete
+action:
+  type: insertIntoNote
+  line: 20
+  value: "Hello World!"
+Hello World!
+  templater: false
 ```
-
 ## ⚠️Описание задачи:
 
 
