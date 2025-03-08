@@ -20,7 +20,6 @@ source:
 ```meta-bind-button
 style: primary
 label: Complete
-id: complete
 action:
  - type: insertIntoNote
  - line: 20
