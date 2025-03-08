@@ -6,7 +6,8 @@ completed_at: 2025-03-08
 type: DailyTask
 poins: 1
 priority: 4
-source: 
+source:
+tag: tasks
 ---
 
 `BUTTON[complete,completed_at]`
