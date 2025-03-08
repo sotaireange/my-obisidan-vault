@@ -17,7 +17,7 @@ id: "complete"
 style: default
 actions:
   - type: updateMetadata
-    bindTarget: count
+    bindTarget: complete
     evaluate: false
     value: true
 ```
@@ -29,7 +29,7 @@ id: "completed_at"
 style: default
 actions:
   - type: updateMetadata
-    bindTarget: count
+    bindTarget: completed_at
     evaluate: true
     value: "tp.date.now('YYYY-MM-DD')"
 ```
