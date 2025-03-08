@@ -7,7 +7,7 @@ type: DailyTask
 poins: 1
 priority: 4
 source: 
-
+complete: false
 ---
 
 ```meta-bind-button
@@ -15,9 +15,9 @@ style: primary
 label: Complete
 action:
   type: updateMetadata
-  fromLine: 4
-  toLine: 5
-  replacement: "completed: false\ncompleted_at:${tp.date.now("YYYY-MM-DD")}"
+  bindTarget: completed
+  evaluate: false
+  value: false 
 
 ```
 ## ⚠️Описание задачи:
