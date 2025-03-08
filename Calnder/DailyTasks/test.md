@@ -11,6 +11,7 @@ source:
 
 ```meta-bind-button
 style: primary
+hidden: true
 label: Complete
 id: "test"
 action:
