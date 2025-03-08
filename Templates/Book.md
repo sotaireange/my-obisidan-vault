@@ -12,3 +12,12 @@ read:
 status:
 source:
 ---
+## Summary
+
+
+## Notes
+```dataview
+List 
+FROM "Books"
+where source= this.source AND file.name != this.file.name
+```
