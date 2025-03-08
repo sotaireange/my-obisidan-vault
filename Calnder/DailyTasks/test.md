@@ -17,7 +17,7 @@ action:
   type: insertIntoNote
   fromLine: 4
   toLine:5
-  value: "completed: false"
+  value: `completed: false\ncompleted
   templater: false
 ```
 ## ⚠️Описание задачи:
