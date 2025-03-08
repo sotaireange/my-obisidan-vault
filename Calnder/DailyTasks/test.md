@@ -14,7 +14,7 @@ source:
 style: primary
 label: Complete
 action:
-  type: insertIntoNote
+  type: "replaceInNote"
   fromLine: 4
   toLine: 5
   replacement: "completed: false\ncompleted_at${tp.date.now("YYYY-MM-DD")}"
