@@ -2,7 +2,7 @@
 date: 2025-03-08
 time: 01:04
 completed: false
-completed_at: 
+completed_at
 type: DailyTask
 poins: 1
 priority: 4
@@ -17,7 +17,7 @@ action:
   type: "replaceInNote"
   fromLine: 4
   toLine: 5
-  replacement: "completed: false\ncompleted_at${tp.date.now("YYYY-MM-DD")}"
+  replacement: "completed: false\ncompleted_at"
 
 ```
 ## ⚠️Описание задачи:
