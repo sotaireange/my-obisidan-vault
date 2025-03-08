@@ -6,6 +6,10 @@ time: 01:04
 completed: false
 completed_at: test
 type: DailyTask
+```
+Status:: <% await autoprop("Status") %>
+Priority:: <% await autoprop("Priority") %>
+```
 poins: 1
 priority: 4
 source: 
