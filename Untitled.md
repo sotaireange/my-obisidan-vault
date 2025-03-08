@@ -16,3 +16,11 @@ const options = context.bound.options.map(x => `option(${x})`).join(", ");
 const str = `\`INPUT[inlineSelect(${options}):selected]\``;
 return engine.markdown.create(str);
 ```
+
+```meta-bind
+{{button[[
+    target=status
+    action=cycleThrough
+    values=[active, on-hold, completed]
+]]}}
+```
