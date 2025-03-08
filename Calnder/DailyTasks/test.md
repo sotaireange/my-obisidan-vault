@@ -2,7 +2,7 @@
 date: 2025-03-08
 time: 01:04
 completed: false
-completed_at: 2025-03-08T13:14:57.763Z
+completed_at: 
 type: DailyTask
 poins: 1
 priority: 4
@@ -31,7 +31,7 @@ actions:
   - type: updateMetadata
     bindTarget: completed_at
     evaluate: true
-    value: "moment()"
+    value: "moment('YYYY-MM-DD')"
 ```
 
 
