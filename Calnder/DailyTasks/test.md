@@ -2,6 +2,7 @@
 date: 2025-03-08
 time: 01:04
 completed: false
+completed: false
 completed_at: 
 type: DailyTask
 poins: 1
@@ -15,8 +16,8 @@ style: primary
 label: Complete
 action:
   type: insertIntoNote
-  line: 20
-  value: "Hello World!"
+  line: 4
+  value: "completed: false"
   templater: false
 ```
 ## ⚠️Описание задачи:
