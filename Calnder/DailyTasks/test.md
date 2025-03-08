@@ -12,6 +12,7 @@ source:
 ```meta-bind-button
 style: primary
 label: Complete
+id: "test"
 action:
   type: updateMetadata
   bindTarget: completed,completed_at
@@ -19,6 +20,11 @@ action:
   value: true, "tp.date.now('YYYY-MM-DD')"
 
 ```
+
+  
+`==BUTTON[test]==` `VIEW[{count}]`
+
+
 ## ⚠️Описание задачи:
 
 
