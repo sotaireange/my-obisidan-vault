@@ -17,7 +17,6 @@ action:
   type: insertIntoNote
   line: 20
   value: "Hello World!"
-Hello World!
   templater: false
 ```
 ## ⚠️Описание задачи:
