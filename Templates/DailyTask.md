@@ -17,17 +17,6 @@ poins: <% points %>
 priority: <% priority %>
 source: 
 ---
-Hello World!
-Hello World!
-```meta-bind-button
-style: primary
-label: Complete
-action:
-  type: insertIntoNote
-  line: 20
-  value: "Hello World!"
-  templater: false
-```
 
 ## ⚠️Описание задачи:
 
