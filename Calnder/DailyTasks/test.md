@@ -1,4 +1,5 @@
-<%* interface UpdateMetadataButtonAction {
+<%* 
+interface UpdateMetadataButtonAction {
 
 type: 'updateMetadata';
 
