@@ -1,8 +1,8 @@
 ---
 date: 2025-03-08
 time: 01:04
-completed: "To Do"
-completed_at: 
+completed: false
+completed_at: "TO DO"
 type: DailyTask
 poins: 1
 priority: 4
