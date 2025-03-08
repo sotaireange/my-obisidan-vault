@@ -17,8 +17,9 @@ poins: <% points %>
 priority: <% priority %>
 source: 
 ---
-```button
-name Завершить 
+```meta-bind-button
+style: primary
+label: 
 type command 
 action "tp.file.insert_text('completed: true\ncompleted_at: ' + tp.date.now('YYYY-MM-DD'))"
 ```
