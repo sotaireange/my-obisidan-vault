@@ -1,16 +1,12 @@
 ---
 date: 2025-03-08
-time: 21:17
+time: 21:20
 completed: To do
 completed_at: 
-"Status:": null
-"Priority:": 
 type: DailyTask
 poins: 1
 priority: 4
 source: 
-tags:
-  - tasks
 ---
 
 ## ⚠️Описание задачи:
