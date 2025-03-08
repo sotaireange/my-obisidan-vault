@@ -19,8 +19,8 @@ source:
 ---
 ```meta-bind-button
 style: primary
-label: 
-type command 
+label: Complete
+id: 
 action "tp.file.insert_text('completed: true\ncompleted_at: ' + tp.date.now('YYYY-MM-DD'))"
 ```
 
