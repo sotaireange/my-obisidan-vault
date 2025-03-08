@@ -16,7 +16,7 @@ action:
   type: updateMetadata
   bindTarget: completed,completed_at
   evaluate: true
-  value: true, "tp.date.now("YYYY-MM-DD")"
+  value: true, "tp.date.now('YYYY-MM-DD')"
 
 ```
 ## ⚠️Описание задачи:
