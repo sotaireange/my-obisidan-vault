@@ -1,3 +1,6 @@
+---
+count: true
+---
 <%* 
 interface UpdateMetadataButtonAction {
 
@@ -21,21 +24,21 @@ source:
 ---
 
 ```meta-bind-button
-label: "+1"
+label: "Complete"
 hidden: true
-id: "count-increment"
+id: "complete"
 style: default
 actions:
   - type: updateMetadata
     bindTarget: count
-    evaluate: true
-    value: "x + 1"
+    evaluate: false
+    value: true
 ```
 
 ```meta-bind-button
-label: "-1"
+label: "Completed_at"
 hidden: true
-id: "count-decrement"
+id: "completed_at"
 style: default
 actions:
   - type: updateMetadata
@@ -45,8 +48,7 @@ actions:
 ```
 
 
-`BUTTON[count-decrement, count-reset, count-increment]` `VIEW[{count}]`
-
+`BUTTON[complete,completed_at]`
 
 
 ## ⚠️Описание задачи:
