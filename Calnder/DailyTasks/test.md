@@ -21,19 +21,31 @@ source:
 ---
 
 ```meta-bind-button
-style: primary
+label: "+1"
 hidden: true
-label: Complete
-id: "test"
-action:
-  type: updateMetadata
-  bindTarget: completed
-  evaluate: true
-  value: true 
-
+id: "count-increment"
+style: default
+actions:
+  - type: updateMetadata
+    bindTarget: count
+    evaluate: true
+    value: "x + 1"
 ```
 
-  
+```meta-bind-button
+label: "-1"
+hidden: true
+id: "count-decrement"
+style: default
+actions:
+  - type: updateMetadata
+    bindTarget: count
+    evaluate: true
+    value: "tp.date.now('YYYY-MM-DD')"
+```
+
+
+`BUTTON[count-decrement, count-reset, count-increment]` `VIEW[{count}]`
 
 
 
