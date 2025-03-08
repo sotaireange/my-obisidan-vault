@@ -1,13 +1,12 @@
 ---
 date: 2025-03-08
 time: 01:04
-completed: false
-completed_at: 
+completed: true
+completed_at: 2025-03-08
 type: DailyTask
 poins: 1
 priority: 4
 source: 
-count: true
 ---
 
 ```meta-bind-button
@@ -17,7 +16,7 @@ id: "complete"
 style: default
 actions:
   - type: updateMetadata
-    bindTarget: complete
+    bindTarget: completed
     evaluate: false
     value: true
 ```
@@ -31,7 +30,7 @@ actions:
   - type: updateMetadata
     bindTarget: completed_at
     evaluate: true
-    value: "moment('YYYY-MM-DD')"
+    value: "moment().format('YYYY-MM-DD')"
 ```
 
 
