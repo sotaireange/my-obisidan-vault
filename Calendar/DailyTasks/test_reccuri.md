@@ -8,7 +8,7 @@ points: 1
 priority: 4
 tags:
   - tasks
-daycompleted:
+daycompleted: f
 ---
 
 ## ⚠️Описание задачи:
