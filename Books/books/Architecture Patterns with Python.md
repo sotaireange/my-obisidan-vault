@@ -20,6 +20,6 @@ progress: 0
 ## Notes
 ```dataview
 List 
-FROM "Books/"
+FROM "Books"
 where source= this.source AND file.name != this.file.name
 ```
