@@ -54,22 +54,19 @@ dv.paragraph(`Общее количество баллов: **${score}**`);
 
 ## Список задач
 ```dataviewjs
-const tasks = dv.pages("#tasks")
-    .sort(t => t.priority, 'desc')
-    .filter(t => !t.completed)
+const tasks = dv.pages("#everydaytask")
     .map(t => {
         const link = t.file.link;
-        const created = t.date;
-        const tags = t.tags;
-        const priority = t.priority;
-        const points = t.points
+        const info = t.info;
+        const forEach = t.forEach;
+        const points = t.points;
+		const type = t.type;
 
         return [
             link, 
-            created, 
-            tags, 
-            priority,
-            points, 
+            info, 
+            forEach, 
+            points,
             `\`\`\`meta-bind-button
 label: "Finish"
 hidden: false
@@ -77,18 +74,18 @@ id: "complete_in_table"
 style: default
 actions:
 - type: updateMetadata
-  bindTarget: "${t.file.name}#completed"
+  bindTarget: "${type}"
   evaluate: true
-  value: "true"
+  value: "x+1"
 - type: updateMetadata
-  bindTarget: "${t.file.name}#completed_at"
+  bindTarget: "review"
   evaluate: true
-  value: "'${moment().format('YYYY-MM-DD')}'"
+  value: "x+1"
 \`\`\``
         ];
     });
 
-dv.table(["Name", "Created", "Tags", "Priority", "Points",""], tasks);
+dv.table(["Name","INFO","ForEach", "Points",""], tasks);
 ```
 
 ## ## Обзор
