@@ -8,7 +8,6 @@ points: 1
 priority: 4
 tags:
   - tasks
-daycompleted: '[["10-03-2025 Monday.md"]]'
 ---
 
 ## ⚠️Описание задачи:
