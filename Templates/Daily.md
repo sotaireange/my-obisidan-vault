@@ -69,19 +69,22 @@ dv.table(["Name","INFO","ForEach", "Points",""], tasks);
 
 ## Список задач
 ```dataviewjs
-const tasks = dv.pages("#everydaytask")
+const tasks = dv.pages("#tasks")
+    .sort(t => t.priority, 'desc')
+    .filter(t => !t.completed)
     .map(t => {
         const link = t.file.link;
-        const info = t.info;
-        const forEach = t.forEach;
-        const points = t.points;
-		const type = t.type;
-
+        const created = t.date;
+        const tags = t.tags;
+        const priority = t.priority;
+        const points = t.points
+        const reviewValue = `x+${points}`;
         return [
             link, 
-            info, 
-            forEach, 
-            points,
+            created, 
+            tags, 
+            priority,
+            points, 
             `\`\`\`meta-bind-button
 label: "Finish"
 hidden: false
@@ -89,18 +92,22 @@ id: "complete_in_table"
 style: default
 actions:
 - type: updateMetadata
-  bindTarget: "${type}"
+  bindTarget: "${t.file.name}#completed"
   evaluate: true
-  value: "x+1"
+  value: "true"
+- type: updateMetadata
+  bindTarget: "${t.file.name}#completed_at"
+  evaluate: true
+  value: "'${moment().format('YYYY-MM-DD')}'"
 - type: updateMetadata
   bindTarget: "review"
   evaluate: true
-  value: "x+1"
+  value: "${reviewValue}"
 \`\`\``
         ];
     });
 
-dv.table(["Name","INFO","ForEach", "Points",""], tasks);
+dv.table(["Name", "Created", "Tags", "Priority", "Points",""], tasks);
 ```
 
 ## ## Обзор
