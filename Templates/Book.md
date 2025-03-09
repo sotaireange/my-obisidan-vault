@@ -11,6 +11,7 @@ date:
 read:
 status:
 source:
+progress: 0
 ---
 e## Summary
 
