@@ -24,6 +24,7 @@ read: 0
 video: 0
 leetcode: 0
 article: 0
+programming: 1
 completed: false
 ---
 ```dataviewjs
