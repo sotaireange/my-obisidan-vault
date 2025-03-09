@@ -1,7 +1,10 @@
 ---
 title: Effective Python
 author: Brett Slatkin
-category: Computers
+category: 
+- Computers
+- Python 
+- Basics
 publisher: Addison-Wesley Professional
 publishdate: 2024-12-04
 pages: 2162
