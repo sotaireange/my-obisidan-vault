@@ -7,7 +7,6 @@ publishdate: {{publishDate}}
 pages: {{totalPage}}
 cover: {{coverUrl}}
 created: {{DATE:YYYY-MM-DD HH:mm:ss}}
-updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
 rating:
 date:
 read:
