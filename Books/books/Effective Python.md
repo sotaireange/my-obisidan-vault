@@ -15,6 +15,8 @@ progress: 0
 ---
 ## Summary
 
+Effective Python: 90 Specific Ways to Write Better Python" by Brett Slatkin  
+  Концентрированное руководство по написанию чистого, эффективного и поддерживаемого кода. Каждый пункт — это конкретный совет (например, использование dataclasses, понимание __getattr__ и `__getattribute__`), объясненный через примеры.
 
 ## Notes
 ```dataview
