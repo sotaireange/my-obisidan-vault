@@ -53,31 +53,28 @@ dv.paragraph(`Количество баллов недели: **${score}**`);
 ```
 
 ```dataviewjs
-const thisWeek = dv.current().week;
-const pages = dv.pages('"Calendar/Days"').where(p => p.week == thisWeek);
-let dailyScores = {}; // Сюда будем записывать баллы по дням
+// Get the relevant files
+const pages = dv.pages('"Calendar/Days"').where(p => p.file.week == dv.current().file.week);
 
+// Calculate average only for pages that have a review value
+const validReviews = [];
+pages.forEach(p => {
+  if (p.review !== undefined && p.review !== null) {
+    validReviews.push(p.review);
+  }
+});
 
-
-for (let page of pages) {
-    let tasks = page.file.tasks.filter(t => t.completed);
-    let score = 0;
-
-    for (let task of tasks) {
-        let match = task.text.match(/\[(\d+)\]/);
-        if (match) score += parseInt(match[1]); 
-    }
-
-    let day = page.date.toISODate(); // Берём дату из YAML-поля "date"
-    dailyScores[day] = (dailyScores[day] || 0) + score;
+// Calculate and display the average
+if (validReviews.length > 0) {
+  let sum = 0;
+  for (let i = 0; i < validReviews.length; i++) {
+    sum += validReviews[i];
+  }
+  const avg = Math.round((sum / validReviews.length) * 100) / 100;
+  dv.paragraph("Ср. Балл по дням: " + avg);
+} else {
+  dv.paragraph("Ср. Балл по дням: —"); // No reviews available
 }
-
-// Считаем средний балл
-const totalDays = Object.keys(dailyScores).length;
-const totalScore = Object.values(dailyScores).reduce((a, b) => a + b, 0);
-const avgScore = totalDays > 0 ? (totalScore / totalDays).toFixed(2) : 0;
-
-dv.paragraph(`Средний балл по дням: **${avgScore}**`);
 ```
 
 
