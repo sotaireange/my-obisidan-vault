@@ -20,7 +20,8 @@ source:
 List 
 FROM "Books"
 where source= this.source AND file.name != this.file.name
-``````dataviewjs
+```
+```dataviewjs
 dv.table(["Статья", "Сайт","Язык", "Дата", "Оценка", "Прочитано"], 
     dv.pages('"Article/src"')
 	  .filter(p => !p.readed)
