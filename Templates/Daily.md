@@ -91,9 +91,6 @@ dv.table(["Name", "Created", "Tags", "Priority", "Points",""], tasks);
 
 
 
-
-
-
 ### Что было хорошо:
  - 
 
