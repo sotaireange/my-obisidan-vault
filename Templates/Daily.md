@@ -45,6 +45,43 @@ dv.paragraph(`Общее количество баллов: **${score}**`);
 - [ ] Разрабатывать проект(1час=1балл)[0]
 - [ ] [0]
 
+## Список задач
+```dataviewjs
+const tasks = dv.pages("#tasks")
+    .sort(t => t.priority, 'desc')
+    .map(t => {
+        const link = t.file.link;
+        const created = t.date;
+        const tags = t.tags;
+        const priority = t.priority;
+        const points = t.points
+
+        return [
+            link, 
+            created, 
+            tags, 
+            priority,
+            points, 
+            `\`\`\`meta-bind-button
+label: "Finish"
+hidden: false
+id: "complete_in_table"
+style: default
+actions:
+- type: updateMetadata
+  bindTarget: "${t.file.name}#completed"
+  evaluate: true
+  value: "true"
+- type: updateMetadata
+  bindTarget: "${t.file.name}#completed_at"
+  evaluate: true
+  value: "'${moment().format('YYYY-MM-DD')}'"
+\`\`\``
+        ];
+    });
+
+dv.table(["Name", "Created", "Tags", "Priority", "Points",""], tasks);
+```
 
 ## ## Обзор
 
