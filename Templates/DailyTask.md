@@ -15,6 +15,7 @@ completed_at:
 type: DailyTask
 points: <% points %>
 priority: <% priority %>
+tags: tasks
 source: 
 ---
 
