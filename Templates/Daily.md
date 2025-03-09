@@ -27,27 +27,43 @@ article: 0
 programming: 1
 completed: false
 ---
-```dataviewjs
-const tasks = dv.current().file.tasks.filter(t => t.completed);
-
-let score = 0;
-
-tasks.forEach(t => {
-  const match = t.text.match(/\[(\d+)\]/); // Ищем число в квадратных скобках
-  if (match) score += parseInt(match[1]); // Добавляем к общему счёту
-});
-
-dv.paragraph(`Общее количество баллов: **${score}**`);
-
-```
 ## План
 
 ### Учебные задания:
-- [ ] Прочитать книгу(10 стр. 1 балл~1час=1балл) [0]
-- [ ] Посмотреть видео + конспект(1 час = 1 балла) [0]
-- [ ] Разобрать научную статью(1статья=1 балл)[0]
-- [ ] Разобрать LeetCode(1тема+2 задачи=1балл)[0]
-- [ ] [0]
+```dataviewjs
+const tasks = dv.pages("#everydaytask")
+    .map(t => {
+        const link = t.file.link;
+        const info = t.info;
+        const forEach = t.forEach;
+        const points = t.points;
+		const type = t.type;
+
+        return [
+            link, 
+            info, 
+            forEach, 
+            points,
+            `\`\`\`meta-bind-button
+label: "Finish"
+hidden: false
+id: "complete_in_table"
+style: default
+actions:
+- type: updateMetadata
+  bindTarget: "${type}"
+  evaluate: true
+  value: "x+1"
+- type: updateMetadata
+  bindTarget: "review"
+  evaluate: true
+  value: "x+1"
+\`\`\``
+        ];
+    });
+
+dv.table(["Name","INFO","ForEach", "Points",""], tasks);
+```
 ### Прочее
 - [ ] Разрабатывать проект(1час=1балл)[0]
 - [ ] [0]
