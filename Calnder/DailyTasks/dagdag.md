@@ -1,8 +1,8 @@
 ---
 date: 2025-03-08
 time: 21:21
-completed: false
-completed_at: 
+completed: true
+completed_at: 2025-03-09
 Status: Completed
 Priority: 2025-03-08
 type: DailyTask
