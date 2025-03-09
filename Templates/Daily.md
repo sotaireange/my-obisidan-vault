@@ -88,7 +88,12 @@ dv.table(["Name", "Created", "Tags", "Priority", "Points",""], tasks);
 ## ## Обзор
 
 ### Было сделано:
-
+```dataview
+Table date,
+tags,priority,points
+FROM #tasks
+WHERE completed_at=this.date
+```
 
 
 ### Что было хорошо:
