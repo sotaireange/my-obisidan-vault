@@ -11,7 +11,7 @@ date:
 read: "490"
 status: In Progress
 source: "[[Fluent Python.pdf]]"
-progres: 490
+progress: 490
 ---
 ```dataview
 List 
