@@ -107,7 +107,7 @@ actions:
   evaluate: true
   value: "${reviewValue}"
 - type: updateMetadata
-  bindTarget: "${t.file.name}#daycompleted"
+  bindTarget: "${t.file.name}#completed_day"
   evaluate: false
   value: "[[${currentFileName}]]"
 \`\`\``
