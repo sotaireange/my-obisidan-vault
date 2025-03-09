@@ -81,6 +81,7 @@ const tasks = dv.pages("#tasks")
         const priority = t.priority;
         const points = t.points
         const reviewValue = `x+${points}`;
+		const currentFileName = dv.current().file.name;
         return [
             link, 
             created, 
