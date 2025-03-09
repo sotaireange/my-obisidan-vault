@@ -1,7 +1,9 @@
 ---
 title: Fluent Python
 author: Luciano Ramalho
-category: Computers
+category: 
+- Computer
+- Python
 publisher: O'Reilly Media, Inc.
 publishdate: 2022-03-31
 pages: 1011
