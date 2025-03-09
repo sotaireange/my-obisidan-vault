@@ -1,5 +1,6 @@
 ---
 sticker: lucide//calendar-days
+color: var(--mk-color-orange)
 ---
 ```dataview
 TABLE review,

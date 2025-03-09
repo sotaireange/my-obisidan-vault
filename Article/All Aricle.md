@@ -1,5 +1,6 @@
 ---
-sticker: emoji//1f4d5
+sticker: emoji//1f4f0
+color: var(--mk-color-pink)
 ---
 ```dataviewjs
 dv.table(["Статья", "Сайт","Язык", "Дата", "Оценка", "Прочитано"], 
