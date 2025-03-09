@@ -6,7 +6,7 @@ completed_at: 2025-03-09
 Status: Completed
 Priority: 2025-03-08
 type: DailyTask
-poins: 1
+points: 1
 priority: 4
 source: 
 tags:
