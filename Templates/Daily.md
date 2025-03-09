@@ -64,9 +64,6 @@ actions:
 
 dv.table(["Name","INFO","ForEach", "Points",""], tasks);
 ```
-### Прочее
-- [ ] [0]
-
 ## Список задач
 ```dataviewjs
 const tasks = dv.pages("#tasks")
