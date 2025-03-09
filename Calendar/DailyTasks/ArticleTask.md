@@ -1,6 +1,7 @@
 ---
-tags: everydaytask
+tags:
+  - everydaytask
 points: 1
 for: 1
-info: Чтение статьи с разбором
+info: Чтение статьи с разбором,статья
 ---
