@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f4d5
+---
 ```dataviewjs
 dv.table(["Статья", "Сайт","Язык", "Дата", "Оценка", "Прочитано"], 
     dv.pages('"Article/src"')
