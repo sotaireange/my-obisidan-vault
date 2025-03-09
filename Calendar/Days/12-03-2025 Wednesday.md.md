@@ -1,16 +1,15 @@
 ---
 day: Wednesday
 date: 2025-03-12
-
 source: "[[Calendar/Weeks/11th Week 10-16 (Mar) 2025|11th Week]]"
 week: 11
 tags: days
-review: 0
-read: 0
-video: 0
+review: 7
+read: 2
+video: 2
 leetcode: 0
-article: 0
-programming: 0
+article: 2
+programming: 1
 completed: false
 ---
 ## План
