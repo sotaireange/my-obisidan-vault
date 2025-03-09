@@ -113,6 +113,17 @@ dv.table(["Name", "Created", "Tags", "Priority", "Points",""], tasks);
 ## ## Обзор
 
 ### Было сделано:
+
+#### Учебные
+
+
+```dataview
+TABLE WITHOUT ID 
+ review as Всего, read AS Прочитано, video AS Просмотрено  ,article as Статей,leetcode, programming as Разработка
+WHERE file.name = this.file.name
+```
+
+#### Прочее
 ```dataview
 Table date,
 tags,priority,points
