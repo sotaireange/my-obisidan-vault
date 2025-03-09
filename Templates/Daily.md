@@ -27,6 +27,11 @@ article: 0
 programming: 0
 completed: false
 ---
+```dataview
+TABLE WITHOUT ID 
+ review as total, read AS Book, video AS watch  ,article as article,leetcode as LT , programming as IT
+WHERE file.name = this.file.name
+```
 ## План
 
 ### Учебные задания:
