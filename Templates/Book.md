@@ -4,7 +4,7 @@ title:
 author:
   "{ author }": 
 category:
-  "{ category }": 
+  - "{ category }": 
 publisher:
   "{ publisher }": 
 publishdate:
