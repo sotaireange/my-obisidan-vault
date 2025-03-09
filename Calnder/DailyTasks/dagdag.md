@@ -2,7 +2,7 @@
 date: 2025-03-08
 time: 21:21
 completed: false
-completed_at: 2025-03-08
+completed_at: 2025-03-09
 Status: Completed
 Priority: 2025-03-08
 type: DailyTask
@@ -11,7 +11,6 @@ priority: 4
 source: 
 tags:
   - tasks
-
 ---
 `BUTTON[completed_at]`
 ## ⚠️Описание задачи:
