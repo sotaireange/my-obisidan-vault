@@ -11,7 +11,7 @@ rating:
 date: 
 read: 
 status: 
-source: "[[Effective Python.pdf]]"
+source: "[[Architecture Patterns with Python.pdf]]"
 progress: 0
 ---
 ## Summary
