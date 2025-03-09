@@ -42,6 +42,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
 links: <%`\n${formattedLinks} `%>
+completed: false
 source: <% `"[[${tag}]]"` %>
 ---
 ## ⚠️Описание задачи:
