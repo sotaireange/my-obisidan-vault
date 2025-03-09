@@ -10,10 +10,10 @@ const points = await tp.system.suggester(item => item, [1,2,3,4,5],false,"Бал
 %>---
 date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
-completed: To do
+completed: false
 completed_at: 
 type: DailyTask
-poins: <% points %>
+points: <% points %>
 priority: <% priority %>
 source: 
 ---
