@@ -20,6 +20,10 @@ source: <% `"[[${weekPath}|${weekNumber} Week]]"` %>
 week: <% weekNumber.replace('th','') %>
 tags: days
 review: 0
+read: 0
+video: 0
+leetcode: 0
+article: 0
 completed: false
 ---
 ```dataviewjs
