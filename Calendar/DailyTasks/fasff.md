@@ -7,6 +7,7 @@ type: DailyTask
 points: 1
 priority: 4
 source: 
+tags: tasks
 ---
 
 ## ⚠️Описание задачи:
