@@ -6,8 +6,9 @@ completed_at: 2025-03-10
 type: DailyTask
 points: 1
 priority: 4
-tags: tasks
-source: 
+tags:
+  - tasks
+daycompleted: "[[10-03-2025 Monday.md]]"
 ---
 
 ## ⚠️Описание задачи:
