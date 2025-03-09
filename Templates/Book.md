@@ -1,17 +1,25 @@
 ---
-title: {{title}} 
-author: {{author}}
-category: {{category}}
-publisher: {{publisher}}
-publishdate: {{publishDate}}
-pages: {{totalPage}}
-cover: {{coverUrl}}
-created: {{DATE:YYYY-MM-DD}}
-rating:
-date:
-read:
-status:
-source:
+title:
+  "{ title }": 
+author:
+  "{ author }": 
+category:
+  "{ category }": 
+publisher:
+  "{ publisher }": 
+publishdate:
+  "{ publishDate }": 
+pages:
+  "{ totalPage }": 
+cover:
+  "{ coverUrl }": 
+created:
+  "{ DATE:YYYY-MM-DD }": 
+rating: "0"
+date: 
+read: "0"
+status: To Do
+source: 
 progress: 0
 ---
 ## Summary
