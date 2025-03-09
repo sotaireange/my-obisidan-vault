@@ -49,6 +49,7 @@ dv.paragraph(`Общее количество баллов: **${score}**`);
 ```dataviewjs
 const tasks = dv.pages("#tasks")
     .sort(t => t.priority, 'desc')
+    .filter(t => !t.completed)
     .map(t => {
         const link = t.file.link;
         const created = t.date;
