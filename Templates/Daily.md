@@ -105,6 +105,10 @@ actions:
   bindTarget: "review"
   evaluate: true
   value: "${reviewValue}"
+- type: updateMetadata
+  bindTarget: "${t.file.name}#daycompleted"
+  evaluate: false
+  value: "[[${currentFileName}]]"
 \`\`\``
         ];
     });
