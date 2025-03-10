@@ -2,8 +2,7 @@
 tag: Book
 title: {{title}} 
 author: {{author}}
-category: <%=book.categories.map(category => `[[${category}]]`).join(', ')%>
-
+category: {{category}}
 publisher: {{publisher}}
 publishdate: {{publishDate}}
 pages: {{totalPage}}
