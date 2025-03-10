@@ -30,3 +30,4 @@ readed: false
 
  Лучшие лекции, которые я когда-либо слушал по матану - [лекции Стаса Шапошникова.](http://www.mathnet.ru/php/seminars.phtml?presentid=17794&option_lang=) 
 [Лекции от яндекса 10/10](https://habr.com/ru/companies/yandex/articles/498856/)
+[Курс по ]
