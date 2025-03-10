@@ -22,7 +22,7 @@ WHERE file.name = this.file.name
 
 ### Учебные задания:
 ```dataviewjs
-const tasks = dv.pages("#everydaytask")
+const tasks = dv.pages("#dailytask")
     .map(t => {
         const link = t.file.link;
         const info = t.info;
