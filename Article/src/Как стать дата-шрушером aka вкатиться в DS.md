@@ -33,3 +33,4 @@ readed: false
 [Курс по всем CS пропущенным](https://github.com/danlark1/hse_missing_cs_education)
 [Курс от MIT CS](https://missing-semester-rus.github.io/2020/course-shell/)
 [Интерактивный учебник по Git](https://githowto.com/ru)
+[Докер минигайд](https://proglib.io/p/docker)
