@@ -32,3 +32,4 @@ readed: false
 [Лекции от яндекса 10/10](https://habr.com/ru/companies/yandex/articles/498856/)
 [Курс по всем CS пропущенным](https://github.com/danlark1/hse_missing_cs_education)
 [Курс от MIT CS](https://missing-semester-rus.github.io/2020/course-shell/)
+[Интерактивный учебник по Git](https://githowto.com/ru)
