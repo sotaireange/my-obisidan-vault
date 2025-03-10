@@ -1,5 +1,5 @@
 ---
-sticker: ""
+sticker: emoji//1f4d6
 color: ""
 ---
 ```dataviewjs
