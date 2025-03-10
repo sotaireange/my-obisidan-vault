@@ -7,16 +7,17 @@ publisher: {{publisher}}
 publishdate: {{publishDate}}
 pages: {{totalPage}}
 cover: {{coverUrl}}
+created: {{ DATE:YYYY-MM-DD }}
 rating: 0
 readed_at: 0
-readed:0
+readed:
 status: To Do
 source: 
 language: eng
 ---
 ## Summary
 
-created: {{ DATE:YYYY-MM-DD }}
+
 ## Notes
 ```dataview
 List 
