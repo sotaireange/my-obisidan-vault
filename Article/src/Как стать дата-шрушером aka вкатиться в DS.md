@@ -58,8 +58,7 @@ readed: false
 - На степике по нейросетям можно посмотреть [курс от Анатолия Карпова](https://stepik.org/course/401/promo) с основами основ. Там же два более свежих курса от Samsung на pytorch: [компьютерное зрение](http://stepik.org/50352) и [анализ текстов.](https://stepik.org/course/54098/promo)
     
 - От МФТИ можно глянуть [dlschool.](https://www.dlschool.org/) На youtube [есть записи лекций и семинаров](https://www.youtube.com/channel/UCFTNoZYjkg-3LZTHrHfV1nQ/playlists)
-    
-- Можно посмотреть [специализацию от Яндекса и ВШЭ.](https://www.coursera.org/specializations/aml/?utm_medium=institutions&utm_source=yandex&utm_campaign=yacademy) Она состоит из разных курсов: введение в нейронки, байесовские методы в ML, как побеждать на kaggle, работа с текстами и НЛП, обучение с подкреплением, курс про ML и адронный коллайдер (совсем специфичная вещь). Все курсы на английском.
+
     
 - Многие [ШАДовские курсы лежат в открытом доступе.](https://github.com/yandexdataschool) Тут можно найти и NLP и RL и DL. Есть тетрадки с домашками/семинарами, а также видосы с лекциями. По NLP очень рекомендую [лекции от Лены Войты.](https://lena-voita.github.io/nlp_course.html)
     
