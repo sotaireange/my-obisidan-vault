@@ -1,12 +1,12 @@
 ---
 tag: Book
-title: "{{ title }}"
-author: "{{ author }}"
-category: [{{category}}]
-publisher: {{ publisher }}
-publishdate: {{ publishDate }}
-pages: {{ totalPage }}
-cover: {{ coverUrl }}
+title: {{title}} 
+author: {{author}}
+category: {{category}}
+publisher: {{publisher}}
+publishdate: {{publishDate}}
+pages: {{totalPage}}
+cover: {{coverUrl}}
 created: {{ DATE:YYYY-MM-DD }}
 rating: 0
 readed_at: 0
