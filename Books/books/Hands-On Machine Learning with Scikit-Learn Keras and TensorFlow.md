@@ -1,8 +1,7 @@
 ---
 title: {{ title }}
 author: {{ author }}
-category: 
-  - Computers
+category: [Computers]
 publisher: {{ publisher }}
 publishdate: {{ publishDate }}
 pages: {{ totalPage }}
