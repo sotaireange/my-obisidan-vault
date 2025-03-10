@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 author: {{ author }}
-category: {{category}}
+category: [{{category}}]
 publisher: {{ publisher }}
 publishdate: {{ publishDate }}
 pages: {{ totalPage }}
