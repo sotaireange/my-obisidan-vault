@@ -1,9 +1,9 @@
 ---
 tags:
   - Book
-title: Deep Learning with Python, Second Edition 
+title: Deep Learning with Python, Second Edition
 author: Francois Chollet, François Chollet
-category: 
+category:
   - Computers
 publisher: Simon and Schuster
 publishdate: 2021-12-21
@@ -12,10 +12,10 @@ cover: http://books.google.com/books/content?id=XHpKEAAAQBAJ&printsec=frontcover
 created: 2025-03-10
 rating: 0
 readed_at: 0
-readed:
+readed: 
 status: To Do
 source: 
-language: eng
+language: rus
 ---
 ## Summary
 
