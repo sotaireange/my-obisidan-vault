@@ -44,3 +44,4 @@ readed: false
  [по машинке от ODS на хабре.](https://habr.com/ru/company/ods/blog/322626/)
 
  В дополнительных материалах в статьях на хабре часто указываются [лекции Евгения Соколова.](https://github.com/esokolov/ml-course-hse)
+  [ШАДовского курса по ML.](https://www.youtube.com/playlist?list=PLww5O9qI8iPP-mZf8mCMff3eMWFBHr0m1)
