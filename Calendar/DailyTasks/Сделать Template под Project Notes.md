@@ -8,7 +8,7 @@ type: DailyTask
 points: 3
 priority: 3
 tags: 
- - tasks
+ - task
  - dailytask
 source: 
 ---
