@@ -42,4 +42,5 @@ readed: false
 - [Google coursera](https://www.coursera.org/learn/foundations-of-data-science/supplement/EDWq9/google-advanced-data-analytics-certificate-overview)
 
  [по машинке от ODS на хабре.](https://habr.com/ru/company/ods/blog/322626/)
- 
+
+ В дополнительных материалах в статьях на хабре часто указываются [лекции Евгения Соколова.](https://github.com/esokolov/ml-course-hse)
