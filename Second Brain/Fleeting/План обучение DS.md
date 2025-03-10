@@ -23,4 +23,4 @@ https://fortelabs.com/blog/basboverview/
 Когда освободится какая-нибудь часть - Data Sructured - легкую книжку по интерактивному учебнику , и то что посоветовал автор.
 Выявить закономерности и ссылки с YouTube,лекций 
 Когда приступлю к машинному обучению - начать с легкого курса(2) на степике DS и ML.
-курсы есть, может добавить после fluent python - design pattern 
+курсы есть, может добавить после fluent python - design pattern , или математика - база, profi+3bluebrown -> DSAA/DESIGN PATTERN(Refactoring GURU) -> Проект на гитхабе + работа на биржах для денег -> SQL+усиленная математика -> ML И DS
