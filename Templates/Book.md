@@ -1,5 +1,5 @@
 ---
-tag: Books
+tag: Book
 title: {{ title }}
 author: {{ author }}
 category: [{{category}}]
