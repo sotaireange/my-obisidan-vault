@@ -14,7 +14,7 @@ rating: 0
 readed_at: 0
 readed: 
 status: To Do
-source: 
+source: "[[Deep Learning.pdf]]"
 language: rus
 ---
 ## Summary
