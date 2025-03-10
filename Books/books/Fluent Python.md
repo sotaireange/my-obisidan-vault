@@ -13,7 +13,8 @@ pages: 1011
 cover: http://books.google.com/books/content?id=ICdnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 rating: 
 date: 
-read: "490"
+readed: "490"
+readed_at: 
 status: In Progress
 source: "[[Fluent Python.pdf]]"
 progress: 490
