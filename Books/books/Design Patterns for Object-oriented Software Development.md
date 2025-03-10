@@ -1,10 +1,11 @@
 ---
 tags:
   - Book
-title: Design Patterns for Object-oriented Software Development 
+title: Design Patterns for Object-oriented Software Development
 author: Wolfgang Pree
-category: 
+category:
   - Computers
+  - Patterns
 publisher: Addison Wesley Longman
 publishdate: 1995
 pages: 298
@@ -12,7 +13,7 @@ cover: http://books.google.com/books/content?id=cIlQAAAAMAAJ&printsec=frontcover
 created: 2025-03-10
 rating: 0
 readed_at: 0
-readed:
+readed: 
 status: To Do
 source: 
 language: eng
