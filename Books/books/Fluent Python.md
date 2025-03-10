@@ -3,9 +3,10 @@ tags:
   - Book
 title: Fluent Python
 author: Luciano Ramalho
-category: 
-- Computer
-- Python
+category:
+  - Computer
+  - Python
+  - Basics
 publisher: O'Reilly Media, Inc.
 publishdate: 2022-03-31
 pages: 1011

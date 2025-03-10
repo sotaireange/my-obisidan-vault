@@ -7,6 +7,7 @@ category:
   - Computers
   - ML
   - DS
+  - Python
 publisher: O'Reilly Media, Inc.
 publishdate: 2022-10-04
 pages: 864

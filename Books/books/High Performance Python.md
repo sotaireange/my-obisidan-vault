@@ -6,6 +6,7 @@ author: Micha Gorelick, Ian Ozsvald
 category:
   - Computers
   - DS
+  - Python
 publisher: O'Reilly Media
 publishdate: 2025-05-31
 pages: 0
