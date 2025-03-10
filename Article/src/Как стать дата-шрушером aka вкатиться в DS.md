@@ -45,3 +45,25 @@ readed: false
 
  В дополнительных материалах в статьях на хабре часто указываются [лекции Евгения Соколова.](https://github.com/esokolov/ml-course-hse)
   [ШАДовского курса по ML.](https://www.youtube.com/playlist?list=PLww5O9qI8iPP-mZf8mCMff3eMWFBHr0m1)
+
+
+#### [Области ~~тьмы~~ ML](https://vas3k.club/post/9904/#Oblasti-del-tmy-del)
+
+Продвинутые юзеры могут попробовать углубиться в отдельные области ML.
+
+- По нейросеткам есть шикарный курс [Deep Learning на пальцах](https://dlcourse.ai/) от Семёна Козлова. Он рассказывает очень простым языком сложные вещи. Всем очень рекомендую его видосы.
+    
+- Если хочется книгу, прочитайте [глубокое обучение от Николенко.](https://www.litres.ru/a-kadurin-13464223/glubokoe-obuchenie-pogruzhenie-v-mir-neyronnyh-29817855/) Там будет побольше математики, но и практику не обойдут стороной. Правда код придётся переписывать с первой версии tensorflow на вторую, но это довольно простое упражнение.
+    
+- На степике по нейросетям можно посмотреть [курс от Анатолия Карпова](https://stepik.org/course/401/promo) с основами основ. Там же два более свежих курса от Samsung на pytorch: [компьютерное зрение](http://stepik.org/50352) и [анализ текстов.](https://stepik.org/course/54098/promo)
+    
+- От МФТИ можно глянуть [dlschool.](https://www.dlschool.org/) На youtube [есть записи лекций и семинаров](https://www.youtube.com/channel/UCFTNoZYjkg-3LZTHrHfV1nQ/playlists)
+    
+- Можно посмотреть [специализацию от Яндекса и ВШЭ.](https://www.coursera.org/specializations/aml/?utm_medium=institutions&utm_source=yandex&utm_campaign=yacademy) Она состоит из разных курсов: введение в нейронки, байесовские методы в ML, как побеждать на kaggle, работа с текстами и НЛП, обучение с подкреплением, курс про ML и адронный коллайдер (совсем специфичная вещь). Все курсы на английском.
+    
+- Многие [ШАДовские курсы лежат в открытом доступе.](https://github.com/yandexdataschool) Тут можно найти и NLP и RL и DL. Есть тетрадки с домашками/семинарами, а также видосы с лекциями. По NLP очень рекомендую [лекции от Лены Войты.](https://lena-voita.github.io/nlp_course.html)
+    
+- По временным рядам нормальных курсов на русском нет. Обычно все рассказывают про ARIMA. Есть две недели про ряды от меня в [вышкинской спецухе.](https://www.coursera.org/learn/data-analysis-statistical-methods?specialization=machine-learning-from-statistics-to-neural-networks#syllabus) Есть [хорошая статья от Дмитрия Сергеева](https://habr.com/ru/company/ods/blog/327242/) в курсе от ODS. Ещё можно почитать [отличную книгу Хиндмана.](https://otexts.com/fpp2/)
+    
+
+#### [Матстат и эконометрика](https://vas3k.club/post/9904/#Matstat-i-ekonometrika)
