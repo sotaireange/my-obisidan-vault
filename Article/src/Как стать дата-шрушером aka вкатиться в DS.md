@@ -34,3 +34,7 @@ readed: false
 [Курс от MIT CS](https://missing-semester-rus.github.io/2020/course-shell/)
 [Интерактивный учебник по Git](https://githowto.com/ru)
 [Докер минигайд](https://proglib.io/p/docker)
+
+
+АНАЛИЗ ДАННЫХ ПОКА ЛУЧШИЙ
+[Машинное обучение и анализ Данных от МФТИ на Coursera](https://github.com/minhdai2410/machine-learning-data-analysis-yandex-mipt-coursera/tree/master)
