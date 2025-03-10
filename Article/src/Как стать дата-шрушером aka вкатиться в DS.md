@@ -87,3 +87,5 @@ readed: false
 - что такое вектор и как один умножить на другой
 - в чем смысл производной и как она связана с интегралом
 - чем мода отличается от медианы
+
+[Курс от MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP63oMNUHXqIUcrkS2PivhN3k)
