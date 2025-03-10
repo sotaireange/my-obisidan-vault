@@ -5,17 +5,15 @@ subtitle: "{{subtitle}}"
 author: [{{author}}]
 category: [{{category}}]
 publishdate: {{publishDate}}
-
 pages: {{ totalPage }}
 cover:{{ coverUrl }}
 created:{{ DATE:YYYY-MM-DD }} 
+language: eng
 rating: "0"
 readed_at: 
 readed: 0
 status: To Do
 source: 
-progress: 0
-language: eng
 ---
 ## Summary
 
