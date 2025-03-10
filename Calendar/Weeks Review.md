@@ -1,5 +1,5 @@
 ---
-sticker: lucide//calendar-days
+sticker: emoji//23f2-fe0f
 color: ""
 ---
 ```dataview
