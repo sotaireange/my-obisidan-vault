@@ -14,6 +14,7 @@ read: "490"
 status: In Progress
 source: "[[Fluent Python.pdf]]"
 progress: 490
+language: eng
 ---
 ```dataview
 List 

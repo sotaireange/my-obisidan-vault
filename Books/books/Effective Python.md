@@ -16,6 +16,7 @@ read: "0"
 status: To Do
 source: "[[Effective Python.pdf]]"
 progress: 0
+language: eng
 ---
 ## Summary
 

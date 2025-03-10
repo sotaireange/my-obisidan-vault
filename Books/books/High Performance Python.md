@@ -21,6 +21,7 @@ read: "0"
 status: To Do
 source: 
 progress: 0
+language: eng
 ---
 ## Summary
 СКОРО ВЫЙДЕТ ПОСЛЕДНЕЕ ИЗДАНИЕ ,НУЖНО ЗАМЕНИТь

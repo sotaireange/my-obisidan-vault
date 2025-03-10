@@ -13,6 +13,7 @@ read:
 status: 
 source: "[[Architecture Patterns with Python.pdf]]"
 progress: 0
+language: eng
 ---
 ## Summary
 
