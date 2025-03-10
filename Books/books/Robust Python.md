@@ -1,4 +1,6 @@
 ---
+tags:
+  - Book
 title: Robust Python
 author: Patrick Viafore
 category:
