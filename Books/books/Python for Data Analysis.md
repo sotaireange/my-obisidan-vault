@@ -1,20 +1,14 @@
 ---
-title:
-  "{ title }": 
-author:
-  "{ author }": 
-category:
-  - "{ category }": 
-publisher:
-  "{ publisher }": 
-publishdate:
-  "{ publishDate }": 
-pages:
-  "{ totalPage }": 
-cover:
-  "{ coverUrl }": 
-created:
-  "{ DATE:YYYY-MM-DD }": 
+tag: 📚Book
+title: "{{title}}"
+subtitle: "{{subtitle}}"
+author: [{{author}}]
+category: [{{category}}]
+publishdate: {{publishDate}}
+
+pages: {{ totalPage }}
+cover:{{ coverUrl }}
+created:{{ DATE:YYYY-MM-DD }} 
 rating: "0"
 date: 
 read: "0"
