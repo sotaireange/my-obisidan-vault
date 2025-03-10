@@ -1,22 +1,15 @@
 ---
-title:
-  "{ title }": 
-author:
-  "{ author }": 
-category: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>
-publisher:
-  "{ publisher }": 
-publishdate:
-  "{ publishDate }": 
-pages:
-  "{ totalPage }": 
-cover:
-  "{ coverUrl }": 
-created:
-  "{ DATE:YYYY-MM-DD }": 
-rating: "0"
-date: 
-read: "0"
+title: {{ title }}
+author: {{ author }}
+category: <% book.categories.map(category=>`\n  - ${category}`).join('')%>
+publisher: {{ publisher }}
+publishdate: {{ publishDate }}
+pages: {{ totalPage }}
+cover: {{ coverUrl }}
+created: {{ DATE:YYYY-MM-DD }}
+rating: 0
+readed_at: 0
+readed:
 status: To Do
 source: 
 progress: 0
