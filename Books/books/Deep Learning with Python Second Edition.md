@@ -5,7 +5,6 @@ title: Deep Learning with Python, Second Edition
 author: Francois Chollet, François Chollet
 category: 
   - Computers
-
 publisher: Simon and Schuster
 publishdate: 2021-12-21
 pages: 502
