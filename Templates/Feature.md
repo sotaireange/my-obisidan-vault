@@ -1,9 +1,9 @@
 <%*
 const feature_name = await tp.system.prompt("Напишите названиеи фичи");
 
-const filename=`Feature_${feature_name}`
-await tp.file.rename(filename)
 
+await tp.file.rename(filename)
+await tp.file.move('Features/${filename}.md')
 
 let tags = ["feature"];
 
