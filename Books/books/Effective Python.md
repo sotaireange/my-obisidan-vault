@@ -12,7 +12,7 @@ publishdate: 2024-12-04
 pages: 2162
 cover: http://books.google.com/books/content?id=JnsiEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 created: 2025-03-10
-rating: "0"
+rating: 4.5
 date: 
 readed: 0
 readed_at: 
