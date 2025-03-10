@@ -26,4 +26,4 @@ readed: false
 ## 🔎 Анализ  
 [От матрицы до больших данных](https://www.youtube.com/@CS_HSE)
 
-
+[mathprofi](mathprofi.ru)
