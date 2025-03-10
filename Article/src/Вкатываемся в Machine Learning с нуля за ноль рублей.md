@@ -122,6 +122,11 @@ https://stepik.org/course/135003/promo
     
 - [https://stepik.org/course/1547/promo](https://stepik.org/course/1547/promo)
 
+
+
+Самая главная книга, которая может помочь в подготовке к собеседованию, называется “**Cracking The Coding Interview**” от Gayle Laakmann McDowell. Найти ее бесплатно в формате pdf очень легко, просто введя в гугл “Cracking The Coding Interview pdf”.
+
+
 ## 🔎 Анализ  
 -  
 
