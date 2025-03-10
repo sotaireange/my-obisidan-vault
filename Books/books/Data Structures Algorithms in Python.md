@@ -4,7 +4,6 @@ title: Data Structures & Algorithms in Python
 author: Robert Lafore, Alan Broder, John Canning
 category: 
   - Computers
-
 publisher: Addison-Wesley Professional
 publishdate: 2022-09-06
 pages: 1416
