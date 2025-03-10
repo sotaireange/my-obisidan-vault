@@ -72,3 +72,6 @@ readed: false
 - По интерпретируемому ML пока курсов не подвезли, но есть [неплохая книга об этом.](https://christophm.github.io/interpretable-ml-book/)
 
 - Ещё по статистике есть два офигенных курса, которые ставят мозги на место: [Improving your statistical inferences](https://www.coursera.org/learn/statistical-inferences) и [Improving statistical questions.](https://www.coursera.org/learn/improving-statistical-questions)
+
+
+![[Pasted image 20250311012535.png]]
