@@ -6,6 +6,7 @@ author: Harry Percival, Bob Gregory
 category:
   - Computers
   - Architecture
+  - Patterns
 publisher: O'Reilly Media
 publishdate: 2020-03-05
 pages: 304
