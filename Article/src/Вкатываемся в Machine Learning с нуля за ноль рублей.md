@@ -54,6 +54,9 @@ readed: false
 
 [https://stepik.org/course/326/syllabus](https://stepik.org/course/326/syllabus)
 
+
+#### [SQL]([https://stepik.org/course/63054](https://stepik.org/course/63054))
+
 ## 🔎 Анализ  
 -  
 
