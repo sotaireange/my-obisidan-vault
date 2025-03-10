@@ -11,8 +11,8 @@ pages: {{totalPage}}
 cover: {{coverUrl}}
 created: {{ DATE:YYYY-MM-DD }}
 rating: 0
-readed_at: 0
-readed:
+readed_at: 
+readed: 0
 status: To Do
 source: 
 language: eng
