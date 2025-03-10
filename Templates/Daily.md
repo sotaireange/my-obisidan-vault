@@ -12,6 +12,8 @@ const monthRange = firstMonth === lastMonth ? firstMonth : `${firstMonth}-${last
 
 const weekPath = `Calendar/Weeks/${weekNumber} Week ${firstDay}-${lastDay} (${monthRange}) ${year}`;
 
+await tp.file.move(`Calendar/Days/${tp.file.title}`)
+
 %>---
 day: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("dddd") %>
 date: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("YYYY-MM-DD") %>
