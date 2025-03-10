@@ -3,8 +3,7 @@ title:
   "{ title }": 
 author:
   "{ author }": 
-category:
-  - "{ category }": 
+category: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>
 publisher:
   "{ publisher }": 
 publishdate:
