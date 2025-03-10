@@ -38,3 +38,7 @@ readed: false
 
 АНАЛИЗ ДАННЫХ ПОКА ЛУЧШИЙ
 [Машинное обучение и анализ Данных от МФТИ на Coursera](https://github.com/minhdai2410/machine-learning-data-analysis-yandex-mipt-coursera/tree/master)
+
+
+ [по машинке от ODS на хабре.](https://habr.com/ru/company/ods/blog/322626/)
+ 
