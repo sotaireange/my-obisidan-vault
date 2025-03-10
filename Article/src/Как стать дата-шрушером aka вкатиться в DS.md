@@ -27,3 +27,5 @@ readed: false
 [От матрицы до больших данных](https://www.youtube.com/@CS_HSE)
 
 [mathprofi](mathprofi.ru)
+
+ Лучшие лекции, которые я когда-либо слушал по матану - [лекции Стаса Шапошникова.](http://www.mathnet.ru/php/seminars.phtml?presentid=17794&option_lang=) 
