@@ -1,5 +1,6 @@
 ---
-tag: Book
+tags:
+  - Book
 title: {{title}} 
 author: {{author}}
 category: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>

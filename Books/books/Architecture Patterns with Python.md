@@ -1,4 +1,6 @@
 ---
+tags:
+  - Book
 title: Architecture Patterns with Python
 author: Harry Percival, Bob Gregory
 category: Computers

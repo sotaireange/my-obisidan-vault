@@ -1,4 +1,6 @@
 ---
+tags:
+  - Book
 title: Effective Python
 author: Brett Slatkin
 category:

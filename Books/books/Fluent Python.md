@@ -1,4 +1,6 @@
 ---
+tags:
+  - Book
 title: Fluent Python
 author: Luciano Ramalho
 category: 

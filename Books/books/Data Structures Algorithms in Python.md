@@ -1,5 +1,6 @@
 ---
-tag: Book
+tags:
+  - Book
 title: Data Structures & Algorithms in Python 
 author: Robert Lafore, Alan Broder, John Canning
 category: 

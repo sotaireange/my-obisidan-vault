@@ -1,5 +1,6 @@
 ---
-tag: Book
+tags:
+  - Book
 title: Deep Learning with Python, Second Edition 
 author: Francois Chollet, François Chollet
 category: 

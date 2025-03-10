@@ -1,5 +1,6 @@
 ---
-tag: Book
+tags:
+  - Book
 title: Design Patterns for Object-oriented Software Development 
 author: Wolfgang Pree
 category: 
