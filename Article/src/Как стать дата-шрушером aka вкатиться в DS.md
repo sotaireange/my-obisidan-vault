@@ -67,3 +67,6 @@ readed: false
     
 
 #### [Матстат и эконометрика](https://vas3k.club/post/9904/#Matstat-i-ekonometrika)
+
+
+- По интерпретируемому ML пока курсов не подвезли, но есть [неплохая книга об этом.](https://christophm.github.io/interpretable-ml-book/)
