@@ -114,6 +114,14 @@ https://stepik.org/course/135003/promo
 
 [https://www.youtube.com/watch?v=BYUy1yvjHxE](https://www.youtube.com/watch?v=BYUy1yvjHxE)
 
+
+
+Если же вы заметили, что для решения алгоритмических задач вам не хватает знаний теории, ее также можно подтягивать параллельно с подготовкой к собеседованиям, на бесплатных курсах:
+
+- [https://stepik.org/course/217/promo](https://stepik.org/course/217/promo)
+    
+- [https://stepik.org/course/1547/promo](https://stepik.org/course/1547/promo)
+
 ## 🔎 Анализ  
 -  
 
