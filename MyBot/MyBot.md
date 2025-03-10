@@ -11,7 +11,7 @@ links:
 # 📌 Проект: MyBot
 
 ## 📝 Задачи и логика
-- [[Project notes/MyBot/MyBot_tasks.md|Список Задач(Kanban)]]
+- [[MyBot_tasks|Список Задач(Kanban)]]
 - [[MyBot_logic.canvas|Canvas: Логика программы]]
 
 
