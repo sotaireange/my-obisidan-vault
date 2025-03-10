@@ -106,6 +106,14 @@ https://stepik.org/course/135003/promo
 - [Бесплатный курс по SQL](https://www.udacity.com/course/sql-for-data-analysis--ud198)
 
 
+
+### ПО CV 
+Нужно прочитать, важную информацию на сайте 
+
+Например, отличные рекомендации даны в видео от Google:
+
+[https://www.youtube.com/watch?v=BYUy1yvjHxE](https://www.youtube.com/watch?v=BYUy1yvjHxE)
+
 ## 🔎 Анализ  
 -  
 
