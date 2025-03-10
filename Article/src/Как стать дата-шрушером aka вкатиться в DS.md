@@ -7,7 +7,7 @@ link: https://vas3k.club/post/9904/
 time: 18:05
 language: rus
 review: 0
-readed: false
+readed: true
 ---
 [Статья](https://vas3k.club/post/9904/)
 
