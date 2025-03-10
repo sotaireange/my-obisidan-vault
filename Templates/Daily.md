@@ -73,7 +73,7 @@ dv.table(["Name","INFO","ForEach", "Points",""], tasks);
 ```
 ### Прочее
 ```dataviewjs
-const tasks = dv.pages("#tasks")
+const tasks = dv.pages("#dailytask")
     .sort(t => t.priority, 'desc')
     .filter(t => !t.completed)
     .map(t => {
@@ -125,7 +125,7 @@ dv.table(["Name", "Created", "Tags", "Priority", "Points",""], tasks);
 ```dataview
 Table date,
 tags,priority,points
-FROM #tasks
+FROM #dailytask
 WHERE completed_at=this.date
 ```
 
