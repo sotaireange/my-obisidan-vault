@@ -19,7 +19,7 @@ source:
 language: eng
 ---
 ## Summary
-
+Есть другая книга, нужно будет выбрать одну из 2 , 
 
 ## Notes
 ```dataview
