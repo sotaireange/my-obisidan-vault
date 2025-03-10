@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 author: {{ author }}
-category: <% =book.categories.map(category=>`\n  - ${category}`).join('')%>
+category: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>
 publisher: {{ publisher }}
 publishdate: {{ publishDate }}
 pages: {{ totalPage }}
