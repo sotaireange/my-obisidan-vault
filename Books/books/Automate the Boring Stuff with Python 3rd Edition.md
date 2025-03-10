@@ -11,7 +11,7 @@ publishdate: 2025-05-20
 pages: 0
 cover: http://books.google.com/books/content?id=HwPSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 created: 2025-03-10
-rating: 0
+rating: 4.55
 readed_at: 0
 readed: 0
 status: To Do
