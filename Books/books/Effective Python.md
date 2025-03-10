@@ -14,7 +14,8 @@ cover: http://books.google.com/books/content?id=JnsiEQAAQBAJ&printsec=frontcover
 created: 2025-03-10
 rating: "0"
 date: 
-read: "0"
+readed: 0
+readed_at: 
 status: To Do
 source: "[[Effective Python.pdf]]"
 progress: 0
