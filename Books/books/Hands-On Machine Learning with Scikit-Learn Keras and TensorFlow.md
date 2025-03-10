@@ -3,8 +3,8 @@ title:
   "{ title }": 
 author:
   "{ author }": 
-category:
-  - "{ category }": 
+category: 
+  - Computers
 publisher:
   "{ publisher }": 
 publishdate:
