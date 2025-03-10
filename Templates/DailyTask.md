@@ -17,7 +17,7 @@ type: DailyTask
 points: <% points %>
 priority: <% priority %>
 tags: 
- - tags
+ - task
  - dailytask
 source: 
 ---
