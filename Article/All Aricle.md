@@ -5,7 +5,6 @@ color: ""
 ```dataviewjs
 dv.table(["Статья", "Сайт","Язык", "Дата", "Оценка", "Прочитано"], 
     dv.pages('"Article/src"')
-	  .filter(p => !p.readed)
       .sort(p => p.review, 'asc') // Сортировка по review
       .map(p => [
           `[[${p.file.name}]]`, // Ссылка на саму статью
