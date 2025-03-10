@@ -1,5 +1,5 @@
 ---
-sticker: emoji//23f2-fe0f
+sticker: emoji//23f3
 color: ""
 ---
 ```dataview
