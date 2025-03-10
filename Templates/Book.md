@@ -12,7 +12,6 @@ readed_at: 0
 readed:
 status: To Do
 source: 
-progress: 0
 language: eng
 ---
 ## Summary
