@@ -1,7 +1,7 @@
 ---
 tag: Book
-title: {{ title }}
-author: {{ author }}
+title: "{{ title }}"
+author: "{{ author }}"
 category: [{{category}}]
 publisher: {{ publisher }}
 publishdate: {{ publishDate }}
