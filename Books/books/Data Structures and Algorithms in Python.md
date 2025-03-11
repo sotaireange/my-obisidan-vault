@@ -8,7 +8,7 @@ category:
 
 publisher: John Wiley & Sons
 publishdate: 2013-03-18
-pages: 1
+pages: 765
 cover: http://books.google.com/books/content?id=Mr59DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 created: 2025-03-11
 rating: 0
