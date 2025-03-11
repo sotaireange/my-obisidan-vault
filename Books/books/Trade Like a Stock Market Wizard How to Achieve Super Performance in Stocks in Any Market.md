@@ -1,7 +1,7 @@
 ---
 tags:
   - Book
-title: Trade Like a Stock Market Wizard: How to Achieve Super Performance in Stocks in Any Market 
+title: Trade Like a Stock Market Wizard
 author: Mark Minervini
 category: 
   - Business & Economics
