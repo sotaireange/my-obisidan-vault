@@ -5,7 +5,6 @@ title: Trade Like a Stock Market Wizard: How to Achieve Super Performance in Sto
 author: Mark Minervini
 category: 
   - Business & Economics
-
 publisher: McGraw Hill Professional
 publishdate: 2013-03-21
 pages: 354
