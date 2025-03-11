@@ -15,7 +15,7 @@ rating: 4.7
 date: 
 readed: "490"
 readed_at: 
-status: End
+status: In Progress
 source: "[[FluentPython.pdf]]"
 progress: 490
 language: eng
