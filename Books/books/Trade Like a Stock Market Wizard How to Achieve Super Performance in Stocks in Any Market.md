@@ -17,6 +17,7 @@ status: To Do
 source: 
 language: eng
 ---
+
 ## Summary
 Так же есть другая книга [Think & Trade Like a Champion: The Secrets, Rules & Blunt Truths of a Stock Market Wizard](https://www.goodreads.com/book/show/36146345-think-trade-like-a-champion?ref=rae_3)
 
