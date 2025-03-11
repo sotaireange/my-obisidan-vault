@@ -11,7 +11,7 @@ publisher: O'Reilly Media, Inc.
 publishdate: 2022-03-31
 pages: 1011
 cover: http://books.google.com/books/content?id=ICdnEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-rating: 
+rating: 4.7
 date: 
 readed: "490"
 readed_at: 
