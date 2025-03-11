@@ -11,7 +11,7 @@ publishdate: 2020-04-23
 pages: 391
 cover: http://books.google.com/books/content?id=pFjPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 created: 2025-03-10
-rating: 4.3
+rating: 4.45
 readed_at: 
 readed: 0
 status: To Do
