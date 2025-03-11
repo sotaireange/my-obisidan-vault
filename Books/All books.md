@@ -6,4 +6,5 @@ color: ""
 TABLE ("![|100](" + cover + ")") as Cover,readed as completed,rating, category,status
 FROM "Books/books" 
 WHERE contains(author, "") 
+SORT status
 ```
