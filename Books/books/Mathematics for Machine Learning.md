@@ -13,7 +13,7 @@ cover: http://books.google.com/books/content?id=pFjPDwAAQBAJ&printsec=frontcover
 created: 2025-03-10
 rating: 0
 readed_at: 
-readed:0
+readed: 0
 status: To Do
 source: 
 language: eng
