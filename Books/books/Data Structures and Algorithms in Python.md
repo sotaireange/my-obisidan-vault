@@ -11,7 +11,7 @@ publishdate: 2013-03-18
 pages: 765
 cover: http://books.google.com/books/content?id=Mr59DwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
 created: 2025-03-11
-rating: 0
+rating: 4.3
 readed_at: 
 readed: 0
 status: To Do
