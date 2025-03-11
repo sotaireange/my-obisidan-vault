@@ -10,7 +10,7 @@ publishdate: 2021-07-12
 pages: 365
 cover: http://books.google.com/books/content?id=mO43EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 created: 2025-03-10
-rating: "0"
+rating: "4.4"
 readed: 0
 readed_at: 
 status: To Do
