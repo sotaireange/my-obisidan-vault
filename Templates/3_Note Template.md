@@ -10,16 +10,9 @@ aliases:
 -
 catergory: 
 -
-lead: +++ Lead paragraph goes here +++
 ---
-<!--  See "Template Help" below for using properties -->
 
 # {{Title}}
-
-<!--  Most essential idea from "lead"-key  in properties section -->
-> [!Summary]
-> [!Summary]
-> `= this.lead`
 
 **Details**
 <!-- Main content in body of my note  -->
