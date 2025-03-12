@@ -1,4 +1,4 @@
-<%*
+**<%*
 const firstDay = tp.date.weekday("D", 1); // День начала недели (1-31)
 const lastDay = tp.date.weekday("D", 7); // День конца недели (1-31)
 
