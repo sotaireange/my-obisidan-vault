@@ -11,10 +11,13 @@ const points = await tp.system.suggester(item => item, [1,2,3,4,5],false,"Бал
 tags: <% `\n- ${tags.join("\n- ")}`%>
 date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
-
-type: DailyTask
-category:
+links: 
 -
+aliases: 
+-
+type: DailyTask
+category: 
+- 
 releated: 
  -  
 source:
