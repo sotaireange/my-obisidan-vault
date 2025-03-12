@@ -22,7 +22,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
 links: <%`\n${formattedLinks} `%>
-type: fleeting
+type: note
 category: 
 - secondbrain
 source: 
