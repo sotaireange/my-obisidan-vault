@@ -1,6 +1,7 @@
 ---
 sticker: emoji//23f3
 color: ""
+tags: pass
 ---
 ```dataview
 TABLE review,
