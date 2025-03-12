@@ -93,7 +93,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
 category: 
--
+- 
 type: booknote
 links: <%`\n${formattedLinks} `%>
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
