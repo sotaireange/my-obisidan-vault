@@ -13,12 +13,14 @@ time: <% tp.date.now("HH:mm") %>
 completed: false
 completed_at: 
 completed_day: 
-type: DailyTask
 points: <% points %>
 priority: <% priority %>
-category: dailytask
+
 tags: 
 - 
+type: DailyTask
+category:
+-
 source: 
 ---
 
