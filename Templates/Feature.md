@@ -11,27 +11,6 @@ const allTags = Object.keys(app.metadataCache.getTags())
                     .filter(t => t.length > 1 && t !== "features");
 
 let selected = [];
-if (allTags.length > 0) {
-    const selection = await tp.system.suggester(
-        t => t, 
-        allTags, 
-        true, 
-        "Выберите теги (Esc чтобы пропустить)"
-    );
-    
-    if (selection) {
-        selected = Array.isArray(selection) ? selection : [selection];
-    }
-}
-
-// Добавление выбранных тегов
-if (selected.length > 0) {
-    tags.push(...selected.map(t => t.startsWith("#") ? t : `${t}`)
-                      .filter(t => t.length > 1));
-}
-
-
-
 
 // Ручной ввод тегов
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
