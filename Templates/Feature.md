@@ -30,7 +30,8 @@ category:
 source: <%link= await tp.system.prompt("Ссылка на статью") %>
 ---
 
-# {{Title}}
+# <% name %>
+
 ## ⚠️Описание фичи:
 
 
