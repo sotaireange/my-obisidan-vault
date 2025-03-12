@@ -5,6 +5,8 @@ title: Python Data Science Handbook
 author: Jake VanderPlas
 category:
   - Computers
+  - DS
+  - ML
 publisher: O'Reilly Media, Inc.
 publishdate: 2022-12-06
 pages: 591
