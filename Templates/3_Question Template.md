@@ -5,9 +5,7 @@ time: <% tp.date.now("HH:mm") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
 - 
 aliases:
-question: +++ Question goes here +++
-lead: +++ Lead paragraph goes here +++
-
+-
 type: question
 
 ---
