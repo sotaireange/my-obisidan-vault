@@ -21,14 +21,14 @@ tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% `\n- ${tags.join("\n- ")}`%>
 date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
-link: 
--
 aliases: 
 -
 type: note
 category: 
 - secondbrain
 source: 
+link: 
+-
 ---
 # Заметка
 
