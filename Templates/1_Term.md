@@ -43,7 +43,7 @@ source:
 **Source**
 >`=this.source`
 
-**References**
+**Related**
 >`=join(this.links,"<br>")`
 
 **Terns**
