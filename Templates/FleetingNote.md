@@ -16,7 +16,7 @@ if (manualTags) {
         .filter(t => t.length > 1));
 }
 
-const manualLinks = await tp.system.prompt("Добавить свои линки через запятую:"); const formattedLinks = `- "[[]]"`
+const formattedLinks = `- "[[]]"`
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 date: <% tp.date.now("YYYY-MM-DD") %>
