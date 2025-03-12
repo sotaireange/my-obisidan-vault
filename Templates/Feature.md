@@ -40,29 +40,15 @@ source: <%link= await tp.system.prompt("Ссылка на статью") %>
 
 ## 🏗Затрагивается:
 
-# Back Matter
+# Связи
 
 **Source**
-<!-- Always keep a link to the source- --> 
-- based_on::
+>`=this.source`
 
 **References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
-- see:: 
-
-**Terms**
-<!-- Links to definition pages. -->
-- 
-
-**Target**
-<!-- Link to project note or externaly published content. -->
-- used_in::
+>`=join(this.links,"<br>")`
 
 ---
-**Tasks**
-<!-- What remains to be done with this note? --> 
-- 
 
 **Questions**
-<!-- What remains for you to consider? --> 
-- question::
+-
