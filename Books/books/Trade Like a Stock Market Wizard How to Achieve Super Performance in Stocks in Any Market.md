@@ -1,6 +1,4 @@
 ---
-tags:
-  - Book
 title: Trade Like a Stock Market Wizard
 author: Mark Minervini
 category: 
@@ -16,6 +14,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 
 ## Summary

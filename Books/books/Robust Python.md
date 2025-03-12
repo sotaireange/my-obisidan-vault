@@ -1,6 +1,4 @@
 ---
-tags:
-  - Book
 title: Robust Python
 author: Patrick Viafore
 category:
@@ -16,6 +14,11 @@ readed_at:
 status: To Do
 source: "[[Robust Python.pdf]]"
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

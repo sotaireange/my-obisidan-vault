@@ -1,6 +1,4 @@
 ---
-tags:
-  - Book
 title: The StatQuest Illustrated Guide to Machine Learning!!!
 author: Josh Starmer
 category:
@@ -16,6 +14,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 
