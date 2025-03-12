@@ -50,7 +50,7 @@ source:
 >`=this.source`
 
 **References**
-- see:: 
+>`=this.links`
 
 **Terms**
 <!-- Links to definition pages. -->
