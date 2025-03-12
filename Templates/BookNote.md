@@ -89,9 +89,9 @@ const manualLinks = await tp.system.prompt("Добавить свои линки
 
 // Уникальные теги без дубликатов
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
-date: <% tp.date.now("YYYY-MM-DD") %>
-time: <% tp.date.now("HH:mm") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
+date: <% await tp.date.now("YYYY-MM-DD") %>
+time: <% await tp.date.now("HH:mm") %>
 category: 
 - 
 type: notice
