@@ -5,4 +5,4 @@ links:
 ---
 
 
->`=this.links.split(",")`
+>`=join(this.links,"/n")`
