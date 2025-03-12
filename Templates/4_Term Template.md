@@ -28,10 +28,7 @@ category:
 - secondbrain
 source:
 ---
-> [!Definition]
-> `= this.lead`
->  — `= this.source`
-
+)
 
 
 
