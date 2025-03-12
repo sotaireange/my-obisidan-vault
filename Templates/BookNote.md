@@ -2,7 +2,6 @@
 const name = tp.file.title.split(" ")[0] !== Untitled ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 
 
-// Получение списка PDF-файлов
 const bookFiles = app.vault.getFiles().filter(file => 
     file.path.startsWith(BOOKS_FOLDER) && 
     file.extension === "pdf"
