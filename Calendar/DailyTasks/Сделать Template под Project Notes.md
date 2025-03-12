@@ -4,13 +4,14 @@ time: 23:04
 completed: false
 completed_at: 
 completed_day: 
-type: DailyTask
+
 points: 3
 priority: 3
 tags: 
  -
+type: DailyTask
 category: 
-- dailytask
+- Study
 source: 
 ---
 
