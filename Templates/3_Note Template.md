@@ -14,7 +14,7 @@ catergory:
 
 # {{Title}}
 
-**Details**
+**Описание**
 <!-- Main content in body of my note  -->
 - 
 
