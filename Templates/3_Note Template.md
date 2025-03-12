@@ -6,19 +6,13 @@ tags:
 aliases: 
 lead: +++ Lead paragraph goes here +++
 
-created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
-template_type: Note
-template_version: "1.35"
-license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
+created: {{DATE:YYYY-MM-DD}}
+type: Note
 ---
 <!--  See "Template Help" below for using properties -->
 
 # {{Title}}
 
-```dataviewjs 
-dv.paragraph(dv.current().visual);
-```
 <small>_Zoom: [[]] | Edit: [[]]_</small>
 
 <!--  Most essential idea from "lead"-key  in properties section -->
