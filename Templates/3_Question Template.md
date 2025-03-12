@@ -1,5 +1,8 @@
 ---
 tags: 
+date: <% tp.date.now("YYYY-MM-DD") %>
+time: <% tp.date.now("HH:mm") %>
+tags: <% `\n- ${tags.join("\n- ")}`%>
 - 
 aliases:
 question: +++ Question goes here +++
