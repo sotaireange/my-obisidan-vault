@@ -4,15 +4,14 @@ time: 23:04
 completed: false
 completed_at: 
 completed_day: 
-
 points: 3
 priority: 3
-tags: 
- -
+tags:
+  - dailytask
 type: DailyTask
-category: 
-- Study
-source: 
+category:
+  - Study
+source:
 ---
 
 ## ⚠️Описание задачи:
