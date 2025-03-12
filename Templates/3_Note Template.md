@@ -31,7 +31,7 @@ lead: +++ Lead paragraph goes here +++
 
 **Source**
 <!-- Always keep a link to the source- --> 
->`= [[this.source]]`
+>`= this.source`
 
 **References**
 <!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
