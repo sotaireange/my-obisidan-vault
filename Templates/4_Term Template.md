@@ -23,7 +23,7 @@ date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
 aliases:
 -
-type: еукь
+type: term
 category: 
 - secondbrain
 source:
