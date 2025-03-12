@@ -59,8 +59,6 @@ source:
 - used_in::
 
 ---
-**Tasks**
-- 
 
 **Questions**
 
