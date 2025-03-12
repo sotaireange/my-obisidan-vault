@@ -1,4 +1,3 @@
 ---
-tags:
-  - pass
+tags: []
 ---
