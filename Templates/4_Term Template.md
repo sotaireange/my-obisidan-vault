@@ -8,18 +8,6 @@ created: {{DATE:YYYY-MM-DD, HH:mm}}
 type: term
 ---
 
-# {{Title}}
-<!--  Clear and descriptive title -->
-
-<!-- A supporting visual from front matter if available -->
-
-```dataviewjs 
-dv.paragraph(dv.current().visual);
-```
-
-
-<!-- Term definition and source from front matter goes here. Also used for Dataview glossary. -->
-
 > [!Definition]
 > `= this.lead`
 >  — `= this.source`
