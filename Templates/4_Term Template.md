@@ -1,15 +1,11 @@
 ---
 tags:
-  - type/term
-  - theme/xyz
+- 
 aliases: 
 lead: +++ Term definition goes here +++
 source: +++ source undefined +++
-visual: "![[image.jpg]]"
 created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
-template_type: Term
-template_version: "1.22"
+type: term
 ---
 
 # {{Title}}

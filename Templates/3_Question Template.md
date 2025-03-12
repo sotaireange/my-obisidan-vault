@@ -1,15 +1,12 @@
 ---
 tags: 
-- type/question
-- theme/xyz
+- 
 aliases:
 question: +++ Question goes here +++
 lead: +++ Lead paragraph goes here +++
-visual: "![[image.jpg]]"
-created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
-template_type: Question
-template_version: "1.25"
+
+type: question
+
 ---
 <!--  See "Template Help" below for using properties -->
 
