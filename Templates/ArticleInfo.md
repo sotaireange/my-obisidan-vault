@@ -5,7 +5,7 @@ await tp.file.move(`Article/src/${name}`)
 
 
 
-let tags = ["article"];
+let tags = [];
 
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
 if (manualTags) {
