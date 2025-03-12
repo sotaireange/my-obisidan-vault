@@ -6,6 +6,7 @@ author: Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong
 category:
   - Computers
   - ML
+  - DS
 publisher: Cambridge University Press
 publishdate: 2020-04-23
 pages: 391
