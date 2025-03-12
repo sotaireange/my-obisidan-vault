@@ -30,7 +30,7 @@ const tasks = dv.pages("#everydaytask")
         const info = t.info;
         const forEach = t.forEach;
         const points = t.points;
-		const type = t.type;
+		const type = t.category;
 
         return [
             link, 
