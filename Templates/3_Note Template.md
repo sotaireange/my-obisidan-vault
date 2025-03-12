@@ -1,4 +1,6 @@
 ---
+date: <% await tp.date.now("YYYY-MM-DD") %>
+time: <% await tp.date.now("HH:mm") %>
 type: Note
 tags:
 -
