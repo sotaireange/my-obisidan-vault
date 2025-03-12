@@ -5,4 +5,4 @@ links:
 ---
 
 
->`=this.links`
+>`=this.links.split(",")`
