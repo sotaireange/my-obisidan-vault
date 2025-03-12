@@ -34,6 +34,7 @@ if (page) {
         : `(стр. ${page})`;
 }
 
+const fileName= choice
 await tp.file.move(`Books/${selectedBook.basename}/${name}`);
 
 // Генерация тега книги
