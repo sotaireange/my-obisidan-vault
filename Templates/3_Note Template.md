@@ -13,10 +13,9 @@ lead: +++ Lead paragraph goes here +++
 
 # {{Title}}
 
-<small>_Zoom: [[]] | Edit: [[]]_</small>
-
 <!--  Most essential idea from "lead"-key  in properties section -->
-
+> [!Summary]
+>
 > [!Summary]
 > `= this.lead`
 
