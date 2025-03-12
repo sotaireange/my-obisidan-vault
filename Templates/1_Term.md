@@ -30,8 +30,7 @@ category:
 - secondbrain
 source:
 ---
-# <% name %>
-**Определение**
+# Определение
 -
 
 
