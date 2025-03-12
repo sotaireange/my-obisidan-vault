@@ -49,15 +49,9 @@ source:
 # Back Matter
 
 **Source**
-<!-- Always keep a link to the source- --> 
-- based_on::
+>`=this.source`
 
 **References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
-- see:: 
-
-**Terms**
-<!-- Links to definition pages. -->
-- 
+>`=join(this.links,"<br>")`
 
 ---
