@@ -95,8 +95,8 @@ time: <% await tp.date.now("HH:mm") %>
 links: <%`\n${formattedLinks} `%>
 aliases: 
 -
-type: article
 type: notice
+category:
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
 releated: 
  -  
