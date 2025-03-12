@@ -25,7 +25,7 @@ completed_day:
 points: <% points %>
 priority: <% priority %>
 ---
-# {{Title}}
+# <% name %>
 ## ⚠️Описание:
 
 

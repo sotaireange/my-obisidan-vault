@@ -102,7 +102,7 @@ source: <% `"[[${selectedBook.basename}.pdf]]"` %>
 
 ---
 **📝Страница:** <% pageBook %>  
-# {{Title}}
+# <% name %>
 ## 🔥 Основные идеи 
 -
 
