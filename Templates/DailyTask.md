@@ -32,7 +32,7 @@ completed_day:
 points: <% points %>
 priority: <% priority %>
 ---
-# <% name %>
+# Задача
 ## ⚠️Описание:
 
 
