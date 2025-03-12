@@ -27,6 +27,7 @@ type: note
 category: 
 - secondbrain
 source: 
+-
 link: 
 -
 ---
