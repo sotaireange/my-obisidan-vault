@@ -91,8 +91,10 @@ const manualLinks = await tp.system.prompt("Добавить свои линки
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
-category: booknote
 tags: <% `\n- ${tags.join("\n- ")}`%>
+category: 
+-
+type: booknote
 links: <%`\n${formattedLinks} `%>
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
 
