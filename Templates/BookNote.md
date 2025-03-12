@@ -1,5 +1,5 @@
 <%* const BOOKS_FOLDER = "Books/books/src";
-const name = await tp.system.prompt("Напишите новое название файла");
+const name = await tp.system.prompt("Напишите новое название файла",false);
 
 await tp.file.rename(name)
 // Получение списка PDF-файлов
