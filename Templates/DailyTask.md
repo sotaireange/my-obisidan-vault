@@ -1,6 +1,5 @@
 <%*
-const name = await tp.system.prompt("Напишите название задания");
-
+const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 await tp.file.rename(name)
 await tp.file.move(`Calendar/Tasks/${name}`)
 
