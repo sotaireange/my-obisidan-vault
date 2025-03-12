@@ -99,8 +99,7 @@ type: notice
 category:
 -
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
-releated: 
- -  
+
 ---
 **📝Страница:** <% pageBook %>  
 
