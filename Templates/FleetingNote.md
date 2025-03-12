@@ -33,7 +33,7 @@ source:
 <!-- Main content in body of my note  -->
 - 
 
-**Supporting Content**
+****
 <!-- Supporting content in tail of my note  -->
 
 
