@@ -1,5 +1,5 @@
 <%*
-const feature_name = await tp.system.prompt("Напишите названиеи фичи");
+const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 
 
 await tp.file.rename(filename)
