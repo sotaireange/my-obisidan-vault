@@ -1,7 +1,7 @@
 <%*
 const none=null;
 
-const test = choice(none,'TRUE',"FALSE);
+const test = none !== null ? none, "TRUE"
 %>
 
 test=<% test %>
