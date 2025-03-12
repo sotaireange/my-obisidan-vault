@@ -5,7 +5,7 @@ await tp.file.move(`Calendar/Tasks/${name}`)
 
 const priority = await tp.system.suggester(item => item, [4,3,2,1],false,"Приоритет задачи, 4- низкий, 1 высокий")
 const points = await tp.system.suggester(item => item, [1,2,3,4,5],false,"Баллы за задачу")
-let tags = [];
+let tags = ["dailytask"];
 
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
 if (manualTags) {
