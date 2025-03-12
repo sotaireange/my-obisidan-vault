@@ -2,7 +2,7 @@
 type: Note
 tags:
 -
-source: 
+source: [[]]
 aliases: 
 -
 catergory: 
@@ -14,6 +14,7 @@ lead: +++ Lead paragraph goes here +++
 # {{Title}}
 
 <!--  Most essential idea from "lead"-key  in properties section -->
+> [!Summary]
 > [!Summary]
 > `= this.lead`
 
@@ -51,5 +52,4 @@ lead: +++ Lead paragraph goes here +++
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- question::
-
+- question
