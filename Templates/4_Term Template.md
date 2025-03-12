@@ -63,4 +63,8 @@ source: +++ source undefined +++
 <!-- What remains to be done with this note? --> 
 - 
 
-**Que
+**Questions**
+<!-- What remains for you to consider? --> 
+- question::
+
+---
