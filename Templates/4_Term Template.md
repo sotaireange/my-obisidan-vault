@@ -31,9 +31,11 @@ category:
 source:
 ---
 # {{Title}}
-- 
+**Определение**
+-
 
-**Вопросы**
+
+
 ---
 # Back Matter
 
