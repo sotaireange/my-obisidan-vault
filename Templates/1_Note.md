@@ -30,7 +30,7 @@ category:
 - secondbrain
 source: 
 ---
-# <% name %>
+# Заметка
 
 **Описание**
 - 
