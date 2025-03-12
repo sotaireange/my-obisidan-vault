@@ -2,7 +2,7 @@
 date: 2025-03-11
 time: 02:48
 
-type: fleetingnote
+type: fleeting
 tags:
   - fleetingNote
   - DS
