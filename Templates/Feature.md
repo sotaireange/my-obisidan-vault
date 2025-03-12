@@ -1,8 +1,6 @@
 <%*
 const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 
-
-await tp.file.rename(filename)
 await tp.file.move('Features/${filename}.md')
 
 let tags = [];
