@@ -1,3 +1,7 @@
+---
+tags: pass
+---
+
 ```dataviewjs
 dv.table(["Статья", "Сайт","Язык","Дата", "Оценка", "Прочитано"], 
     dv.pages('"Article/src"')

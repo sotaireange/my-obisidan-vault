@@ -1,6 +1,7 @@
 ---
 sticker: emoji//1f4d6
 color: ""
+tags: pass
 ---
 ```dataviewjs
 dv.table(["Статья", "Сайт","Язык", "Дата", "Оценка", "Прочитано"], 
