@@ -1,11 +1,11 @@
 ---
 tags:
   - Book
-title: Advances in Financial Machine Learning 
+title: Advances in Financial Machine Learning
 author: Marcos Lopez de Prado
-category: 
+category:
   - Business & Economics
-
+  - ML
 publisher: John Wiley & Sons
 publishdate: 2018-02-21
 pages: 406
