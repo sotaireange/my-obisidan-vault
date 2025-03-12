@@ -44,10 +44,9 @@ source:
 # Back Matter
 
 **Source**
-
+>`=this.source`
 
 **References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
 - see:: 
 
 **Terms**
