@@ -4,7 +4,8 @@ time: <% await tp.date.now("HH:mm") %>
 type: Note
 tags:
 -
-source: "[[Untitled]]"
+source: 
+-
 aliases: 
 -
 catergory: 
