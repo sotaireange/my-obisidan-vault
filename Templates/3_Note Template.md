@@ -1,12 +1,10 @@
 ---
 tags:
-  - type/sketchnote
-  - type/note
-  - theme/xyz
+  - 
 aliases: 
 lead: +++ Lead paragraph goes here +++
-
-created: {{DATE:YYYY-MM-DD}}
+created:
+  "{ DATE:YYYY-MM-DD }": 
 type: Note
 ---
 <!--  See "Template Help" below for using properties -->
