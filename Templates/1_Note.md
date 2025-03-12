@@ -48,9 +48,11 @@ source:
 **Source**
 >`=this.source`
 
-**References**
+**Releated**
 >`=join(this.links,"<br>")`
 
+
+Reference:
 ---
 
 **Questions**
