@@ -39,13 +39,11 @@ link:
 
 ---
 # Связи
-
-
 **Source**
->`=this.source`
+>`=join(this.source,"<br>")`
 
-**Related**
->`=join(this.links,"<br>")`
+**Releated**
+>`=join(this.link,"<br>")`
 
 **Terns**
 

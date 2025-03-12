@@ -44,12 +44,11 @@ readed: false
 -  
 
 # Связи
-
 **Source**
->`=this.source`
+>`=join(this.source,"<br>")`
 
-**References**
->`=join(this.links,"<br>")`
+**Releated**
+>`=join(this.link,"<br>")`
 
 **Important links**
 
