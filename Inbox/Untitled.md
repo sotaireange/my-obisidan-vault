@@ -8,7 +8,4 @@ links:
 >`=join(this.links,"<br>")`
 
 
-```dataview
-LIST
-FROM [[Target]]e
-```
+used_in:: 
