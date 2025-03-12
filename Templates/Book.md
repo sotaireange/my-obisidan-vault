@@ -3,8 +3,8 @@ tags:
   - Book
 title: {{title}} 
 author: {{author}}
-category: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>
-
+category: book
+Ge
 publisher: {{publisher}}
 publishdate: {{publishDate}}
 pages: {{totalPage}}
