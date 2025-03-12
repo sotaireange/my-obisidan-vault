@@ -37,7 +37,8 @@ source:
 <!-- Supporting content in tail of my note  -->
 
 
-
+**Осталось**
+- 
 
 
 # Back Matter
@@ -59,7 +60,6 @@ source:
 
 ---
 **Tasks**
-<!-- What remains to be done with this note? --> 
 - 
 
 **Questions**
