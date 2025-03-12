@@ -52,7 +52,6 @@ source:
 **References**
 >`=join(this.links,"<br>")`
 
-
 **Target**
 <!-- Link to project note or externaly published content. -->
 - used_in::
