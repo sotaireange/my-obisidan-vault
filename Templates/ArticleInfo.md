@@ -1,6 +1,6 @@
 <%*
-const name = await tp.system.prompt("Напишите название статьи");
-await tp.file.rename(name)
+const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
+
 await tp.file.move(`Article/src/${name}`)
 
 
