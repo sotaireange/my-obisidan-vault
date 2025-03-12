@@ -5,7 +5,7 @@ const feature_name = await tp.system.prompt("Напишите названиеи
 await tp.file.rename(filename)
 await tp.file.move('Features/${filename}.md')
 
-let tags = ["feature"];
+let tags = [];
 
 const allTags = Object.keys(app.metadataCache.getTags())
                     .filter(t => t.length > 1 && t !== "features");
