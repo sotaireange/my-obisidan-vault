@@ -27,8 +27,7 @@ aliases:
 type: question
 category: 
 - secondbrain
-source:
-- 
+source: 
 ---
 # {{Title}}
 
