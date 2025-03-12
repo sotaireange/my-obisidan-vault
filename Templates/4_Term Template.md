@@ -27,8 +27,6 @@ type: term
 category: 
 - secondbrain
 source:
-lead: +++ Term definition goes here +++
-source: +++ source undefined +++
 ---
 > [!Definition]
 > `= this.lead`
