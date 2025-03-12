@@ -30,9 +30,7 @@ category:
 - secondbrain
 source: 
 ---
-# <% name %>
-
-**Описание**
+# **Описание**
 - 
 
 **Вывод**
