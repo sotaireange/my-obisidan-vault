@@ -34,11 +34,10 @@ source:
 # {{Title}}
 
 **Описание**
-<!-- Main content in body of my note  -->
 - 
 
 **Вывод**
-<!-- Supporting content in tail of my note  -->
+- 
 
 
 **Нужно сделать**

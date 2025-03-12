@@ -32,18 +32,17 @@ source:
 -
 
 ---
-<!--  See "Template Help" below for using properties -->
-
 # {{Title}}
 
-<!-- Detailed question from "lead"-key  in properties section -->
+**Вопрос**
+- 
 
-> [!Question]
-> `= this.question`
+**Ответ**
+- 
 
-<!-- Answer the detailed question  -->
-> [!Answer]
-> `= this.lead`
+
+**Доп. вопросы**
+- 
 
 
 ---
