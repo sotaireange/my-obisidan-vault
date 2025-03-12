@@ -6,12 +6,6 @@ await tp.file.rename(filename)
 await tp.file.move('Features/${filename}.md')
 
 let tags = [];
-
-const allTags = Object.keys(app.metadataCache.getTags())
-                    .filter(t => t.length > 1 && t !== "features");
-
-let selected = [];
-
 // Ручной ввод тегов
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
 if (manualTags) {
@@ -21,7 +15,7 @@ if (manualTags) {
         .filter(t => t.length > 1));
 }
 
-const manualLinks = await tp.system.prompt("Добавить свои линки через запятую:"); const formattedLinks = manualLinks .split(",")
+const manualLinks = await tp.system.prompt("Добавить свои линки через запятую:"); const formattedLinks = manualLinks.split(",")
 .map(l => `- "[[${l.trim()}]]"`)
 .join("\n");
 // Уникальные теги без дубликатов
