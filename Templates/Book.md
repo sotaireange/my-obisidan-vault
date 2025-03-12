@@ -4,7 +4,7 @@ tags:
 title: {{title}} 
 author: {{author}}
 category: book
-Ge
+subcategory: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>
 publisher: {{publisher}}
 publishdate: {{publishDate}}
 pages: {{totalPage}}
@@ -16,6 +16,8 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
 ---
 ## Summary
 - Зачем мне эта книга?
