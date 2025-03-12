@@ -1,12 +1,11 @@
 ---
 tags:
   - Book
-title: Python for Finance 
+title: Python for Finance
 author: Yves J. Hilpisch
-category: 
+category:
   - Computers
-
-publisher: "O'Reilly Media, Inc."
+publisher: O'Reilly Media, Inc.
 publishdate: 2018-12-05
 pages: 682
 cover: http://books.google.com/books/content?id=3Kd9DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api

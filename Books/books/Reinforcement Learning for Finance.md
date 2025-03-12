@@ -1,12 +1,14 @@
 ---
 tags:
   - Book
-title: Reinforcement Learning for Finance 
+title: Reinforcement Learning for Finance
 author: Yves J. Hilpisch
-category: 
+category:
   - Computers
-
-publisher: "O'Reilly Media, Inc."
+  - RL
+  - DS
+  - ML
+publisher: O'Reilly Media, Inc.
 publishdate: 2024-10-14
 pages: 195
 cover: http://books.google.com/books/content?id=gYUpEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
