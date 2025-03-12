@@ -5,4 +5,4 @@ links:
 ---
 
 
->`=join(this.links,"/n")`
+>`=join(this.links,"<br>")`
