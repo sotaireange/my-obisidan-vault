@@ -3,7 +3,6 @@ tags:
   - Book
 title: {{title}} 
 author: {{author}}
-category: book
 subcategory: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>
 publisher: {{publisher}}
 publishdate: {{publishDate}}
@@ -17,6 +16,9 @@ status: To Do
 source: 
 language: eng
 tags:
+- 
+type: book
+category: 
 - 
 ---
 ## Summary
