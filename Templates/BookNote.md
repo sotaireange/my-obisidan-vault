@@ -97,7 +97,8 @@ category:
 type: notice
 links: <%`\n${formattedLinks} `%>
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
-
+releated: 
+ -  
 ---
 **📝Страница:** <% pageBook %>  
 

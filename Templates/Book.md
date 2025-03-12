@@ -17,7 +17,7 @@ tags:
 - 
 type: book
 category: 
-- 
+-
 ---
 ## Summary
 - Зачем мне эта книга?

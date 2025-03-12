@@ -26,7 +26,8 @@ type: fleeting
 category: 
 - secondbrain
 source: 
-
+releated: 
+ -  
 ---
 ## ***Заметка:***
 
