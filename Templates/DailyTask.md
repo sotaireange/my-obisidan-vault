@@ -15,7 +15,6 @@ completed_at:
 completed_day: 
 points: <% points %>
 priority: <% priority %>
-
 tags: 
 - 
 type: DailyTask
