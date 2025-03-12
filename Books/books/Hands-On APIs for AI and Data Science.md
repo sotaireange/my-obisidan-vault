@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Hands-On APIs for AI and Data Science
 author: Ryan Day
-category:
+subcategory:
   - Computers
   - DS
   - ML
@@ -18,6 +16,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

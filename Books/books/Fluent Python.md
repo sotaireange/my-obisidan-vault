@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Fluent Python
 author: Luciano Ramalho
-category:
+subcategory:
   - Computer
   - Python
   - Basics
@@ -19,6 +17,11 @@ status: In Progress
 source: "[[FluentPython.pdf]]"
 progress: 490
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ```dataview
 List 

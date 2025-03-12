@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Mathematics for Machine Learning
 author: Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong
-category:
+subcategory:
   - Computers
   - ML
   - DS
@@ -18,6 +16,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

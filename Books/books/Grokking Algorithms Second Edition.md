@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Grokking Algorithms, Second Edition
 author: Aditya Y Bhargava
-category:
+subcategory:
   - Computers
 publisher: Simon and Schuster
 publishdate: 2024-03-26
@@ -16,6 +14,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

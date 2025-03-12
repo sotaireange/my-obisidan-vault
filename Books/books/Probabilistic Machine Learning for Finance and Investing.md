@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Probabilistic Machine Learning for Finance and Investing
 author: Deepak K. Kanungo
-category:
+subcategory:
   - Computers
   - ML
   - Finance
@@ -18,6 +16,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

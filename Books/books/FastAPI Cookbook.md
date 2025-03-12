@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: FastAPI Cookbook 
 author: Giunio De Luca
-category: 
+subcategory: 
   - Computers
 
 publisher: Packt Publishing Ltd
@@ -17,6 +15,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

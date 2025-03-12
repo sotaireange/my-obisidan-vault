@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow
 author: Aurélien Géron
-category:
+subcategory:
   - Computers
   - ML
   - DS
@@ -19,6 +17,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

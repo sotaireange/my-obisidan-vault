@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Outperforming the Markets using Relative Strength And Breadth analysis 
 author: Prashant Shah
-category: 
+subcategory: 
   - Business & Economics
 
 publisher: Notion Press
@@ -17,6 +15,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

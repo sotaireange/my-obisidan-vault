@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: High Performance Python
 author: Micha Gorelick, Ian Ozsvald
-category:
+subcategory:
   - Computers
   - DS
   - Python
@@ -18,6 +16,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 
