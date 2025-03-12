@@ -1,7 +1,7 @@
 <%* const BOOKS_FOLDER = "Books/books/src";
 const name = await tp.system.prompt("Напишите новое название файла",null,false);
 
-await tp.file.rename(name)
+
 // Получение списка PDF-файлов
 const bookFiles = app.vault.getFiles().filter(file => 
     file.path.startsWith(BOOKS_FOLDER) && 
