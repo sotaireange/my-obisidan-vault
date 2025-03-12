@@ -52,9 +52,6 @@ source:
 **References**
 >`=join(this.links,"<br>")`
 
-**Terms**
-<!-- Links to definition pages. -->
-- 
 
 **Target**
 <!-- Link to project note or externaly published content. -->
