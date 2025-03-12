@@ -12,7 +12,6 @@ type: term
 > `= this.lead`
 >  — `= this.source`
 
-<!-- Additional term description if needed -->
 
 
 
