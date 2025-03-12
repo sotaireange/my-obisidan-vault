@@ -45,8 +45,10 @@ source:
 **References**
 >`=join(this.links,"<br>")`
 
+**Terns**
+
 **Questions**
-<!-- What remains for you to consider? --> 
-- question::
+
+
 
 ---
