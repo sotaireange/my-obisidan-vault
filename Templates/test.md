@@ -1,5 +1,5 @@
 <%*
-const none=null;
+const none="FASFSABA";
 
 const test = none !== null ? none: "True";
 %>
