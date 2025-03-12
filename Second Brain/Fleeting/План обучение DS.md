@@ -1,6 +1,8 @@
 ---
 date: 2025-03-11
 time: 02:48
+
+type: fleetingnote
 tags:
   - fleetingNote
   - DS
@@ -8,6 +10,7 @@ tags:
 links:
   - "[[Как стать дата-шрушером aka вкатиться в DS]]"
   - "[[Вкатываемся в Machine Learning с нуля за ноль рублей]]"
+
 source:
 ---
 ## ***Заметка:***
