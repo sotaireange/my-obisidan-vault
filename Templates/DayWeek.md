@@ -36,7 +36,9 @@ week: <%  tp.date.weekday("WW", 1) %>
 status: false
 review: 0
 dayreview: 0
-tags: weeks
+tags: 
+-
+type: calendar
 date: <% tp.date.now("YYYY-MM-DD") %>
 ---
 ```dataviewjs
