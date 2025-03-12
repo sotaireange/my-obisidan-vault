@@ -1,5 +1,5 @@
 <%* const BOOKS_FOLDER = "Books/books/src";
-const name = tp.file.title.split(" ")[0] !== Untitled ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
+const name = (tp.file.title).split(" ")[0] !== Untitled ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 
 
 const bookFiles = app.vault.getFiles().filter(file => 
