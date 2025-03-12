@@ -27,11 +27,7 @@ aliases:
 type: feature
 category: 
 - 
-tags: <% `\n- ${tags.join("\n- ")}`%>
-links: <%`\n${formattedLinks} `%>
-source: 
-
-
+source: <%link= await tp.system.prompt("Ссылка на статью") %>
 ---
 
 
