@@ -43,8 +43,7 @@ source:
 # Back Matter
 
 **Source**
-<!-- Always keep a link to the source- --> 
-- based_on::
+
 
 **References**
 <!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
