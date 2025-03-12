@@ -25,7 +25,9 @@ category:
 - 
 review: 0
 releated: 
- -  
+-
+aliases: 
+-
 readed: false
 ---
 [Статья](<% link %>)
