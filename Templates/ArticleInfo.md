@@ -20,6 +20,7 @@ date: <% await tp.date.now("YYYY-MM-DD") %>
 link: <%link= await tp.system.prompt("Ссылка на статью") %>
 time: <% await tp.date.now("HH:mm") %>
 language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus") %>
+category: 
 review: 0
 readed: false
 ---
