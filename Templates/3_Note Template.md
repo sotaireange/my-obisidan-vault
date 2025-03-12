@@ -43,7 +43,7 @@ source:
 - 
 
 
-# ссылки
+# Связи
 
 **Source**
 >`=this.source`
