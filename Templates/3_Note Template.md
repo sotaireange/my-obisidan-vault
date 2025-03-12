@@ -15,8 +15,6 @@ lead: +++ Lead paragraph goes here +++
 
 <!--  Most essential idea from "lead"-key  in properties section -->
 > [!Summary]
->
-> [!Summary]
 > `= this.lead`
 
 **Details**
