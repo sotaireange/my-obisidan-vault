@@ -21,13 +21,13 @@ tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% `\n- ${tags.join("\n- ")}`%>
 date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
-link: <%`\n${formattedLinks} `%>
 aliases: 
 -
 type: feature
 category: 
 - 
 source: <%link= await tp.system.prompt("Ссылка на статью") %>
+link: <%`\n${formattedLinks} `%>
 ---
 
 # Фича
