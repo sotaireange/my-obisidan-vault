@@ -3,7 +3,7 @@ const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await
 
 await tp.file.move(`Second Brain/Fleeting/${name}`)
 
-let tags = ["fleetingNote"];
+let tags = [];
 
 
 // Ручной ввод тегов
