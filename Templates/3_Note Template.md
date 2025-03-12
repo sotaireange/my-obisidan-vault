@@ -7,10 +7,7 @@ aliases:
 -
 catergory: 
 -
-date: <% await tp.date.now("YYYY-MM-DD") %>
-time: <% await tp.date.now("HH:mm") %>
 lead: +++ Lead paragraph goes here +++
-type: Note
 ---
 <!--  See "Template Help" below for using properties -->
 
