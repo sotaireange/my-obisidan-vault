@@ -2,7 +2,7 @@
 type: Note
 tags:
 -
-source: [[]]
+source: [[Untitled]]
 aliases: 
 -
 catergory: 
@@ -31,7 +31,7 @@ lead: +++ Lead paragraph goes here +++
 
 **Source**
 <!-- Always keep a link to the source- --> 
-- based_on::
+>`= [[this.source]]`
 
 **References**
 <!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
@@ -52,4 +52,5 @@ lead: +++ Lead paragraph goes here +++
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- question
+- question::
+
