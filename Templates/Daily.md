@@ -19,8 +19,6 @@ day: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("dddd") %>
 date: <% moment(tp.file.title, "DD-MM-YYYY dddd").format("YYYY-MM-DD") %>
 source: <% `"[[${weekPath}|${weekNumber} Week]]"` %>
 week: <% weekNumber.replace('th','') %>
-tags: 
--
 type: calendar
 review: 0
 read: 0
