@@ -1,6 +1,5 @@
 <%*
-const noteName = await tp.system.prompt("Напишите названиеи мысли");
-
+const noteName = tp.file.title
 
 await tp.file.move(`Second Brain/Fleeting/${noteName}`)
 
