@@ -1,6 +1,6 @@
 <%*
-const none=tp.file.title;
-
+const none="Test another"
+reg
 const test = none !== null ? none: "True";
 %>
 
