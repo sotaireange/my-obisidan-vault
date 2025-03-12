@@ -92,7 +92,7 @@ tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% `\n- ${tags.join("\n- ")}`%>
 date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
-links: <%`\n${formattedLinks} `%>
+link: <%`\n${formattedLinks} `%>
 aliases: 
 -
 type: notice

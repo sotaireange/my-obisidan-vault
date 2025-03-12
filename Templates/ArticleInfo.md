@@ -18,7 +18,7 @@ if (manualTags) {
 tags: <% `\n- ${tags.join("\n- ")}`%>
 date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
-links: 
+link: 
 -
 aliases: 
 -
