@@ -1,6 +1,4 @@
 ---
-tags:
-  - Book
 title: Python for Finance Cookbook 
 author: Eryk Lewinson
 category: 
@@ -17,6 +15,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

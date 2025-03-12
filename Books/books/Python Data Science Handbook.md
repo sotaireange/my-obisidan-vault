@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Python Data Science Handbook
 author: Jake VanderPlas
-category:
+subcategory:
   - Computers
   - DS
   - ML
@@ -18,6 +16,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

@@ -1,6 +1,4 @@
 ---
-tags:
-  - Book
 title: Python for Finance
 author: Yves J. Hilpisch
 category:
@@ -16,6 +14,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

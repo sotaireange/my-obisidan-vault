@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Python for Data Analysis
 author: Wes McKinney
-category:
+subcategory:
   - Computers
   - DS
 publisher: O'Reilly Media, Inc.
@@ -17,6 +15,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 Хороша для pandas / numpy, Но это книга не про Analysis
