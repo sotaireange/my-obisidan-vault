@@ -92,10 +92,11 @@ tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% `\n- ${tags.join("\n- ")}`%>
 date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
-category: 
-- 
-type: notice
 links: <%`\n${formattedLinks} `%>
+aliases: 
+-
+type: article
+type: notice
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
 releated: 
  -  
