@@ -5,7 +5,7 @@ tags:
   - theme/xyz
 aliases: 
 lead: +++ Lead paragraph goes here +++
-visual: "![[image.jpg]]"
+
 created: {{DATE:YYYY-MM-DD, HH:mm}}
 modified: {{DATE:YYYY-MM-DD, HH:mm}}
 template_type: Note
@@ -15,9 +15,7 @@ license: © 2022-2025 by Edmund Gröpl under CC BY-NC-SA 4.0
 <!--  See "Template Help" below for using properties -->
 
 # {{Title}}
-<!--  Clear and descriptive title -->
 
-<!-- My sketchnote if available -->
 ```dataviewjs 
 dv.paragraph(dv.current().visual);
 ```
