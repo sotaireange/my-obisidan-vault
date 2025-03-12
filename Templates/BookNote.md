@@ -97,6 +97,7 @@ aliases:
 -
 type: notice
 category:
+-
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
 releated: 
  -  
