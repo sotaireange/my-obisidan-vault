@@ -15,6 +15,7 @@ if (manualTags) {
         .filter(t => t.length > 1));
 }
 %>---
+
 tags: <% `\n- ${tags.join("\n- ")}`%>
 date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
@@ -26,6 +27,9 @@ category:
 source: <%link= await tp.system.prompt("Ссылка на статью") %>
 link: 
 -
+language: <% await tp.system.suggester(item => item, ["rus", "eng"],false,"rus") %>
+review: 0
+readed: false
 ---
 [Статья](<% link %>)
 
