@@ -38,25 +38,10 @@ source:
 # Back Matter
 
 **Source**
-<!-- Always keep a link to the source- --> 
-- based_on::
+>`=this.source`
 
 **References**
-<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
-- see:: 
-
-**Terms**
-<!-- Links to definition pages. -->
-- 
-
-**Target**
-<!-- Link to project note or externaly published content. -->
-- used_in::
-
----
-**Tasks**
-<!-- What remains to be done with this note? --> 
-- 
+>`=join(this.links,"<br>")`
 
 **Questions**
 <!-- What remains for you to consider? --> 
