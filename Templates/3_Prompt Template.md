@@ -1,8 +1,6 @@
 ---
 tags: 
-- type/prompt 
-- theme/xyz
-- source/chatgpt 
+- 
 aliases:
 question: +++ Question goes here +++
 lead: +++ Lead paragraph goes here +++
