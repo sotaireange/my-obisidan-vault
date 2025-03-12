@@ -24,6 +24,8 @@ type: Article
 category: 
 - 
 review: 0
+releated: 
+ - "[[]]"
 readed: false
 ---
 [Статья](<% link %>)
