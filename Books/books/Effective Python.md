@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Effective Python
 author: Brett Slatkin
-category:
+subcategory:
   - Computers
   - Python
   - Basics
@@ -20,6 +18,11 @@ status: To Do
 source: "[[Effective Python.pdf]]"
 progress: 0
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 

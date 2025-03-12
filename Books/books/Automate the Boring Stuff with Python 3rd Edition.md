@@ -1,9 +1,8 @@
 ---
-tags:
-  - Book
+
 title: Automate the Boring Stuff with Python, 3rd Edition
 author: Al Sweigart
-category:
+subcategory:
   - Computers
   - Python
 publisher: No Starch Press

@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Algo Trading Cheat Codes 
 author: Kevin Davey
-category: 
+subcategory: 
  - Finance
 
 publisher: Independently Published

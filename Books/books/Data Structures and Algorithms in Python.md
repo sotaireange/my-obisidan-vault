@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: Data Structures and Algorithms in Python 
 author: Michael T. Goodrich, Roberto Tamassia, Michael H. Goldwasser
-category: 
+subcategory: 
   - Computers
 
 publisher: John Wiley & Sons
@@ -17,6 +15,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 Есть другая книга, нужно будет выбрать одну из 2 , принцип выбора книги [[Проработка книг начало]]

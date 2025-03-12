@@ -1,9 +1,7 @@
 ---
-tags:
-  - Book
 title: FastAPI 
 author: Bill Lubanovic
-category: 
+subcategory: 
   - Computers
 
 publisher: "O'Reilly Media, Inc."
@@ -17,6 +15,11 @@ readed: 0
 status: To Do
 source: 
 language: eng
+tags:
+- 
+type: book
+category: 
+- 
 ---
 ## Summary
 
