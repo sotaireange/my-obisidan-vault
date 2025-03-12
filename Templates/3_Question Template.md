@@ -17,8 +17,7 @@ if (manualTags) {
 
 
 // Уникальные теги без дубликатов
-tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>
----
+tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))%>---
 tags: <% `\n- ${tags.join("\n- ")}`%> 
 date: <% tp.date.now("YYYY-MM-DD") %>
 time: <% tp.date.now("HH:mm") %>
@@ -29,8 +28,7 @@ type: question
 category: 
 - secondbrain
 source:
--
-
+- 
 ---
 # {{Title}}
 
