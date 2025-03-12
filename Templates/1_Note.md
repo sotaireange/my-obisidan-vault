@@ -49,10 +49,10 @@ link:
 # Связи
 
 **Source**
->`=this.source`
+>`=join(this.source,"<br>")`
 
 **Releated**
->`=join(this.links,"<br>")`
+>`=join(this.link,"<br>")`
 
 
 **Reference**
