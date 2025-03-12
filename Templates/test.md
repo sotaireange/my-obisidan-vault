@@ -1,5 +1,5 @@
 <%*
-const none="FASFSABA";
+const none=tp.file.title;
 
 const test = none !== null ? none: "True";
 %>
