@@ -50,7 +50,7 @@ source:
 >`=this.source`
 
 **References**
->`=this.links`
+>`=join(this.links,"<br>")`
 
 **Terms**
 <!-- Links to definition pages. -->
