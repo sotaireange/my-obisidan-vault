@@ -26,6 +26,10 @@ time: <% tp.date.now("HH:mm") %>
 aliases:
 -
 type: question
+category: 
+- secondbrain
+source:
+-
 
 ---
 <!--  See "Template Help" below for using properties -->
