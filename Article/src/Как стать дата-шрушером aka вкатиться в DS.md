@@ -3,7 +3,7 @@ tags:
   - article
   - DS
 date: 2025-03-10
-type: article
+type: 
 link: 
 -
 source: https://vas3k.club/post/9904/
