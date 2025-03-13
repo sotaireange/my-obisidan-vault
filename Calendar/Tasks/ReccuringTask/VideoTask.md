@@ -1,6 +1,5 @@
 ---
 tags: 
-  - everydaytask
   - pass
 points: 1
 forEach: 1
