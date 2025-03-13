@@ -33,7 +33,7 @@ readed: false
 
 
 
-```
+
 
 # Связи
 
@@ -43,7 +43,6 @@ readed: false
 **References**
 >`=join(this.links,"<br>")`
 
----
 
 **Questions**
 -
