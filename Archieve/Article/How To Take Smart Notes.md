@@ -9,7 +9,7 @@ link:
   - "[[Second Brain]]"
 aliases:
   - 
-type: Article
+type: article
 category:
   - 
 source: https://fortelabs.com/blog/how-to-take-smart-notes/

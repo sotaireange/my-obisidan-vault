@@ -21,7 +21,7 @@ date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
 aliases: 
 -
-type: Article
+type: article
 category: 
 - 
 source: <%link= await tp.system.prompt("Ссылка на статью") %>
