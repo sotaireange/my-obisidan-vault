@@ -39,13 +39,14 @@ WHERE file.name = this.file.name
 
 ### Учебные задания:
 ```dataviewjs
-const tasks = dv.pages("#everydaytask")
+const tasks = dv.pages()
+	.where(t => t.type === "everydaytask")
     .map(t => {
         const link = t.file.link;
         const info = t.info;
         const forEach = t.forEach;
         const points = t.points;
-		const type = t.type;
+		const type = t.category;
 
         return [
             link, 
