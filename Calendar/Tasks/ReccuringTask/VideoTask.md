@@ -5,5 +5,6 @@ tags:
 points: 1
 forEach: 1
 info: Смотреть видео, час
-type: video
+type: everydaytask
+category: video
 ---
