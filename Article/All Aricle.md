@@ -5,7 +5,7 @@ tags: pass
 ---
 ```dataviewjs
 dv.table(["Статья", "Сайт","Язык", "Дата", "Оценка", "Прочитано"], 
-    dv.pages('"Article/src"')
+    dv.pages('"#artticle"')
       .sort(p => p.review, 'asc') // Сортировка по review
       .map(p => [
           `[[${p.file.name}]]`, // Ссылка на саму статью
