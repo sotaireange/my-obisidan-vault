@@ -2,7 +2,9 @@
 tags:
   - article
 date: 2025-03-08
-link: https://fortelabs.com/blog/basboverview/
+link:
+-
+source: https://fortelabs.com/blog/basboverview/
 time: 00:30
 language: eng
 review: 0

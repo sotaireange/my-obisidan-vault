@@ -9,7 +9,7 @@ dv.table(["Статья", "Сайт","Язык", "Дата", "Оценка", "П
       .sort(p => p.review, 'asc') // Сортировка по review
       .map(p => [
           `[[${p.file.name}]]`, // Ссылка на саму статью
-          `[${new URL(p.link).hostname}](${p.link})`, // Отображение только домена
+          `[${new URL(p.source).hostname}](${p.link})`, // Отображение только домена
           p.language,
           p.date,
           p.review,

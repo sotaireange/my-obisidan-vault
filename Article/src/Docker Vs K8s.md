@@ -2,7 +2,9 @@
 tags: 
 - docker
 date: 2025-03-12
-link: https://www.atlassian.com/ru/microservices/microservices-architecture/kubernetes-vs-docker
+link:
+-
+source: https://www.atlassian.com/ru/microservices/microservices-architecture/kubernetes-vs-docker
 time: 20:03
 language: rus
 type: Article
