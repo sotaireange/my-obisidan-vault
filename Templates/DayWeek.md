@@ -38,7 +38,9 @@ review: 0
 dayreview: 0
 tags: 
 -
-type: calendar
+type: 
+- calendar
+- week
 date: <% tp.date.now("YYYY-MM-DD") %>
 ---
 ```dataviewjs
