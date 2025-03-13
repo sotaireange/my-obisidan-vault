@@ -25,7 +25,7 @@ category:
 - 
 source:
 link: 
--
+- "[[]]"
 completed: false
 completed_at: 
 completed_day: 
