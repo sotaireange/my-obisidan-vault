@@ -51,12 +51,12 @@ link:
 **Source**
 >`=join(this.source,"<br>")`
 
-**Releated**
+**Reference**
 >`=join(this.link,"<br>")`
 
 
-**Reference**
-- 
+**Releated**
+-
 
 ---
 
