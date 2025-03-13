@@ -4,7 +4,8 @@ tags: pass
 
 ```dataviewjs
 dv.table(["Статья", "Сайт","Язык","Дата", "Оценка", "Прочитано"], 
-    dv.pages('"Article/src"')
+    dv.pages("")
+	    .where(p => p.type === "article")
       .filter(p => p.readed) // Фильтрация только прочитанных
       .sort(p => p.review, 'asc') // Сортировка по review
       .map(p => [
