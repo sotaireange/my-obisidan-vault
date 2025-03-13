@@ -4,6 +4,7 @@ tags:
   - ML
   - DS
 date: 2025-03-10
+type: article
 link: 
 -
 source: https://habr.com/ru/articles/774844/

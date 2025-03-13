@@ -1,6 +1,7 @@
 ---
 tags:
   - article
+type: article
 date: 2025-03-08
 link:
 -
