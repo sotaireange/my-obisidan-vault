@@ -24,6 +24,7 @@ type: DailyTask
 category: 
 - 
 source:
+- "[[]]"
 link: 
 - "[[]]"
 completed: false
