@@ -1,15 +1,15 @@
 ---
-tags: 
-- guide
+tags:
+  - guide
 date: 2025-03-12
 time: 23:41
-link: 
--
-aliases: 
--
+link:
+  - "[[Second Brain]]"
+aliases:
+  - 
 type: Article
-category: 
-- 
+category:
+  - 
 source: https://fortelabs.com/blog/how-to-take-smart-notes/
 language: eng
 review: 0
