@@ -9,7 +9,7 @@ link:
 source: https://habr.com/ru/articles/774844/
 time: 18:06
 language: rus
-review: 0
+review: 9
 readed: true
 ---
 [Статья](https://habr.com/ru/articles/774844/)
