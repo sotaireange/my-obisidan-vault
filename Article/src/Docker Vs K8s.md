@@ -7,7 +7,7 @@ link:
 source: https://atlassian.com/ru/microservices/microservices-architecture/kubernetes-vs-docker
 time: 20:03
 language: rus
-type: Article
+type: article
 category: 
 - 
 review: 0
