@@ -1,6 +1,7 @@
 ---
 tags: 
 - docker
+- article
 date: 2025-03-12
 link:
 -
@@ -13,7 +14,7 @@ category:
 review: 0
 readed: false
 ---
-[Статья](https://www.atlassian.com/ru/microservices/microservices-architecture/kubernetes-vs-docker)
+[Статья](https://atlassian.com/ru/microservices/microservices-architecture/kubernetes-vs-docker)
 
 ## 📝О чем статья:   
 - Сранвние [[k8s]] и [[Docker]] . Описываетcz [[Кластеризация]]
