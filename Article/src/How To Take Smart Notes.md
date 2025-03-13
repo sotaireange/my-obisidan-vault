@@ -12,8 +12,8 @@ category:
   - 
 source: https://fortelabs.com/blog/how-to-take-smart-notes/
 language: eng
-review: 0
-readed: false
+review: 10
+readed: true
 ---
 [Статья](https://fortelabs.com/blog/how-to-take-smart-notes/)
 
@@ -80,6 +80,7 @@ readed: false
 5) Можно создать обзорную заметку - Review , охватывающий множество мелкий заметок по общей теме. 
 6) Выбор темы по уже имеющимся знаниям
 7) Не просто копировать, а создать связанные заметки. Нужен контекст и связи. 
+8) Поиск свсязи важнейший этап мышления. Мы должны опираться на сеть фактов.
 
 # Связи
 
