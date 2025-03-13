@@ -29,7 +29,7 @@ category:
 source: 
 -
 link: 
--
+- "[[]]"
 ---
 # Вопрос
 
