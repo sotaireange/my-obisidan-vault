@@ -23,7 +23,8 @@ if (manualTags) {
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''));
 const projectFolder = tp.file.folder(true);
 const logicCanvas = `${projectFolder}/${projectFile}_blocks.canvas`;
-const logic= `${projectFile}_logic.canvas`;%>---
+const logic= `${projectFile}_logic.canvas`;
+%>---
 date: <% tp.date.now("YYYY-MM-DD") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
 ---
