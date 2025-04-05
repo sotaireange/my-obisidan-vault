@@ -9,7 +9,23 @@ const selected = await tp.system.suggester(folders, folders);
 const selectedFolderName = selected.split("/").pop();
 const expectedFilePath = `${selected}/${selectedFolderName}`;
 
+const selectedFolder = app.vault.getAbstractFileByPath(selected);
 
+// Фильтруем только md-файлы внутри выбранной папки (не вложенные)
+const files = (selectedFolder?.children || [])
+    .filter(f => f.extension === "md")
+    .map(f => f.path);
+
+// Если файлов нет — сообщаем
+if (files.length === 0) {
+    tR = `❌ В папке ${selected} нет .md файлов`;
+} else {
+    // Показываем список файлов
+    const chosenFile = await tp.system.suggester(files, files);
+    
+    // Можно вернуть путь или прочитать содержимое:
+    const content = await app.vault.read(app.vault.getAbstractFileByPath(chosenFile));
+}
 
 
 const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
