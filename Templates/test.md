@@ -10,7 +10,7 @@ let selectedProject;
 if (projectFolders.length > 0) {
     selectedProject = await tp.system.suggester(
         file => file.basename,
-        bookFiles
+        projectFolders
     );
 }
 
