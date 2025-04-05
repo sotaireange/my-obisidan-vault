@@ -1,9 +1,16 @@
 <%*
-const PROJECT_FOLDER= "Project notes/"
-const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название проекта");
+const FOLDER= "Project notes/"
+const projectFolders = app.vault.getFiles().filter(file => 
+    file.path.startsWith(FOLDER) && 
+);
 
-
-const projectFile=`${PROJECT_FOLDER}/${name}/${name}.md`
-await tp.file.move(projectFile);
+// Выбор книги
+let selectedBook;
+if (bookFiles.length > 0) {
+    selectedBook = await tp.system.suggester(
+        file => file.basename,
+        bookFiles
+    );
+}
 
 %>
