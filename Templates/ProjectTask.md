@@ -1,28 +1,24 @@
 <%*
-const task_name = await tp.system.prompt("Напишите название задачи");
+const TARGET_FOLDER = "Project notes";
+const parent = app.vault.getAbstractFileByPath(TARGET_FOLDER);
+const folders = (parent?.children || [])
+    .filter(f => "children" in f) // только папки
+    .map(f => f.path);
+
+const selected = await tp.system.suggester(folders, folders);
+const selectedFolderName = selected.split("/").pop();
+const expectedFilePath = `${selected}/${selectedFolderName}`;
 
 
-const allTags = Object.keys(app.metadataCache.getTags())
-                    .filter(t => t.length > 1 && t !== "features");
-
-if (allTags.length > 0) {
-tag = await tp.system.suggester(allTags, allTags, false, "Выберите один тег (Esc чтобы пропустить)");
-}
-tag = tag.replace(/^#/, "");
+const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 
 
-const filename=`task_${tag}_${task_name}`
-await tp.file.rename(filename)
+await tp.file.move(`${selected}/${name}_${selectedFolderName}`)
+
+const logic=`${selected}/Block_${selectedFolderName}.canvas`
 
 
-let tags = ["task"];
-
-if (tag) { tags.push(tag.startsWith("#") ? tag : `${tag}`);
-} 
-
-await tp.file.move(`Project notes/${tag}/${filename}`)
-
-// Ручной ввод тегов
+let tags = [];
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
 if (manualTags) {
     tags.push(...manualTags.split(",")
@@ -30,42 +26,39 @@ if (manualTags) {
         .map(t => `${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
-
-const manualLinks = await tp.system.prompt("Добавить свои линки через запятую:"); const formattedLinks = manualLinks .split(",")
-.map(l => `- "[[${l.trim()}]]"`)
-.join("\n");
-
-// Уникальные теги без дубликатов
-tags = [...new Set(tags)].map(t => t.replace(/^#/, ''))
 %>---
-date: <% tp.date.now("YYYY-MM-DD") %>
-time: <% tp.date.now("HH:mm") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
-links: <%`\n${formattedLinks} `%>
-completed: false
-source: <% `"[[${tag}]]"` %>
+date: <% await tp.date.now("YYYY-MM-DD") %>
+time: <% await tp.date.now("HH:mm") %>
+aliases: 
+-
+type: project
+category:
+- block
+source: <% `"[[${expectedFilePath}]]"` %>
+link: 
+- <% `"[[${logic}]]"` %>
 ---
-## ⚠️Описание задачи:
+## 🔍 Описание
+Краткое описание проекта: что он делает и для чего предназначен.
 
 
-## 📝Реализация:
+## 🎯 Функциональность
+-
 
 
-## 🏗Затрагивается:
+## 🎯 Требования
+- [ ] Основные функции проекта
+- [ ] Что реализовано
+- [ ] Что в планах
 
 
 
 
-<%*
-const kanbanFileName = `${tag}_tasks.md`; // Формируем имя Kanban-файла
-const kanbanFilePath = `Project notes/${tag}/${kanbanFileName}`; // Полный путь
+# Связи
 
-const newTaskLink = `[[${filename}]]`; // Создаем ссылку на текущий файл
-const kanbanFile = app.vault.getAbstractFileByPath(kanbanFilePath);
+**Source**
+>`=join(this.source,"<br>")`
 
-if (kanbanFile) { 
-	let content = await app.vault.read(kanbanFile);
-	let updatedContent = content.replace(/(## 🟢 Todo\n)/i, `$1- [ ]      ${newTaskLink}\n`);
-	await app.vault.modify(kanbanFile, updatedContent);
-} else {
-	new Notice("Kanban-файл не найден!"); } %>
+**Reference**
+>`=join(this.link,"<br>")`
