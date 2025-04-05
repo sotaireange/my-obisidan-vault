@@ -1,4 +1,5 @@
 <%*
+const PROJECT_FOLDER= "Project notes/"
 const projectFile = tp.file.folder();
 await tp.file.rename(projectFile);
 
