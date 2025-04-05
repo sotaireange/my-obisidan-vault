@@ -8,8 +8,7 @@ const projectFile=`${projectFolder}/${name}`
 await tp.file.move(projectFile);
 
 
-const projectFile = tp.file.folder();
-let tags = [projectFile];
+let tags = [name];
 
 // Ручной ввод тегов
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
