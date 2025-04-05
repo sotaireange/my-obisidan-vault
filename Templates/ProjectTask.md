@@ -19,7 +19,7 @@ const files = (selectedFolder?.children || [])
 let block
 if (files.length === 0) {
 } else {
-    block = await tp.system.suggester(files,files);
+    block = await tp.system.suggester(files,files)
     }
 
 
@@ -47,7 +47,7 @@ aliases:
 -
 type: project
 category:
-- block
+- task
 source: <% `"[[${expectedFilePath}]]"` %>
 link: 
 - <% `"[[${logic}]]"` %>
