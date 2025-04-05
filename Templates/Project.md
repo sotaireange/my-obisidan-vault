@@ -30,7 +30,7 @@ aliases:
 -
 type: project
 category: 
-- secondbrain
+- main
 source: 
 - "[[]]"
 link: 
