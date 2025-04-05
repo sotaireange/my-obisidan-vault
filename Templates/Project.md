@@ -4,7 +4,7 @@ const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await
 
 
 const projectFolder=`Project notes/${name}`
-const projectFile=`${projectFolder}/`
+const projectFile=`${projectFolder}/${name}`
 await tp.file.move(projectFile);
 
 
