@@ -30,9 +30,9 @@ date: <% await tp.date.now("YYYY-MM-DD") %>
 time: <% await tp.date.now("HH:mm") %>
 aliases: 
 -
-type: notice
+type: project
 category:
--
+- block
 source: <% `"[[${selectedBook.basename}.pdf]]"` %>
 link: <%`\n${formattedLinks} `%>
 ---
