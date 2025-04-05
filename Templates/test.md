@@ -20,7 +20,7 @@ const expectedFilePath = `${selected}/${selectedFolderName}`;
 
 const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 
-await tp.file.move(`${selected}/${name}`)
+await tp.file.move(`${selected}/${name}_${selectedFolderName}`)
 
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
 if (manualTags) {
