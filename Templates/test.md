@@ -15,7 +15,7 @@ const selected = await tp.system.suggester(folders, folders);
 const selectedFolderName = selected.split("/").pop();
 
 // Ожидаем, что в этой папке есть файл с именем [selectedFolderName].md
-const expectedFilePath = `${selected}/${selectedFolderName}.md`;
+const expectedFilePath = `${selected}/${selectedFolderName}`;
 
 
 const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
