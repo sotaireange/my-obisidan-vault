@@ -1,6 +1,6 @@
 <%*
 const FOLDER= "Project notes/"
-const projectFolders = app.vault.getFiles().filter(file => 
+const projectFolders = app.vault.getAllLoadedFiles().filter(file => 
 	file instanceof app.vault.constructor.TFolder &&
     file.path.startsWith(FOLDER)
 );
