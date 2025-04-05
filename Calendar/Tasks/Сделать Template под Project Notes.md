@@ -1,7 +1,7 @@
 ---
 date: 2025-03-10
 time: 23:04
-completed: false
+completed: true
 completed_at: 
 completed_day: 
 points: 3
