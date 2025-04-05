@@ -39,5 +39,6 @@ type: project
 category:
 - block
 source: <% `"[[${expectedFilePath}]]"` %>
-link: <%`\n${formattedLinks} `%>
+link: 
+- "[[]]"
 ---
