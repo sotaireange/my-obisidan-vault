@@ -43,7 +43,7 @@ category:
 - block
 source: <% `"[[${expectedFilePath}]]"` %>
 link: 
-- <% `"[[${}]]"` %>
+- <% `"[[${logic}]]"` %>
 ---
 
 
