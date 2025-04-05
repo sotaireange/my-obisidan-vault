@@ -20,7 +20,7 @@ const expectedFilePath = `${selected}/${selectedFolderName}`;
 
 const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
 
-const logic=`${selected}/Block_${selectedFolderName}.canvas`
+const logic=`Block_${selectedFolderName}.canvas`
 
 await tp.file.move(`${selected}/${name}_${selectedFolderName}`)
 
