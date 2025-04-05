@@ -24,4 +24,15 @@ if (manualTags) {
         .map(t => `${t.replace(/^#/, '')}`) 
         .filter(t => t.length > 1));
 }
-%>
+%>---
+tags: <% `\n- ${tags.join("\n- ")}`%>
+date: <% await tp.date.now("YYYY-MM-DD") %>
+time: <% await tp.date.now("HH:mm") %>
+aliases: 
+-
+type: notice
+category:
+-
+source: <% `"[[${selectedBook.basename}.pdf]]"` %>
+link: <%`\n${formattedLinks} `%>
+---
