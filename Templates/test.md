@@ -41,7 +41,7 @@ category:
 - block
 source: <% `"[[${expectedFilePath}]]"` %>
 link: 
-- "[[]]"
+- <% `"[[${}]]"` %>
 ---
 
 
