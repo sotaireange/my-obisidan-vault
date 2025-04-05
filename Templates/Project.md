@@ -1,8 +1,10 @@
 <%*
 const PROJECT_FOLDER= "Project notes/"
 const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название проекта");
-const projectFile = tp.file.folder();
-await tp.file.rename(projectFile);
+
+
+const projectFile=
+await tp.file.move(projectFile);
 
 
 const projectFile = tp.file.folder();
