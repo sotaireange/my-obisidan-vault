@@ -12,5 +12,8 @@ const folders = (parent?.children || [])
 // Выбор из списка
 const selected = await tp.system.suggester(folders, folders);
 
+
+const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await tp.system.prompt("Напишите новое название файла");
+
 tR = `Вы выбрали папку: ${selected}`;
 %>
