@@ -16,7 +16,7 @@ const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await
 await tp.file.move(`${selected}/${name}_${selectedFolderName}`)
 
 const logic=`${selected}/Block_${selectedFolderName}.canvas`
-
+const block= 
 
 let tags = [];
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
@@ -38,6 +38,7 @@ category:
 source: <% `"[[${expectedFilePath}]]"` %>
 link: 
 - <% `"[[${logic}]]"` %>
+- <% `"[[${block}]]"` %>
 ---
 ## 🔍 Описание
 Краткое описание проекта: что он делает и для чего предназначен.
