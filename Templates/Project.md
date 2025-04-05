@@ -65,3 +65,9 @@ link:
 │   ├── module2.py
 ├── requirements.txt
 └── README.md
+```
+
+
+# Связи
+**Reference**
+>`=join(this.link,"<br>")`
