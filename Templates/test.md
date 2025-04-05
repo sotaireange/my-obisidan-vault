@@ -33,6 +33,6 @@ aliases:
 type: project
 category:
 - block
-source: <% `"[[${selectedBook.basename}.pdf]]"` %>
+source: <% `"[[${selected.basename}.pdf]]"` %>
 link: <%`\n${formattedLinks} `%>
 ---
