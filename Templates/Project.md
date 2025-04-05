@@ -4,7 +4,9 @@ const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await
 const projectFile = tp.file.folder();
 await tp.file.rename(projectFile);
 
-let tags = ["project",projectFile];
+
+const projectFile = tp.file.folder();
+let tags = [projectFile];
 
 // Ручной ввод тегов
 const manualTags = await tp.system.prompt("Добавить свои теги через запятую:");
