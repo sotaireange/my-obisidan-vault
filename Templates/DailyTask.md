@@ -47,6 +47,10 @@ priority: <% priority %>
 -
 
 
+## Вывод: 
+-
+
+
 # # Связи
 **Source**
 >`=join(this.source,"<br>")`
