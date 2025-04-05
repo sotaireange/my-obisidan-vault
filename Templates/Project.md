@@ -4,7 +4,7 @@ const name = (tp.file.title).split(" ")[0] !== "Untitled" ? tp.file.title: await
 
 
 const projectFolder=`Project notes/${name}`
-const projectFile=`${projectFolder}/{`
+const projectFile=`${projectFolder}/${name}`
 await tp.file.move(projectFile);
 
 
@@ -22,9 +22,8 @@ if (manualTags) {
 
 tags = [...new Set(tags)].map(t => t.replace(/^#/, ''));
 const projectFolder = tp.file.folder(true);
-const tasksKanban = `${projectFolder}/${projectFile}_tasks.md`; 
-const logicCanvas = `${projectFolder}/${projectFile}_logic.canvas`;
-const logic= `${projectFile}_logic.canvas`;%>---
+const logicCanvas = `${projectFolder}/${projectFile}_blocks.canvas`;
+%>---
 date: <% tp.date.now("YYYY-MM-DD") %>
 tags: <% `\n- ${tags.join("\n- ")}`%>
 ---
@@ -32,8 +31,7 @@ tags: <% `\n- ${tags.join("\n- ")}`%>
 # 📌 Проект: <% projectFile %>
 
 ## 📝 Задачи и логика
-- [[<% tasksKanban %>|Список Задач(Kanban)]]
-- [[<% logic %>|Canvas: Логика программы]]
+- [[<% logic %>|Canvas: Блоки программы]]
 
 
 
