@@ -31,8 +31,6 @@ aliases:
 type: project
 category: 
 - main
-source: 
-- "[[]]"
 link: 
 - "[[]]"
 ---
