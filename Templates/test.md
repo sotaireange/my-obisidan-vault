@@ -6,9 +6,9 @@ const projectFolders = app.vault.getFiles().filter(file =>
 );
 
 // Выбор книги
-let projectFolders;
-if (bookFiles.length > 0) {
-    selectedBook = await tp.system.suggester(
+let selectedProject;
+if (projectFolders.length > 0) {
+    selectedProject = await tp.system.suggester(
         file => file.basename,
         bookFiles
     );
