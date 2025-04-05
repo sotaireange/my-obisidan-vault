@@ -20,8 +20,7 @@ if (manualTags) {
         .filter(t => t.length > 1));
 }
 
-tags = [...new Set(tags)].map(t => t.replace(/^#/, ''));
-const projectFolder = tp.file.folder(true);
+tags = [...new Set(tags)].map(t => t.replace(/^#/, ''));;
 const logicCanvas = `${projectFolder}/${projectFile}_blocks.canvas`;
 %>---
 date: <% tp.date.now("YYYY-MM-DD") %>
@@ -32,8 +31,6 @@ tags: <% `\n- ${tags.join("\n- ")}`%>
 
 ## 📝 Задачи и логика
 - [[<% logic %>|Canvas: Блоки программы]]
-
-
 
 ## 🔍 Описание
 Краткое описание проекта: что он делает и для чего предназначен.
