@@ -62,3 +62,12 @@ link:
 - [ ] Основные функции проекта
 - [ ] Что реализовано
 - [ ] Что в планах
+
+
+
+
+**Source**
+>`=join(this.source,"<br>")`
+
+**Reference**
+>`=join(this.link,"<br>")`
