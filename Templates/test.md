@@ -1,17 +1,18 @@
 <%*
-const FOLDER= "Project notes/"
-const projectFolders = app.vault.getAllLoadedFiles().filter(file => 
-	"children" in f &&
-    file.path.startsWith(FOLDER)
-);
+const TARGET_FOLDER = "Project notes";
 
-// Выбор книги
-let selectedProject;
-if (projectFolders.length > 0) {
-    selectedProject = await tp.system.suggester(
-        file => file.basename,
-        *projectFolders*
-    );
-}
+const all = app.vault.getAllLoadedFiles();
 
+// Фильтруем только папки, внутри TARGET_FOLDER
+const folders = all.filter(f => 
+    "children" in f && 
+    f.path !== TARGET_FOLDER && 
+    f.path.startsWith(TARGET_FOLDER + "/")
+).map(f => f.path);
+
+// Выбор папки
+const selected = await tp.system.suggester(folders, folders);
+
+// Возврат результата
+tR = `Вы выбрали папку: ${selected}`;
 %>
